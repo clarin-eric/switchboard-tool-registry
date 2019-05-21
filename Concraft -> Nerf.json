@@ -1,1 +1,36 @@
-{"task":"Named Entity Recognition","deployment":"production","softwareType":"qualitative","name":"Concraft -> Nerf","logo":"zil.png","homepage":"http://zil.ipipan.waw.pl/Nerf","location":"Warsaw, Poland","creators":"Institute of Computer Science, Polish Academy of Sciences, Poland","contact":{"person":"MultiService","email":"rjawor@amu.edu.pl"},"version":"v1.0","authentication":"no","licence":"public","description":"Statistical named entity recognition tool based on linear-chain conditional random fields. Part of: Multiservice, a robust linguistic Web service for Polish.","languages":["pol"],"langEncoding":"639-1","mimetypes":["text/plain","text/html"],"output":["application/json","CoNLL format","Visualization"],"url":"http://multiservice.nlp.ipipan.waw.pl/en/clrs","parameters":{"input":"self.linkToResource","analysis":"2"}}
+{
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "softwareType": "qualitative",
+    "name": "Concraft -> Nerf",
+    "logo": "zil.png",
+    "homepage": "http://zil.ipipan.waw.pl/Nerf",
+    "location": "Warsaw, Poland",
+    "creators": "Institute of Computer Science, Polish Academy of Sciences, Poland",
+    "contact": {
+        "person": "MultiService",
+        "email": "rjawor@amu.edu.pl"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": "public",
+    "description": "Statistical named entity recognition tool based on linear-chain conditional random fields. Part of: Multiservice, a robust linguistic Web service for Polish.",
+    "languages": [
+        "pol"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "text/html"
+    ],
+    "output": [
+        "application/json",
+        "CoNLL format",
+        "Visualization"
+    ],
+    "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
+    "parameters": {
+        "input": "self.linkToResource",
+        "analysis": "2"
+    }
+}

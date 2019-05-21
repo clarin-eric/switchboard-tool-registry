@@ -1,1 +1,42 @@
-{"task":"Spatial expression detection","deployment":"production","softwareType":"qualitative","name":"Spatial","logo":"clarin-pl.png","homepage":"https://ws.clarin-pl.eu","location":"Wrocław, Poland","creators":"Clarin-PL","contact":{"person":"Tomasz Walkowiak","email":"tomasz.walkowiak@pwr.edu.pl"},"version":"1.0","licence":"public","authentication":"no","description":"Recognition of spatial expressions in Polish texts.","languages":["pol"],"langEncoding":"639-1","mimetypes":["text/plain","application/msword","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","application/vnd.oasis.opendocument.text","application/pdf","text/html","text/rtf"],"output":["application/json"],"url":"https://ws.clarin-pl.eu/weblicht.html","parameters":{"input":"self.linkToResource","lang":"pl","analysis":"spatial"}}
+{
+    "task": "Spatial expression detection",
+    "deployment": "production",
+    "softwareType": "qualitative",
+    "name": "Spatial",
+    "logo": "clarin-pl.png",
+    "homepage": "https://ws.clarin-pl.eu",
+    "location": "Wrocław, Poland",
+    "creators": "Clarin-PL",
+    "contact": {
+        "person": "Tomasz Walkowiak",
+        "email": "tomasz.walkowiak@pwr.edu.pl"
+    },
+    "version": "1.0",
+    "licence": "public",
+    "authentication": "no",
+    "description": "Recognition of spatial expressions in Polish texts.",
+    "languages": [
+        "pol"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "application/msword",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.oasis.opendocument.text",
+        "application/pdf",
+        "text/html",
+        "text/rtf"
+    ],
+    "output": [
+        "application/json"
+    ],
+    "url": "https://ws.clarin-pl.eu/weblicht.html",
+    "parameters": {
+        "input": "self.linkToResource",
+        "lang": "pl",
+        "analysis": "spatial"
+    }
+}

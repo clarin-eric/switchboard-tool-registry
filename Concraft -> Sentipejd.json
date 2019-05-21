@@ -1,1 +1,36 @@
-{"task":"Sentiment Analysis","deployment":"production","softwareType":"quantitative","name":"Concraft -> Sentipejd","logo":"zil.png","homepage":"http://iis.ipipan.waw.pl/2008/proceedings/iis08-20.pdf","location":"Warsaw, Poland","creators":"Institute of Computer Science, Polish Academy of Sciences, Poland","contact":{"person":"MultiService","email":"rjawor@amu.edu.pl"},"version":"v1.0","authentication":"no","licence":"public","description":" A morphosyntactic tagger extended with a semantic category, expressing properties of positive or negative  sentiment. Part of: Multiservice, a robust  linguistic  Web service for Polish.","languages":["pol"],"langEncoding":"639-1","mimetypes":["text/plain","text/html"],"output":["application/json","CoNLL format","Visualization"],"url":"http://multiservice.nlp.ipipan.waw.pl/en/clrs","parameters":{"input":"self.linkToResource","analysis":"3"}}
+{
+    "task": "Sentiment Analysis",
+    "deployment": "production",
+    "softwareType": "quantitative",
+    "name": "Concraft -> Sentipejd",
+    "logo": "zil.png",
+    "homepage": "http://iis.ipipan.waw.pl/2008/proceedings/iis08-20.pdf",
+    "location": "Warsaw, Poland",
+    "creators": "Institute of Computer Science, Polish Academy of Sciences, Poland",
+    "contact": {
+        "person": "MultiService",
+        "email": "rjawor@amu.edu.pl"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": "public",
+    "description": " A morphosyntactic tagger extended with a semantic category, expressing properties of positive or negative  sentiment. Part of: Multiservice, a robust  linguistic  Web service for Polish.",
+    "languages": [
+        "pol"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "text/html"
+    ],
+    "output": [
+        "application/json",
+        "CoNLL format",
+        "Visualization"
+    ],
+    "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
+    "parameters": {
+        "input": "self.linkToResource",
+        "analysis": "3"
+    }
+}

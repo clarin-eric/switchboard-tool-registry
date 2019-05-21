@@ -1,1 +1,38 @@
-{"task":"Text Analytics","deployment":"development","softwareType":"quantitative","name":"T-scan","logo":"tscan.jpg","homepage":"https://github.com/proycon/tscan","location":"Nijmegen, The Netherlands (CLAM Webservices)","creators":"Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)","contact":{"person":"Maarten van Gompel","email":"proycon@anaproy.nl"},"version":"x.y.z","authentication":"Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.","licence":"public","description":"T-Scan is a new tool for analyzing Dutch text. It aims at extracting text features that are theoretically interesting, in that they relate to genre and text complexity, as well as practically interesting, in that they enable users and text producers to make text-specific diagnoses. T-Scan derives it features from tools such as Frog and Alpino, and resources such as SoNaR, SUBTLEX-NL and Referentie Bestand Nederlands.","languages":["nld"],"langEncoding":"639-1","mimetypes":["text/plain"],"output":["text/folia+xml","xsl","text/csv"],"url":"https://webservices-lst.science.ru.nl/tscan/","parameters":{"project":"new","input":"self.linkToResource"},"mapping":{"input":"textinput_url"}}
+{
+    "task": "Text Analytics",
+    "deployment": "development",
+    "softwareType": "quantitative",
+    "name": "T-scan",
+    "logo": "tscan.jpg",
+    "homepage": "https://github.com/proycon/tscan",
+    "location": "Nijmegen, The Netherlands (CLAM Webservices)",
+    "creators": "Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)",
+    "contact": {
+        "person": "Maarten van Gompel",
+        "email": "proycon@anaproy.nl"
+    },
+    "version": "x.y.z",
+    "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
+    "licence": "public",
+    "description": "T-Scan is a new tool for analyzing Dutch text. It aims at extracting text features that are theoretically interesting, in that they relate to genre and text complexity, as well as practically interesting, in that they enable users and text producers to make text-specific diagnoses. T-Scan derives it features from tools such as Frog and Alpino, and resources such as SoNaR, SUBTLEX-NL and Referentie Bestand Nederlands.",
+    "languages": [
+        "nld"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain"
+    ],
+    "output": [
+        "text/folia+xml",
+        "xsl",
+        "text/csv"
+    ],
+    "url": "https://webservices-lst.science.ru.nl/tscan/",
+    "parameters": {
+        "project": "new",
+        "input": "self.linkToResource"
+    },
+    "mapping": {
+        "input": "textinput_url"
+    }
+}

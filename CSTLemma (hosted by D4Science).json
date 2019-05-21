@@ -1,1 +1,33 @@
-{"task":"Lemmatization","deployment":"production","softwareType":"qualitative","name":"CSTLemma (hosted by D4Science)","logo":"d4science.png","homepage":"https://www.d4science.org","location":"Pisa, Italy","creators":"Bart Jongejan (tool), D4Science staff (WAR upload)","contact":{"person":"D4Science Support","email":"claus.zinn@sfs.uni-tuebingen.de, bartj@hum.ku.dk"},"version":"v1.0","authentication":"no","licence":"public","description":"This is an experimental integration of a D4Science NLP processing service (CSTLemma). The CSTLemma Lemmatizer for English reduces all words in a text to their base form, the lemma.","languages":["eng"],"langEncoding":"639-1","mimetypes":["text/plain"],"output":["text/csv"],"url":"https://next.d4science.org/nlp-hub-cstlemma/","parameters":{"input":"self.linkToResource","token":"27061e4d-3567-482d-9f12-3a1af5e42ab9-843339462"}}
+{
+    "task": "Lemmatization",
+    "deployment": "production",
+    "softwareType": "qualitative",
+    "name": "CSTLemma (hosted by D4Science)",
+    "logo": "d4science.png",
+    "homepage": "https://www.d4science.org",
+    "location": "Pisa, Italy",
+    "creators": "Bart Jongejan (tool), D4Science staff (WAR upload)",
+    "contact": {
+        "person": "D4Science Support",
+        "email": "claus.zinn@sfs.uni-tuebingen.de, bartj@hum.ku.dk"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": "public",
+    "description": "This is an experimental integration of a D4Science NLP processing service (CSTLemma). The CSTLemma Lemmatizer for English reduces all words in a text to their base form, the lemma.",
+    "languages": [
+        "eng"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain"
+    ],
+    "output": [
+        "text/csv"
+    ],
+    "url": "https://next.d4science.org/nlp-hub-cstlemma/",
+    "parameters": {
+        "input": "self.linkToResource",
+        "token": "27061e4d-3567-482d-9f12-3a1af5e42ab9-843339462"
+    }
+}

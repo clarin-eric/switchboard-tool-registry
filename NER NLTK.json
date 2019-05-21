@@ -1,1 +1,41 @@
-{"task":"Named Entity Recognition","deployment":"production","softwareType":"qualitative","name":"NER NLTK","logo":"clarin-pl.png","homepage":"https://ws.clarin-pl.eu","location":"Wrocław, Poland","creators":"Clarin-PL","contact":{"person":"Tomasz Walkowiak","email":"tomasz.walkowiak@pwr.edu.pl"},"version":"1.0","licence":"public","authentication":"no","description":"Name Entity Recogniser for English by NLTK.","languages":["eng"],"langEncoding":"639-1","mimetypes":["text/plain","application/msword","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","application/vnd.oasis.opendocument.text","application/pdf","text/rtf"],"output":["application/xml"],"url":"https://ws.clarin-pl.eu/weblicht.html","parameters":{"input":"self.linkToResource","lang":"en","analysis":"nerNLTK"}}
+{
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "softwareType": "qualitative",
+    "name": "NER NLTK",
+    "logo": "clarin-pl.png",
+    "homepage": "https://ws.clarin-pl.eu",
+    "location": "Wrocław, Poland",
+    "creators": "Clarin-PL",
+    "contact": {
+        "person": "Tomasz Walkowiak",
+        "email": "tomasz.walkowiak@pwr.edu.pl"
+    },
+    "version": "1.0",
+    "licence": "public",
+    "authentication": "no",
+    "description": "Name Entity Recogniser for English by NLTK.",
+    "languages": [
+        "eng"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "application/msword",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.oasis.opendocument.text",
+        "application/pdf",
+        "text/rtf"
+    ],
+    "output": [
+        "application/xml"
+    ],
+    "url": "https://ws.clarin-pl.eu/weblicht.html",
+    "parameters": {
+        "input": "self.linkToResource",
+        "lang": "en",
+        "analysis": "nerNLTK"
+    }
+}

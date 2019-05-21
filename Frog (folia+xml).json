@@ -1,1 +1,37 @@
-{"task":"NLP suite for Dutch","deployment":"development","softwareType":"qualitative","name":"Frog (folia+xml)","logo":"frog.jpg","homepage":"https://languagemachines.github.io/frog/","location":"Nijmegen, The Netherlands (CLAM Webservices)","creators":"Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)","contact":{"person":"Maarten van Gompel","email":"proycon@anaproy.nl"},"version":"x.y.z","authentication":"Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.","licence":"public","description":"Frog's current version will tokenize, tag, lemmatize, and morphologically segment word tokens in Dutch text files, will assign a dependency graph to each sentence, will identify the base phrase chunks in the sentence, and will attempt to find and label all named entities.","languages":["nld"],"langEncoding":"639-1","mimetypes":["text/folia+xml"],"output":["Tadpole Columned Output Format","text/folia+xml"],"url":"https://webservices-lst.science.ru.nl/frog/","parameters":{"project":"new","input":"self.linkToResource"},"mapping":{"input":"foliainput_url"}}
+{
+    "task": "NLP suite for Dutch",
+    "deployment": "development",
+    "softwareType": "qualitative",
+    "name": "Frog (folia+xml)",
+    "logo": "frog.jpg",
+    "homepage": "https://languagemachines.github.io/frog/",
+    "location": "Nijmegen, The Netherlands (CLAM Webservices)",
+    "creators": "Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)",
+    "contact": {
+        "person": "Maarten van Gompel",
+        "email": "proycon@anaproy.nl"
+    },
+    "version": "x.y.z",
+    "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
+    "licence": "public",
+    "description": "Frog's current version will tokenize, tag, lemmatize, and morphologically segment word tokens in Dutch text files, will assign a dependency graph to each sentence, will identify the base phrase chunks in the sentence, and will attempt to find and label all named entities.",
+    "languages": [
+        "nld"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/folia+xml"
+    ],
+    "output": [
+        "Tadpole Columned Output Format",
+        "text/folia+xml"
+    ],
+    "url": "https://webservices-lst.science.ru.nl/frog/",
+    "parameters": {
+        "project": "new",
+        "input": "self.linkToResource"
+    },
+    "mapping": {
+        "input": "foliainput_url"
+    }
+}

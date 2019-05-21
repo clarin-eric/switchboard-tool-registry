@@ -1,1 +1,39 @@
-{"task":"N-Gramming","deployment":"development","softwareType":"quantitative","name":"FoLiA-stats","logo":"foliastats.jpg","homepage":"https://github.com/LanguageMachines/foliautils","location":"Nijmegen, The Netherlands (CLAM Webservices)","creators":"Ko van der Sloot (TiCC, Tilburg University)","contact":{"person":"Maarten van Gompel","email":"proycon@anaproy.nl"},"version":"0.2","authentication":"Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.","licence":"public","description":"N-gram frequency list generation on FoLiA input.","languages":["nld","generic"],"langEncoding":"639-1","mimetypes":["text/folia+xml"],"output":["wordfreqlist","lemmafreqlist","lemmaposfreqlist"],"url":"https://webservices-lst.science.ru.nl/foliastats/","parameters":{"project":"new","input":"self.linkToResource"},"mapping":{"input":"foliainput_url"}}
+{
+    "task": "N-Gramming",
+    "deployment": "development",
+    "softwareType": "quantitative",
+    "name": "FoLiA-stats",
+    "logo": "foliastats.jpg",
+    "homepage": "https://github.com/LanguageMachines/foliautils",
+    "location": "Nijmegen, The Netherlands (CLAM Webservices)",
+    "creators": "Ko van der Sloot (TiCC, Tilburg University)",
+    "contact": {
+        "person": "Maarten van Gompel",
+        "email": "proycon@anaproy.nl"
+    },
+    "version": "0.2",
+    "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
+    "licence": "public",
+    "description": "N-gram frequency list generation on FoLiA input.",
+    "languages": [
+        "nld",
+        "generic"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/folia+xml"
+    ],
+    "output": [
+        "wordfreqlist",
+        "lemmafreqlist",
+        "lemmaposfreqlist"
+    ],
+    "url": "https://webservices-lst.science.ru.nl/foliastats/",
+    "parameters": {
+        "project": "new",
+        "input": "self.linkToResource"
+    },
+    "mapping": {
+        "input": "foliainput_url"
+    }
+}

@@ -1,1 +1,36 @@
-{"task":"Spelling correction","deployment":"development","softwareType":"qualitative","name":"Fowlt (xml+folia)","logo":"fowlt.jpg","homepage":"http://fowlt.net","location":"Nijmegen, The Netherlands (CLAM Webservices)","creators":"Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)","contact":{"person":"Maarten van Gompel","email":"proycon@anaproy.nl"},"version":"x.y.z","authentication":"Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.","licence":"public","description":"Fowlt is an online, free-to-use context-sensitive English spelling checker. It follows the setup of the Dutch spelling checker Valkuil.net. Both Valkuil and Fowlt are unlike the typical spelling checkers: whereas the latter mostly try to find errors by comparing all words to a built-in dictionary and flag the word as an error if they can't find a match, Fowlt is context sensitive, taking into account the words around every word. Fowlt makes use of language models. These models are created by giving lots of texts to machine learning software (TiMBL and WOPR).","languages":["eng"],"langEncoding":"639-1","mimetypes":["text/folia+xml"],"output":["text/folia+xml"],"url":"https://webservices-lst.science.ru.nl/fowlt/","parameters":{"project":"new","input":"self.linkToResource"},"mapping":{"input":"foliainput_url"}}
+{
+    "task": "Spelling correction",
+    "deployment": "development",
+    "softwareType": "qualitative",
+    "name": "Fowlt (xml+folia)",
+    "logo": "fowlt.jpg",
+    "homepage": "http://fowlt.net",
+    "location": "Nijmegen, The Netherlands (CLAM Webservices)",
+    "creators": "Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)",
+    "contact": {
+        "person": "Maarten van Gompel",
+        "email": "proycon@anaproy.nl"
+    },
+    "version": "x.y.z",
+    "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
+    "licence": "public",
+    "description": "Fowlt is an online, free-to-use context-sensitive English spelling checker. It follows the setup of the Dutch spelling checker Valkuil.net. Both Valkuil and Fowlt are unlike the typical spelling checkers: whereas the latter mostly try to find errors by comparing all words to a built-in dictionary and flag the word as an error if they can't find a match, Fowlt is context sensitive, taking into account the words around every word. Fowlt makes use of language models. These models are created by giving lots of texts to machine learning software (TiMBL and WOPR).",
+    "languages": [
+        "eng"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/folia+xml"
+    ],
+    "output": [
+        "text/folia+xml"
+    ],
+    "url": "https://webservices-lst.science.ru.nl/fowlt/",
+    "parameters": {
+        "project": "new",
+        "input": "self.linkToResource"
+    },
+    "mapping": {
+        "input": "foliainput_url"
+    }
+}

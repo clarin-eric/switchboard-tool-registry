@@ -1,1 +1,36 @@
-{"task":"Text Enhancement","deployment":"development","softwareType":"qualitative","name":"Apache Stanbol Enhancer","logo":"acdh.png","homepage":"http://www.oeaw.ac.at/acdh","location":"Vienna, Austria","creators":"Apache Foundation (software), Austrian Centre of Digital Humanities (enhancement chains and configuration)","contact":{"person":"Matej Durco","email":"acdh-tech@oeaw.ac.at <mailto:acdh-tech@oeaw.ac.at>"},"version":"v1.0","authentication":"no","licence":"public","description":"Apache Stanbol provides a set of reusable components for semantic content management. A number of EnhancementEngines extract features from passed content, for details see https://stanbol.apache.org. The resulting RDF enhancements are returned in JSON format.","languages":["eng"],"langEncoding":"639-1","mimetypes":["text/plain"],"output":["application/json"],"url":"https://enrich-lrs.acdh.oeaw.ac.at/StanbolWrapper","parameters":{"input":"self.linkToResource","outFormat":"application%2Fjson"},"mapping":{"input":"resourceUri"}}
+{
+    "task": "Text Enhancement",
+    "deployment": "development",
+    "softwareType": "qualitative",
+    "name": "Apache Stanbol Enhancer",
+    "logo": "acdh.png",
+    "homepage": "http://www.oeaw.ac.at/acdh",
+    "location": "Vienna, Austria",
+    "creators": "Apache Foundation (software), Austrian Centre of Digital Humanities (enhancement chains and configuration)",
+    "contact": {
+        "person": "Matej Durco",
+        "email": "acdh-tech@oeaw.ac.at <mailto:acdh-tech@oeaw.ac.at>"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": "public",
+    "description": "Apache Stanbol provides a set of reusable components for semantic content management. A number of EnhancementEngines extract features from passed content, for details see https://stanbol.apache.org. The resulting RDF enhancements are returned in JSON format.",
+    "languages": [
+        "eng"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain"
+    ],
+    "output": [
+        "application/json"
+    ],
+    "url": "https://enrich-lrs.acdh.oeaw.ac.at/StanbolWrapper",
+    "parameters": {
+        "input": "self.linkToResource",
+        "outFormat": "application%2Fjson"
+    },
+    "mapping": {
+        "input": "resourceUri"
+    }
+}
