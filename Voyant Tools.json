@@ -30,7 +30,7 @@
         "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "text/tei+xml;format-variant=tei-dta"
+        "application/tei+xml;format-variant=tei-dta"
     ],
     "output": [
         "none"
