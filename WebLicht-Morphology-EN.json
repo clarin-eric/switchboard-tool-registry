@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
-    "licence": "public",
+    "licence": null,
     "description": "WebLicht Easy Chain for Morphological Analysis (English). The pipeline makes use of WebLicht's TCF converter, the Stanford tokenizer, and the morphology analysis service from MorphAdorner. WebLicht's Tundra can be used to visualize the result.",
     "languages": [
         "eng"

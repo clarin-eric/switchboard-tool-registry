@@ -15,7 +15,7 @@
     },
     "version": "1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "Morphological dictionary and tagger for the analysis of natural language texts in Polish.",
     "languages": [
         "pol"

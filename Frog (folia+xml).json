@@ -13,7 +13,7 @@
     },
     "version": "x.y.z",
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
-    "licence": "public",
+    "licence": null,
     "description": "Frog's current version will tokenize, tag, lemmatize, and morphologically segment word tokens in Dutch text files, will assign a dependency graph to each sentence, will identify the base phrase chunks in the sentence, and will attempt to find and label all named entities.",
     "languages": [
         "nld"

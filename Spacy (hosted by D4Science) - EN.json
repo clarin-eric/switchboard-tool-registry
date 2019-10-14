@@ -14,7 +14,7 @@
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "This is an experimental integration of a D4Science NLP processing service (spaCy). This service identifies performs dependency parsing for plain English text. For more information on spaCy, see https://spacy.io.",
     "languages": [
         "eng"

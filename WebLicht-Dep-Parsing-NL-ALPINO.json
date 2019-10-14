@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
-    "licence": "public",
+    "licence": null,
     "description": "WebLicht Easy Chain for Dependency Parsing (Dutch). The pipeline makes use of WebLicht's TCF converter, the tokenizer and sentence splitter from Alpino, and the Alpino dependency parser for Dutch. WebLicht's Tundra can be used to visualize the result.",
     "languages": [
         "nld"

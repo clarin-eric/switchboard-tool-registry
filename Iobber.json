@@ -13,7 +13,7 @@
     },
     "version": "1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "Chunker for Polish. It recognises shallow syntactic structure (up to three levels) of phrases (chunks) in Polish texts.",
     "languages": [
         "pol"
