@@ -3,8 +3,8 @@
 This repository hosts the registry of all tools used by the Switchboard (https://switchboard.clarin.eu). 
 
 The repository has two important branches: 
-- `master` is the development branch, with the tools used by testing and development versions of the Switchboard
-- `production` is hosting the tools used by the production instance.
+- `master` is the development branch, with the tools used by testing and development versions of the Switchboard. Hosts the tools used by the staging instance (https://beta-switchboard.clarin.eu)
+- `production` is hosting the tools used by the production instance (https://switchboard.clarin.eu).
 
 ## How to add a tool to the Switchboard
 1. Take any of the json files describing a service in the repository and modify it to describe your tool. The json file must be also renamed, as it is required to be descriptive and unique.
