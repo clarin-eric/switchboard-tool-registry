@@ -13,7 +13,7 @@
     },
     "version": "x.y.z",
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
-    "licence": "public",
+    "licence": null,
     "description": "Oersetter is a Frisian-Dutch Machine Translation system.",
     "languages": [
         "fry"

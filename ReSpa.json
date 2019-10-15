@@ -12,7 +12,7 @@
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
     "version": "1.0",
-    "licence": "public",
+    "licence": null,
     "authentication": "no",
     "description": "Keywords extraction for Polish by ReSpa based on the representation of text documents as word graphs.",
     "languages": [

@@ -13,7 +13,7 @@
     },
     "version": "0.8.3",
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
-    "licence": "public",
+    "licence": null,
     "description": "Ucto is a unicode-compliant tokeniser. It takes input in the form of one or more untokenised texts, and subsequently tokenises them. Several languages are supported, but the software is extensible to other languages.",
     "languages": [
         "swe",

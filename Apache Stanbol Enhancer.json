@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "Apache Stanbol provides a set of reusable components for semantic content management. A number of EnhancementEngines extract features from passed content, for details see https://stanbol.apache.org. The resulting RDF enhancements are returned in JSON format.",
     "languages": [
         "eng"

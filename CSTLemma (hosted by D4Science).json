@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "This is an experimental integration of a D4Science NLP processing service (CSTLemma). The CSTLemma Lemmatizer for English reduces all words in a text to their base form, the lemma.",
     "languages": [
         "eng"

@@ -12,7 +12,7 @@
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
     "version": "1.0",
-    "licence": "public",
+    "licence": null,
     "authentication": "no",
     "description": "TF, IDF, TF-IDF calculation.",
     "languages": [

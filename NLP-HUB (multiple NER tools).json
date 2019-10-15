@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "This is an experimental integration of a D4Science NLP processing service hub. This service runs a number of NER tools in parallel, and merges their results. It identifies names of persons, locations, organizations, as well as money amounts, time and date expressions -- and other expressions -- in English, French, Italian, Spanish and German texts automatically.",
     "languages": [
         "eng",

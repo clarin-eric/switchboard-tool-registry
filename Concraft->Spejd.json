@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "Tool for partial parsing and rule-based morphosyntactic disambiguation. Part of: Multiservice, a robust  linguistic  Web service for Polish.",
     "languages": [
         "pol"

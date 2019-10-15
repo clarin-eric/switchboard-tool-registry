@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "This is an experimental integration of a D4Science NLP processing service (NER Liner 2). This service identifies names of persons, locations, organizations, as well as money amounts, time and date expressions in Polish texts automatically.",
     "languages": [
         "pol"

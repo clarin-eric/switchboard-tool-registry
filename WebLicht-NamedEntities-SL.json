@@ -13,7 +13,7 @@
     },
     "version": "v1.0",
     "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
-    "licence": "public",
+    "licence": null,
     "description": "WebLicht Easy Chain for Named Entity Recognition (Slovenian). The easy-chain makes use of the ReLDI tag, NER JSI software, which performs NER without a parse.",
     "languages": [
         "slv"
