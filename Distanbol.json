@@ -9,11 +9,11 @@
     "creators": "Apache Foundation (software), Austrian Centre of Digital Humanities (enhancement chains and configuration)",
     "contact": {
         "person": "Matej Durco",
-        "email": "acdh-tech@oeaw.ac.at <mailto:acdh-tech@oeaw.ac.at>"
+        "email": "acdh-tech@oeaw.ac.at"
     },
     "version": "v1.0",
     "authentication": "no",
-    "licence": "public",
+    "licence": null,
     "description": "Distanbol analyses texts semantically. For this, it passes the input text to an Apache Stanbol web service that executes a NLP chain yielding named entities. This is followed by Entity Linking on the text. The resulting enhancements are rendered as human-readable HTML-page. In short, Distanbol is adding a human-readable rendering to the JSON-LD output produced by Stanbol.",
     "languages": [
         "eng"

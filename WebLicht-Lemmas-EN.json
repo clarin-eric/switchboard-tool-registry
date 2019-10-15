@@ -12,8 +12,8 @@
         "email": "wlsupport@sfs.uni-tuebingen.de"
     },
     "version": "v1.0",
-    "authentication": "no",
-    "licence": "public",
+    "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
+    "licence": null,
     "description": "WebLicht Easy Chain for Lemmatization (English). The pipeline makes use of WebLicht's TCF converter, the Stanford tokenizer, the Jitar POS Tagger, and the lemmatizer service from MorphAdorner. WebLicht's Tundra can be used to visualize the result.",
     "languages": [
         "eng"
@@ -29,7 +29,7 @@
     "output": [
         "application/tcf+xml"
     ],
-    "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht-switchboard/",
+    "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
     "parameters": {
         "input": "self.linkToResource",
         "lang": "en",

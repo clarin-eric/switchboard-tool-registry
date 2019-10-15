@@ -12,7 +12,7 @@
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
     "version": "1.0",
-    "licence": "public",
+    "licence": null,
     "authentication": "no",
     "description": "Inkluz - detects foreign language inclusions in Polish texts.",
     "languages": [

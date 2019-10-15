@@ -12,8 +12,8 @@
         "email": "wlsupport@sfs.uni-tuebingen.de"
     },
     "version": "v1.0",
-    "authentication": "no",
-    "licence": "public",
+    "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
+    "licence": null,
     "description": "WebLicht Easy Chain for Dependency Parsing (Croatian). The easy-chain makes use of the RELDI software (see https://github.com/clarinsi), which tokenizes and lemmatizes the text, performs part-of-speech tagging, and subsequently, does dependency parsing. For RELDI specific inquiries, please contact nljubesi@gmail.com.",
     "languages": [
         "hrv"
@@ -29,7 +29,7 @@
     "output": [
         "application/tcf+xml"
     ],
-    "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht-switchboard/",
+    "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
     "parameters": {
         "input": "self.linkToResource",
         "lang": "hr",

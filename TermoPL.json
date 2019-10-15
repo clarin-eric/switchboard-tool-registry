@@ -12,7 +12,7 @@
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
     "version": "1.0",
-    "licence": "public",
+    "licence": null,
     "authentication": "no",
     "description": "TermoPL is a tool for automated extraction of terminology from Polish texts.",
     "languages": [

@@ -13,7 +13,7 @@
     },
     "version": "0.2",
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
-    "licence": "public",
+    "licence": null,
     "description": "N-gram frequency list generation on FoLiA input.",
     "languages": [
         "nld",
