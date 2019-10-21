@@ -11,7 +11,7 @@
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
-    "version": "x.y.z",
+    "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
     "licence": null,
     "description": "Oersetter is a statistical machine translation (SMT) system for Frisian to Dutch and Dutch to Frisian. A parallel training corpus has been established, which has subsequently been used to automatically learn a phrase-based SMT model. The translation system is built around the open-source SMT software Moses.",

@@ -11,7 +11,7 @@
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
-    "version": "x.y.z",
+    "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
     "licence": null,
     "description": "T-Scan is a new tool for analyzing Dutch text. It aims at extracting text features that are theoretically interesting, in that they relate to genre and text complexity, as well as practically interesting, in that they enable users and text producers to make text-specific diagnoses. T-Scan derives it features from tools such as Frog and Alpino, and resources such as SoNaR, SUBTLEX-NL and Referentie Bestand Nederlands.",
