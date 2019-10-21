@@ -11,7 +11,7 @@
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
-    "version": "x.y.z",
+    "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
     "licence": null,
     "description": "Valkuil is a Dutch spelling correction system.",
