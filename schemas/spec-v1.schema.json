@@ -1,9 +1,10 @@
 {
-  "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://switchboard.clarin.eu/tool-spec-v1.json",
-  "type": "object",
   "title": "JSON Schema for the Switchboard tool specification",
+  "type": "object",
+  "items": null,
+  "definitions": {},
   "required": [
     "task",
     "deployment",
@@ -21,8 +22,8 @@
     "mimetypes",
     "languages",
     "langEncoding",
-    "parameters"
-    "url",
+    "parameters",
+    "url"
   ],
   "properties": {
     "task": {
@@ -57,43 +58,44 @@
         "TF, IDF, TF-IDF calculation",
         "Tokenisation",
         "Topic Modelling",
-        "Word sense disambiguation",
-      ],
+        "Word sense disambiguation"
+      ]
     },
     "deployment": {
       "$id": "#/properties/deployment",
       "type": "string",
       "title": "Deployment type",
       "default": "development",
-      "enum": ["production", "development"],
+      "enum": ["production", "development"]
     },
     "name": {
       "$id": "#/properties/name",
       "title": "Tool name",
-      "type": "string",
+      "type": "string"
     },
     "logo": {
       "$id": "#/properties/logo",
       "type": "string",
       "title": "The tool's logo file name",
-      "examples": ["mylogo.jpg"],
+      "examples": ["mylogo.jpg"]
     },
     "homepage": {
       "$id": "#/properties/homepage",
-      "type": "url",
+      "type": "string",
+      "format": "uri",
       "title": "Homepage",
-      "examples": ["https://example.com"],
+      "examples": ["https://example.com"]
     },
     "location": {
       "$id": "#/properties/location",
       "type": "string",
       "title": "Geographical location",
-      "examples": ["Tuebingen, Germany"],
+      "examples": ["Tuebingen, Germany"]
     },
     "creators": {
       "$id": "#/properties/creators",
       "type": "string",
-      "title": "Tool's creators",
+      "title": "Tool's creators"
     },
     "contact": {
       "$id": "#/properties/contact",
@@ -107,38 +109,39 @@
         "person": {
           "$id": "#/properties/contact/properties/person",
           "type": "string",
-          "title": "Person name",
+          "title": "Person name"
         },
         "email": {
           "$id": "#/properties/contact/properties/email",
-          "type": "email",
-          "title": "Email",
+          "type": "string",
+          "format": "email",
+          "title": "Email"
         }
       }
     },
     "version": {
       "$id": "#/properties/version",
-      "type": "string",
+      "type": ["string", "null"],
       "title": "Tool's version",
       "default": null,
-      "examples": ["v1.0"],
+      "examples": ["v1.0"]
     },
     "authentication": {
       "$id": "#/properties/authentication",
       "type": "string",
       "title": "Authentication mechanism description, or null",
-      "default": null,
+      "default": null
     },
     "licence": {
       "$id": "#/properties/licence",
-      "type": "String",
+      "type": ["string", "null"],
       "title": "Tool's licence",
-      "default": null,
+      "default": null
     },
     "description": {
       "$id": "#/properties/description",
       "type": "string",
-      "title": "Tool's description",
+      "title": "Tool's description"
     },
     "languages": {
       "$id": "#/properties/languages",
@@ -155,10 +158,10 @@
     },
     "langEncoding": {
       "$id": "#/properties/langEncoding",
-      "type": "enum",
+      "type": "string",
       "title": "The language encoding that the tool requires",
       "default": "639-3",
-      "enum": ["639-1", "639-3"],
+      "enum": ["639-1", "639-3"]
     },
     "mimetypes": {
       "$id": "#/properties/mimetypes",
@@ -172,8 +175,8 @@
           "text/plain",
           "text/rtf",
           "application/pdf",
-          "application/msword",
-        ],
+          "application/msword"
+        ]
       }
     },
     "output": {
@@ -184,19 +187,20 @@
         "$id": "#/properties/output/items",
         "type": "string",
         "title": "Mediatype",
-        "examples": ["application/xml"],
+        "examples": ["application/xml"]
       }
     },
     "url": {
       "$id": "#/properties/url",
-      "type": "url",
+      "type": "string",
+      "format": "uri",
       "title": "Tool's URL",
-      "examples": ["https://weblicht.sfs.uni-tuebingen.de/weblicht/"],
+      "examples": ["https://weblicht.sfs.uni-tuebingen.de/weblicht/"]
     },
     "parameters": {
       "$id": "#/properties/parameters",
       "type": "object",
-      "title": "Tool parameters",
+      "title": "Tool parameters"
     }
   }
 }
