@@ -1,0 +1,202 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://switchboard.clarin.eu/tool-spec-v1.json",
+  "type": "object",
+  "title": "JSON Schema for the Switchboard tool specification",
+  "required": [
+    "task",
+    "deployment",
+    "name",
+    "description",
+    "logo",
+    "homepage",
+    "location",
+    "creators",
+    "contact",
+    "version",
+    "authentication",
+    "licence",
+    "output",
+    "mimetypes",
+    "languages",
+    "langEncoding",
+    "parameters"
+    "url",
+  ],
+  "properties": {
+    "task": {
+      "$id": "#/properties/task",
+      "type": "string",
+      "title": "Task description",
+      "enum": [
+        "Constituency Parsing",
+        "Coreference Resolution",
+        "Dependency Parsing",
+        "Distant Reading",
+        "Extraction of Polish terminology",
+        "Inclusion detection",
+        "Keyword Extractor",
+        "Lemmatization",
+        "Machine Translation",
+        "Morpho-syntactic tagger",
+        "Morphological Analysis",
+        "N-Gramming",
+        "Named Entity Recognition",
+        "NLP suite for Dutch",
+        "Part-Of-Speech Tagging",
+        "Relation between name entities detection",
+        "Sentiment Analysis",
+        "Shallow Parsing",
+        "Spatial expression detection",
+        "Spelling correction",
+        "Stylometry",
+        "Text Analytics",
+        "Text Enhancement",
+        "Text Summarization",
+        "TF, IDF, TF-IDF calculation",
+        "Tokenisation",
+        "Topic Modelling",
+        "Word sense disambiguation",
+      ],
+    },
+    "deployment": {
+      "$id": "#/properties/deployment",
+      "type": "string",
+      "title": "Deployment type",
+      "default": "development",
+      "enum": ["production", "development"],
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "title": "Tool name",
+      "type": "string",
+    },
+    "logo": {
+      "$id": "#/properties/logo",
+      "type": "string",
+      "title": "The tool's logo file name",
+      "examples": ["mylogo.jpg"],
+    },
+    "homepage": {
+      "$id": "#/properties/homepage",
+      "type": "url",
+      "title": "Homepage",
+      "examples": ["https://example.com"],
+    },
+    "location": {
+      "$id": "#/properties/location",
+      "type": "string",
+      "title": "Geographical location",
+      "examples": ["Tuebingen, Germany"],
+    },
+    "creators": {
+      "$id": "#/properties/creators",
+      "type": "string",
+      "title": "Tool's creators",
+    },
+    "contact": {
+      "$id": "#/properties/contact",
+      "type": "object",
+      "title": "The Contact Schema",
+      "required": [
+        "person",
+        "email"
+      ],
+      "properties": {
+        "person": {
+          "$id": "#/properties/contact/properties/person",
+          "type": "string",
+          "title": "Person name",
+        },
+        "email": {
+          "$id": "#/properties/contact/properties/email",
+          "type": "email",
+          "title": "Email",
+        }
+      }
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "string",
+      "title": "Tool's version",
+      "default": null,
+      "examples": ["v1.0"],
+    },
+    "authentication": {
+      "$id": "#/properties/authentication",
+      "type": "string",
+      "title": "Authentication mechanism description, or null",
+      "default": null,
+    },
+    "licence": {
+      "$id": "#/properties/licence",
+      "type": "String",
+      "title": "Tool's licence",
+      "default": null,
+    },
+    "description": {
+      "$id": "#/properties/description",
+      "type": "string",
+      "title": "Tool's description",
+    },
+    "languages": {
+      "$id": "#/properties/languages",
+      "type": "array",
+      "title": "Languages that the tool can work with",
+      "items": {
+        "$id": "#/properties/languages/items",
+        "type": "string",
+        "title": "Language Identifier, ISO 693-3",
+        "default": "eng",
+        "examples": ["eng", "deu"],
+        "pattern": "^(.{3})$"
+      }
+    },
+    "langEncoding": {
+      "$id": "#/properties/langEncoding",
+      "type": "enum",
+      "title": "The language encoding that the tool requires",
+      "default": "639-3",
+      "enum": ["639-1", "639-3"],
+    },
+    "mimetypes": {
+      "$id": "#/properties/mimetypes",
+      "type": "array",
+      "title": "Accepted mimetypes",
+      "items": {
+        "$id": "#/properties/mimetypes/items",
+        "type": "string",
+        "title": "Mediatype",
+        "examples": [
+          "text/plain",
+          "text/rtf",
+          "application/pdf",
+          "application/msword",
+        ],
+      }
+    },
+    "output": {
+      "$id": "#/properties/output",
+      "type": "array",
+      "title": "Tool's output mediatypes",
+      "items": {
+        "$id": "#/properties/output/items",
+        "type": "string",
+        "title": "Mediatype",
+        "examples": ["application/xml"],
+      }
+    },
+    "url": {
+      "$id": "#/properties/url",
+      "type": "url",
+      "title": "Tool's URL",
+      "examples": ["https://weblicht.sfs.uni-tuebingen.de/weblicht/"],
+    },
+    "parameters": {
+      "$id": "#/properties/parameters",
+      "type": "object",
+      "title": "Tool parameters",
+    }
+  }
+}
