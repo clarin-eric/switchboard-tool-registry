@@ -11,7 +11,7 @@
         "person": "MultiService",
         "email": "rjawor@amu.edu.pl"
     },
-    "version": "v1.0",
+    "verson": "v1.0",
     "authentication": "no",
     "licence": null,
     "description": "Morphosyntactic tagger for Polish based on constrained conditional random fields. Part of: Multiservice, a robust  linguistic Web service for Polish.",
