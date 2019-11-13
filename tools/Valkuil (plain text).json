@@ -2,16 +2,16 @@
     "task": "Spelling correction",
     "deployment": "development",
     "softwareType": "qualitative",
-    "name": "Valkuil (folia+xml)",
+    "name": "Valkuil (plain text)",
     "logo": "valkuil.jpg",
-    "homepage": "https://languagemachines.github.io/Valkuil/",
+    "homepage": "http://valkuil.net",
     "location": "Nijmegen, The Netherlands (CLAM Webservices)",
     "creators": "Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)",
     "contact": {
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
-    "version": "x.y.z",
+    "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
     "licence": null,
     "description": "Valkuil is a Dutch spelling correction system.",
@@ -20,7 +20,7 @@
     ],
     "langEncoding": "639-1",
     "mimetypes": [
-        "text/folia+xml"
+        "text/plain"
     ],
     "output": [
         "text/folia+xml"
@@ -31,6 +31,6 @@
         "input": "self.linkToResource"
     },
     "mapping": {
-        "input": "foliainput_url"
+        "input": "textinput_url"
     }
 }

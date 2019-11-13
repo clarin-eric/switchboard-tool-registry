@@ -1,20 +1,20 @@
 {
-    "task": "Spelling correction",
+    "task": "Machine Translation",
     "deployment": "development",
     "softwareType": "qualitative",
-    "name": "Valkuil (plain text)",
-    "logo": "valkuil.jpg",
-    "homepage": "http://valkuil.net",
+    "name": "Oersetter (NLD-FRY)",
+    "logo": "oersetter.jpg",
+    "homepage": "http://oersetter.nl/",
     "location": "Nijmegen, The Netherlands (CLAM Webservices)",
     "creators": "Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)",
     "contact": {
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
-    "version": "x.y.z",
+    "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
     "licence": null,
-    "description": "Valkuil is a Dutch spelling correction system.",
+    "description": "Oersetter is a statistical machine translation (SMT) system for Frisian to Dutch and Dutch to Frisian. A parallel training corpus has been established, which has subsequently been used to automatically learn a phrase-based SMT model. The translation system is built around the open-source SMT software Moses.",
     "languages": [
         "nld"
     ],
@@ -23,14 +23,14 @@
         "text/plain"
     ],
     "output": [
-        "text/folia+xml"
+        "text/plain"
     ],
-    "url": "https://webservices-lst.science.ru.nl/valkuil/",
+    "url": "https://webservices-lst.science.ru.nl/oersetter/",
     "parameters": {
         "project": "new",
         "input": "self.linkToResource"
     },
     "mapping": {
-        "input": "textinput_url"
+        "input": "input-nl_url"
     }
 }

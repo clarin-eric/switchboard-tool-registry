@@ -1,0 +1,13 @@
+sudo: false
+language: python
+python:
+  - "3.7"
+install:
+  - pip3 install fastjsonschema
+script:
+  - cd -- schemas/
+  - ./validate-all-tools.py -s ./spec-v1.schema.json -t ../tools
+notifications:
+  email:
+    on_success: change
+    on_failure: always

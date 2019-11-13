@@ -2,7 +2,7 @@
     "task": "NLP suite for Dutch",
     "deployment": "development",
     "softwareType": "qualitative",
-    "name": "Frog (plain text)",
+    "name": "Frog (folia+xml)",
     "logo": "frog.jpg",
     "homepage": "https://languagemachines.github.io/frog/",
     "location": "Nijmegen, The Netherlands (CLAM Webservices)",
@@ -11,7 +11,7 @@
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
-    "version": "x.y.z",
+    "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
     "licence": null,
     "description": "Frog's current version will tokenize, tag, lemmatize, and morphologically segment word tokens in Dutch text files, will assign a dependency graph to each sentence, will identify the base phrase chunks in the sentence, and will attempt to find and label all named entities.",
@@ -20,7 +20,7 @@
     ],
     "langEncoding": "639-1",
     "mimetypes": [
-        "text/plain"
+        "text/folia+xml"
     ],
     "output": [
         "Tadpole Columned Output Format",
@@ -32,6 +32,6 @@
         "input": "self.linkToResource"
     },
     "mapping": {
-        "input": "maininput_url"
+        "input": "foliainput_url"
     }
 }

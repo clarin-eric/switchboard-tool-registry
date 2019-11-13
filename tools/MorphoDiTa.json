@@ -6,9 +6,7 @@
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",
     "location": "Wrocław, Poland",
-    "creators": [
-        "Clarin-PL"
-    ],
+    "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
@@ -20,7 +18,7 @@
     "languages": [
         "pol"
     ],
-    "lang_encoding": "639-1",
+    "langEncoding": "639-1",
     "mimetypes": [
         "text/plain",
         "application/msword",
@@ -36,7 +34,6 @@
         "application/xml"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
-    "pid": "",
     "parameters": {
         "input": "self.linkToResource",
         "lang": "pl",

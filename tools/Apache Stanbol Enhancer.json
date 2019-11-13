@@ -9,7 +9,7 @@
     "creators": "Apache Foundation (software), Austrian Centre of Digital Humanities (enhancement chains and configuration)",
     "contact": {
         "person": "Matej Durco",
-        "email": "acdh-tech@oeaw.ac.at <mailto:acdh-tech@oeaw.ac.at>"
+        "email": "acdh-tech@oeaw.ac.at"
     },
     "version": "v1.0",
     "authentication": "no",
