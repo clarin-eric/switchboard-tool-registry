@@ -1,0 +1,34 @@
+{
+    "task": "Tokenisation",
+    "deployment": "development",
+    "softwareType": "qualitative",
+    "name": "DemoTool",
+    "logo": "demotool.jpg",
+    "homepage": "http://mywebsite.com/demotool/",
+    "location": "Göttingen, DE",
+    "creators": "CLARIAH",
+    "contact": {
+        "person": "Emanuel Dima",
+        "email": "emanuel.dima@uni-tuebingen.de"
+    },
+    "version": "1.0",
+    "authentication": "no",
+    "licence": null,
+    "description": "Just a demo tool.",
+    "languages": [
+        "generic"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "url": "http://localhost:3000",
+    "parameters": {
+        "input": null
+    },
+    "mapping": {
+    }
+}
