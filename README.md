@@ -11,6 +11,7 @@ The repository has two important branches:
 1. Add the new json file to a new branch in your own fork of the repository, in the `tools` directory.
 1. Add the logo file to the same branch, in the `logos` directory.
 1. Make sure that the new json file is correct according to the json schema defined in the specification file: [spec-v1.schema.json](./schemas/spec-v1.schema.json). You can use one of the online schema validators (see https://json-schema.org/implementations.html#validators), or locally run the python script [validate-all-tools.py](./schemas/validate-all-tools.py) in the `schemas` directory.
+1. Make sure your tool responds correctly when called by the Switchboard. See the [Tool Call API](https://github.com/clarin-eric/switchboard-doc/blob/master/documentation/ToolCallAPI.md) for more detailed explanations on how a tool is called and what parameters are being sent to the tool.
 1. Create a pull request for merging your branch in the `master` branch of this repository.
 1. After the pull request has been merged, check the availability of your tool in the development instance of the Switchboard: https://beta-switchboard.clarin.eu.
 1. If you are satisfied with how the tool is integrated, create a new issue requesting the publication of your changes from `master` to `production`. Our team will do the merge and close the issue.
