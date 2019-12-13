@@ -33,6 +33,7 @@
       "enum": [
         "Constituency Parsing",
         "Coreference Resolution",
+        "Data Conversion",
         "Dependency Parsing",
         "Distant Reading",
         "Extraction of Polish terminology",
@@ -58,6 +59,7 @@
         "TF, IDF, TF-IDF calculation",
         "Tokenisation",
         "Topic Modelling",
+        "Visualisation",
         "Word sense disambiguation"
       ]
     },
