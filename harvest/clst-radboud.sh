@@ -18,7 +18,7 @@ fi
 source clst-radboud-env/bin/activate
 
 #install the software  (no-op if already installed/up to date)
-pip install git+https://github.com/proycon/clam2switchboard.git
+pip install -U git+https://github.com/proycon/clam2switchboard.git
 
 cd $ROOT/tools
 
