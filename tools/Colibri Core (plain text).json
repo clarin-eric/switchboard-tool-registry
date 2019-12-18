@@ -6,14 +6,14 @@
     "logo": "colibriCore.jpg",
     "homepage": "https://github.com/proycon/colibri-core",
     "location": "Nijmegen, The Netherlands (CLAM Webservices)",
-    "creators": "Maarten van Gompel, Ko van der Sloot (CLST, Radboud University Nijmegen)",
+    "creators": "Maarten van Gompel (CLST, Radboud University Nijmegen)",
     "contact": {
         "person": "Maarten van Gompel",
         "email": "proycon@anaproy.nl"
     },
     "version": null,
     "authentication": "Yes. Before tool use, please register at https://webservices-lst.science.ru.nl/register.",
-    "licence": null,
+    "licence": "GNU General Public License v3",
     "description": "Colibri core is an NLP tool as well as a C++ and Python library for working with basic linguistic constructions such as n-grams and skipgrams (i.e patterns with one or more gaps, either of fixed or dynamic size) in a quick and memory-efficient way.",
     "languages": [
         "nld",
