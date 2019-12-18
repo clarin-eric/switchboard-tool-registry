@@ -1,6 +1,6 @@
 {
 	"task": "Tokenisation",
-	"deployment": "production",
+	"deployment": "development",
 	"softwareType": "qualitative",
 	"name": "Opener Tokenizer",
 	"logo": "ilc4clarin.png",
