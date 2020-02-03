@@ -31,7 +31,7 @@
     ],
     "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "de",
         "analysis": "const-parsing"
     }

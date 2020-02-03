@@ -28,7 +28,7 @@
     "url": "https://webservices-lst.science.ru.nl/fowlt/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "foliainput_url"

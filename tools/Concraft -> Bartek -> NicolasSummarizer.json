@@ -30,7 +30,7 @@
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "analysis": "6"
     }
 }
