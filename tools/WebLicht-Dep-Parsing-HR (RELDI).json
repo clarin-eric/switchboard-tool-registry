@@ -1,6 +1,6 @@
 {
     "task": "Dependency Parsing",
-    "deployment": "production",
+    "deployment": "development",
     "softwareType": "qualitative",
     "name": "WebLicht-Dep-Parsing-HR (RELDI)",
     "logo": "weblicht.jpg",
