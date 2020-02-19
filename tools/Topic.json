@@ -27,7 +27,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "pl",
         "analysis": "topic",
         "batch": "true"

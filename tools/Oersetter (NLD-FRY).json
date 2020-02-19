@@ -28,7 +28,7 @@
     "url": "https://webservices-lst.science.ru.nl/oersetter/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "input-nl_url"

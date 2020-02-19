@@ -27,7 +27,7 @@
     ],
     "url": "https://enrich-lrs.acdh.oeaw.ac.at/StanbolWrapper",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "outFormat": "application%2Fjson"
     },
     "mapping": {

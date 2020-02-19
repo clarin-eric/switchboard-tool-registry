@@ -35,8 +35,8 @@
     "url": "https://webservices-lst.science.ru.nl/colibricore/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource",
-        "lang": "self.linkToResourceLanguage",
+        "input": null,
+        "lang": null,
         "sentenceperline_input": "false",
         "sentenceperline_output": "false"
     },

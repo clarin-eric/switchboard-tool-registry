@@ -100,8 +100,8 @@
     ],
     "url": "https://lindat.mff.cuni.cz/services/udpipe/",
     "parameters": {
-        "input": "self.linkToResource",
-        "lang": "self.linkToResourceLanguage"
+        "input": null,
+        "lang": null
     },
     "mapping": {
         "input": "data",

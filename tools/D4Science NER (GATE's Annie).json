@@ -27,7 +27,7 @@
     ],
     "url": "https://next.d4science.org/nlp-hub/",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "token": "a92dc66c-bf09-48cb-9a96-8e765f11e7b1-843339462"
     }
 }

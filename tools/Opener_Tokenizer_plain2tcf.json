@@ -33,7 +33,7 @@
 	"url": "http://ilc4clarin.ilc.cnr.it/services/opener/tokenizer/lrs",
 	"parameters": {
 		"input": null,
-		"lang": "self.linkToResourceLanguage",
+		"lang": null,
 		"format": "tcf"
 	},
 	"mapping": {
