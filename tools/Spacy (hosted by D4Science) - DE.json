@@ -28,7 +28,7 @@
     ],
     "url": "https://next.d4science.org/nlp-hub-spacyGerman/",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "token": "27061e4d-3567-482d-9f12-3a1af5e42ab9-843339462"
     }
 }

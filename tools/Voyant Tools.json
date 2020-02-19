@@ -37,6 +37,6 @@
     ],
     "url": "https://voyant-tools.org/",
     "parameters": {
-        "input": "self.linkToResource"
+        "input": null
     }
 }

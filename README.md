@@ -23,3 +23,4 @@ The [Tool description specification](https://github.com/clarin-eric/switchboard-
 For details on how a tool is matched for a specific resource, see the [Tool Matching](https://github.com/clarin-eric/switchboard-doc/blob/master/documentation/ToolMatching.md) document.
 
 For details on how a tool is actually invoked when selected by the user, see the [Tool Call API](https://github.com/clarin-eric/switchboard-doc/blob/master/documentation/ToolCallAPI.md) document.
+

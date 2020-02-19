@@ -37,8 +37,8 @@
     "url": "https://webservices-lst.science.ru.nl/ucto/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource",
-        "lang": "self.linkToResourceLanguage"
+        "input": null,
+        "lang": null
     },
     "mapping": {
         "input": "untokinput_url",

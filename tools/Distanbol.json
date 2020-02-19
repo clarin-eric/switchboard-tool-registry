@@ -27,7 +27,7 @@
     ],
     "url": "https://distanbol.acdh.oeaw.ac.at/convert",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "confidence": "confidence"
     },
     "mapping": {

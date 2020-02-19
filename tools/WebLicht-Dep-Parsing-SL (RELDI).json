@@ -1,6 +1,6 @@
 {
     "task": "Dependency Parsing",
-    "deployment": "production",
+    "deployment": "development",
     "softwareType": "qualitative",
     "name": "WebLicht-Dep-Parsing-SL (RELDI)",
     "logo": "weblicht.jpg",
@@ -31,7 +31,7 @@
     ],
     "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "sl",
         "analysis": "dep-parsing"
     }

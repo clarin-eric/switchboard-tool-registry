@@ -29,7 +29,7 @@
     "url": "https://webservices-lst.science.ru.nl/frog/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "foliainput_url"

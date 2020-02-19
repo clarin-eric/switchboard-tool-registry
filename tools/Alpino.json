@@ -30,7 +30,7 @@
     "url": "https://webservices-lst.science.ru.nl/alpino/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "untokinput_url"
