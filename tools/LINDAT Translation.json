@@ -13,8 +13,8 @@
     },
     "version": "master",
     "authentication": "no",
-    "licence": "See the terms of use for LINDAT services at https://lindat.mff.cuni.cz/en/terms-of-use",
-    "description": "The input file size is limited to 100kB.\nTranslates from->to:\nCzech->English, Hindi, French, Russian, German\nEnglish->Russsian, German, Czech, Hindi, French\nRussian->German, French, Czech, Hindi, English\nGerman->Russian, Hindi, Czech, English, French\nFrench->Russian, German, Czech, English, Hindi",
+    "licence": "See the <a href='https://lindat.mff.cuni.cz/en/terms-of-use'>terms of use for LINDAT services</a>.",
+    "description": "The input file size is limited to 100kB.<br />Translates from->to:<br />Czech->English, Hindi, French, Russian, German<br />English->Russsian, German, Czech, Hindi, French<br />Russian->German, French, Czech, Hindi, English<br />German->Russian, Hindi, Czech, English, French<br />French->Russian, German, Czech, English, Hindi",
     "langEncoding": "639-1",
     "languages": [
         "deu",
