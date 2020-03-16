@@ -30,6 +30,7 @@
         "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/tei+xml",
         "application/tei+xml;format-variant=tei-dta"
     ],
     "output": [
