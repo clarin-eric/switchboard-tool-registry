@@ -14,7 +14,7 @@
     "version": "master",
     "authentication": "no",
     "licence": "See the [terms of use for LINDAT services](https://lindat.mff.cuni.cz/en/terms-of-use).",
-    "description": "The input file size is limited to 100kB.<br />Translates from->to:<br />Czech->English, Hindi, French, Russian, German<br />English->Russsian, German, Czech, Hindi, French<br />Russian->German, French, Czech, Hindi, English<br />German->Russian, Hindi, Czech, English, French<br />French->Russian, German, Czech, English, Hindi",
+    "description": "The input file size is limited to 100kB.\n\nTranslates from->to:\n\nCzech->English, Hindi, French, Russian, German\n\nEnglish->Russsian, German, Czech, Hindi, French\n\nRussian->German, French, Czech, Hindi, English\n\nGerman->Russian, Hindi, Czech, English, French\n\nFrench->Russian, German, Czech, English, Hindi",
     "langEncoding": "639-1",
     "languages": [
         "deu",
