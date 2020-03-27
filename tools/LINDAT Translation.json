@@ -1,0 +1,41 @@
+{
+    "task": "Machine Translation",
+    "deployment": "production",
+    "softwareType": "qualitative",
+    "name": "LINDAT Translation",
+    "logo": "lindat.jpg",
+    "homepage": "https://lindat.mff.cuni.cz/services/translation/docs",
+    "location": "Charles University, Prague, Czech Republic",
+    "creators": "Institute of Formal and Applied Linguistics",
+    "contact": {
+        "person": "Ondřej Košarko",
+        "email": "kosarko@ufal.mff.cuni.cz"
+    },
+    "version": "master",
+    "authentication": "no",
+    "licence": "See the [terms of use for LINDAT services](https://lindat.mff.cuni.cz/en/terms-of-use).",
+    "description": "The input file size is limited to 100kB.\n\nTranslates from->to:\n\nCzech->English, Hindi, French, Russian, German\n\nEnglish->Russsian, German, Czech, Hindi, French\n\nRussian->German, French, Czech, Hindi, English\n\nGerman->Russian, Hindi, Czech, English, French\n\nFrench->Russian, German, Czech, English, Hindi",
+    "langEncoding": "639-1",
+    "languages": [
+        "deu",
+        "rus",
+        "ces",
+        "eng",
+        "fra"
+    ],
+    "mimetypes": [
+        "text/plain"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "url": "https://lindat.mff.cuni.cz/services/translation/",
+    "parameters": {
+        "input": "self.linkToResource",
+        "lang": "self.linkToResourceLanguage"
+    },
+    "mapping": {
+        "input": "remoteFileURL",
+        "lang": "requestedLang"
+    }
+}
