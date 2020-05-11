@@ -1,7 +1,6 @@
 {
     "task": "Shallow Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Concraft->Spejd",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/Spejd",

@@ -1,7 +1,6 @@
 {
     "task": "Named Entity Recognition",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Liner2 (hosted by D4Science)",
     "logo": "d4science.png",
     "homepage": "https://www.d4science.org",

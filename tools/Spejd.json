@@ -1,7 +1,6 @@
 {
     "task": "Shallow Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Spejd",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

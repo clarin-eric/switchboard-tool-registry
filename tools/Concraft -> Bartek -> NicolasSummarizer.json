@@ -1,7 +1,6 @@
 {
     "task": "Text Summarization",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Concraft -> Bartek -> NicolasSummarizer",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/Nicolas",

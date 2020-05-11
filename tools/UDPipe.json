@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "UDPipe",
     "logo": "lindat.jpg",
     "homepage": "http://ufal.mff.cuni.cz/udpipe",

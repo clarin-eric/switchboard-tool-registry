@@ -1,7 +1,6 @@
 {
     "task": "NLP suite for Dutch",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Frog (folia+xml)",
     "logo": "frog.jpg",
     "homepage": "https://languagemachines.github.io/frog/",

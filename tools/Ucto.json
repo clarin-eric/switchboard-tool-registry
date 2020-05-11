@@ -1,7 +1,6 @@
 {
     "task": "Tokenisation",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Ucto",
     "logo": "YourLogoComesHere.png",
     "homepage": "https://languagemachines.github.io/ucto/",

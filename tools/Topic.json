@@ -1,7 +1,6 @@
 {
     "task": "Topic Modelling",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Topic",
     "logo": "clarin-pl.png",
     "homepage": "http://ws.clarin-pl.eu",

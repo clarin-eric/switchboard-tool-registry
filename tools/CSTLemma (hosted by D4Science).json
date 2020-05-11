@@ -1,7 +1,6 @@
 {
     "task": "Lemmatization",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "CSTLemma (hosted by D4Science)",
     "logo": "d4science.png",
     "homepage": "https://www.d4science.org",

@@ -1,7 +1,6 @@
 {
     "task": "Morphological Analysis",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Morfeusz 2",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

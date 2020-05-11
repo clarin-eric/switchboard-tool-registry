@@ -1,7 +1,6 @@
 {
     "task": "Named Entity Recognition",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "D4Science NER (GATE's Annie)",
     "logo": "d4science.png",
     "homepage": "https://www.d4science.org",

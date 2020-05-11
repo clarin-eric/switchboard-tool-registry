@@ -1,7 +1,6 @@
 {
     "task": "Machine Translation",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Oersetter (FRY-NLD)",
     "logo": "oersetter.jpg",
     "homepage": "http://oersetter.nl/",

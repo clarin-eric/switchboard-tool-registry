@@ -1,7 +1,6 @@
 {
     "task": "Coreference Resolution",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Concraft -> Bartek",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/Bartek",
