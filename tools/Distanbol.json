@@ -1,7 +1,6 @@
 {
     "task": "Text Enhancement",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Distanbol",
     "logo": "acdh.png",
     "homepage": "http://www.oeaw.ac.at/acdh",

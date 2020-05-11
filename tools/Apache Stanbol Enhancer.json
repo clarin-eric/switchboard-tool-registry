@@ -1,7 +1,6 @@
 {
     "task": "Text Enhancement",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Apache Stanbol Enhancer",
     "logo": "acdh.png",
     "homepage": "http://www.oeaw.ac.at/acdh",

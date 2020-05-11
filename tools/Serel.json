@@ -1,7 +1,6 @@
 {
     "task": "Relation between name entities detection",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Serel",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

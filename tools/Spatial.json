@@ -1,7 +1,6 @@
 {
     "task": "Spatial expression detection",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Spatial",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

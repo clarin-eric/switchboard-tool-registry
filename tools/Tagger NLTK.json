@@ -1,7 +1,6 @@
 {
     "task": "Morpho-syntactic tagger",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Tagger NLTK",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

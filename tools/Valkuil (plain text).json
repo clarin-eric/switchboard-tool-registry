@@ -1,7 +1,6 @@
 {
     "task": "Spelling correction",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Valkuil (plain text)",
     "logo": "valkuil.jpg",
     "homepage": "http://valkuil.net",

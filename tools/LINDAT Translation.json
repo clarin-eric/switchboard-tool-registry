@@ -1,7 +1,6 @@
 {
     "task": "Machine Translation",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "LINDAT Translation",
     "logo": "lindat.jpg",
     "homepage": "https://lindat.mff.cuni.cz/services/translation/docs",

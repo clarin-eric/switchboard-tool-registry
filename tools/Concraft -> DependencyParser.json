@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Concraft -> DependencyParser",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/DependencyParser",

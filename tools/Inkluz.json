@@ -1,7 +1,6 @@
 {
     "task": "Inclusion detection",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Inkluz",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

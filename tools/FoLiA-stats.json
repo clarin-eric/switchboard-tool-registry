@@ -1,7 +1,6 @@
 {
     "task": "N-Gramming",
     "deployment": "development",
-    "softwareType": "quantitative",
     "name": "FoLiA-stats",
     "logo": "foliastats.jpg",
     "homepage": "https://github.com/LanguageMachines/foliautils",

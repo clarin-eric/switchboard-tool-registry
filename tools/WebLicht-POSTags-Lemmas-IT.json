@@ -1,7 +1,6 @@
 {
     "task": "Part-Of-Speech Tagging",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "WebLicht-POSTags-Lemmas-IT",
     "logo": "weblicht.jpg",
     "homepage": "https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page",
