@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Alpino",
     "logo": "alpino.jpg",
     "homepage": "http://www.let.rug.nl/vannoord/alp/Alpino/",

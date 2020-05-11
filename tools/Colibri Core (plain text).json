@@ -1,7 +1,6 @@
 {
     "task": "N-Gramming",
     "deployment": "development",
-    "softwareType": "quantitative",
     "name": "Colibri Core (plain text)",
     "logo": "colibriCore.jpg",
     "homepage": "https://github.com/proycon/colibri-core",

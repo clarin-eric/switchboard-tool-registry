@@ -1,7 +1,6 @@
 {
     "task": "Distant Reading",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Voyant Tools",
     "logo": "voyant-tools.jpg",
     "homepage": "http://voyant-tools.org",

@@ -1,7 +1,6 @@
 {
     "task": "Stylometry",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "WebSty",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

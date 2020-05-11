@@ -1,7 +1,6 @@
 {
 	"task": "Tokenisation",
 	"deployment": "development",
-	"softwareType": "qualitative",
 	"name": "Opener Tokenizer",
 	"logo": "ilc4clarin.png",
 	"homepage": "http://ilc4clarin.ilc.cnr.it/services/opener/readme",

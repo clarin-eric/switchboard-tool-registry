@@ -1,7 +1,6 @@
 {
     "task": "Named Entity Recognition",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Liner2",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

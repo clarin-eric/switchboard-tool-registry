@@ -1,7 +1,6 @@
 {
     "task": "TF, IDF, TF-IDF calculation",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "TF-IDF",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

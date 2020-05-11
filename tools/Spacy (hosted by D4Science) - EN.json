@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Spacy (hosted by D4Science) - EN",
     "lifecycle": "beta",
     "logo": "d4science.png",

@@ -1,7 +1,6 @@
 {
     "task": "Text Summarization",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Summarize",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",

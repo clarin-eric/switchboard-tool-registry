@@ -1,7 +1,6 @@
 {
     "task": "Text Analytics",
     "deployment": "development",
-    "softwareType": "quantitative",
     "name": "T-scan",
     "logo": "tscan.jpg",
     "homepage": "https://github.com/proycon/tscan",
