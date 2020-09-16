@@ -3,7 +3,7 @@
     "deployment": "production",
     "name": "Ariadne Visual Media Service",
     "logo": "YourLogoComesHere.png",
-    "homepage": "https://ariadne.isti.cnr.it",
+    "homepage": "https://visual.ariadne-infrastructure.eu",
     "location": "Pisa, Italy",
     "creators": "Visual Computing Lab of CNR-ISTI",
     "contact": {
@@ -20,10 +20,9 @@
         "model/prs.ply"
     ],
     "output": [],
-    "url": "https://ariadne.isti.cnr.it/switchboard",
+    "url": "https://visual.ariadne-infrastructure.eu/switchboard",
     "parameters": {
         "input": null,
-        "username": "temp",
         "title": "Unnamed",
         "type_": "3d"
     },
