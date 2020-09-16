@@ -30,6 +30,7 @@
       "type": "string",
       "title": "Task description",
       "enum": [
+        "3D Visualisation",
         "Constituency Parsing",
         "Coreference Resolution",
         "Data Conversion",
