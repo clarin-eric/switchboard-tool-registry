@@ -34,7 +34,6 @@ clam2switchboard --url https://webservices.cls.ru.nl/forcedalignment2 -l nld --t
 clam2switchboard --url https://webservices.cls.ru.nl/glem -l grc --task "Lemmatization"
 clam2switchboard --url https://webservices.cls.ru.nl/g2pservice  --task "Grapheme to Phoneme Conversion"
 clam2switchboard --url https://webservices.cls.ru.nl/t2t -l rus,ukr,ara  --task "Transliteration"
-clam2switchboard --url https://webservices.cls.ru.nl/oersetter --task "Machine Translation"
 clam2switchboard --url https://webservices.cls.ru.nl/valkuil -l nld --task "Spelling correction"
 clam2switchboard --url https://webservices.cls.ru.nl/tscan -l nld --task "Text analytics"
 clam2switchboard --url https://webservices.cls.ru.nl/piccl --langparam lang --task "Text Normalisation" #not enough, needs multiple tasks
