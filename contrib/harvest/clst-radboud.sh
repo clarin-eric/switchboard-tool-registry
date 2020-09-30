@@ -6,7 +6,7 @@
 
 ROOT=$(git rev-parse --show-toplevel)
 
-cd $ROOT/harvest
+cd $ROOT/contrib/harvest
 
 if [ ! -d clst-radboud-env ]; then
     echo "Creating virtual environment..."
