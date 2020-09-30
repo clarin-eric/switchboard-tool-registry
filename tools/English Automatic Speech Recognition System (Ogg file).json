@@ -1,0 +1,35 @@
+{
+    "name": "English Automatic Speech Recognition System (Ogg file)",
+    "task": "Speech Recognition",
+    "deployment": "production",
+    "description": "This webservice uses automatic speech recognition to provide the transcriptions of recordings spoken in English recordings. You can upload and process only one file per project. For bulk processing and other questions, please contact Henk van den Heuvel at h.vandenheuvel@let.ru.nl.",
+    "homepage": "https://webservices.cls.ru.nl/eng_ASR",
+    "licence": "",
+    "location": "unknown",
+    "creators": null,
+    "contact": {
+        "person": "",
+        "email": ""
+    },
+    "version": null,
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/eng_ASR",
+    "logo": null,
+    "mapping": {
+        "input": "InputOggFile_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null
+    },
+    "mimetypes": [
+        "audio/ogg"
+    ],
+    "languages": [
+        "eng"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

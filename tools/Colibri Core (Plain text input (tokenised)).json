@@ -1,0 +1,40 @@
+{
+    "name": "Colibri Core (Plain text input (tokenised))",
+    "task": "N-Gramming",
+    "deployment": "production",
+    "description": "A tool for pattern extraction and analysis on corpus data.",
+    "homepage": "https://proycon.github.io/colibri-core",
+    "licence": "GNU General Public License v3",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Maarten van Gompel (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "lamasoftware@science.ru.nl",
+        "email": "lamasoftware@science.ru.nl"
+    },
+    "version": null,
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/colibricore",
+    "logo": null,
+    "mapping": {
+        "input": "textinput_tok_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "mintokens": 2,
+        "minlength": 1,
+        "maxlength": 5,
+        "cooc": 0,
+        "npmi": -1.0
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [],
+    "output": [
+        "text/plain",
+        "application/octet-stream",
+        "text/csv"
+    ],
+    "langEncoding": "639-3"
+}

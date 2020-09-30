@@ -1,0 +1,35 @@
+{
+    "name": "Glem (Text to lemmatize)",
+    "task": "Lemmatization",
+    "deployment": "production",
+    "description": "GLEM is a lemmatizer for Ancient Greek.",
+    "homepage": "https://github.com/GreekPerspective/glem/",
+    "licence": "",
+    "location": "Faculty of Philosophy, Theology and Religious Studies and Centre for Language and Speech Technology, Radboud University Nijmegen",
+    "creators": "Corien Bary, Peter Berck, Iris Hendrickx, Wessel Stoop (Faculty of Philosophy, Theology and Religious Studies and Centre for Language and Speech Technology, Radboud University Nijmegen)",
+    "contact": {
+        "person": "c.bary@ftr.ru.nl",
+        "email": "c.bary@ftr.ru.nl"
+    },
+    "version": null,
+    "authentication": "no",
+    "url": "http://webservices.cls.ru.nl",
+    "logo": null,
+    "mapping": {
+        "input": "text_to_lemmatize_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [
+        "grc"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}
