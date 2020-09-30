@@ -1,7 +1,6 @@
 {
     "task": "Sentiment Analysis",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Concraft -> Sentipejd",
     "logo": "zil.png",
     "homepage": "http://iis.ipipan.waw.pl/2008/proceedings/iis08-20.pdf",
@@ -30,7 +29,7 @@
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "analysis": "3"
     }
 }

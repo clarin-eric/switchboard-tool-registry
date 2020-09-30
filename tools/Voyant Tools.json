@@ -1,7 +1,6 @@
 {
     "task": "Distant Reading",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Voyant Tools",
     "logo": "voyant-tools.jpg",
     "homepage": "http://voyant-tools.org",
@@ -30,6 +29,7 @@
         "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/tei+xml",
         "application/tei+xml;format-variant=tei-dta"
     ],
     "output": [
@@ -37,6 +37,6 @@
     ],
     "url": "https://voyant-tools.org/",
     "parameters": {
-        "input": "self.linkToResource"
+        "input": null
     }
 }

@@ -1,7 +1,6 @@
 {
     "task": "Text Summarization",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Concraft -> Bartek -> NicolasSummarizer",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/Nicolas",
@@ -30,7 +29,7 @@
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "analysis": "6"
     }
 }

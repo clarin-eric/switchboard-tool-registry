@@ -1,7 +1,6 @@
 {
     "task": "Named Entity Recognition",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "D4Science NER (GATE's Annie)",
     "logo": "d4science.png",
     "homepage": "https://www.d4science.org",
@@ -27,7 +26,7 @@
     ],
     "url": "https://next.d4science.org/nlp-hub/",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "token": "a92dc66c-bf09-48cb-9a96-8e765f11e7b1-843339462"
     }
 }

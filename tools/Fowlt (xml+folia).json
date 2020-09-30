@@ -1,7 +1,6 @@
 {
     "task": "Spelling correction",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Fowlt (xml+folia)",
     "logo": "fowlt.jpg",
     "homepage": "http://fowlt.net",
@@ -28,7 +27,7 @@
     "url": "https://webservices-lst.science.ru.nl/fowlt/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "foliainput_url"

@@ -1,7 +1,6 @@
 {
     "task": "Topic Modelling",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "Topic",
     "logo": "clarin-pl.png",
     "homepage": "http://ws.clarin-pl.eu",
@@ -27,7 +26,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "pl",
         "analysis": "topic",
         "batch": "true"

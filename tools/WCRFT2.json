@@ -1,7 +1,6 @@
 {
     "task": "Morpho-syntactic tagger",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "WCRFT2",
     "logo": "clarin-pl.png",
     "homepage": "http://nlp.pwr.wroc.pl/redmine/projects/wcrft/wiki/",
@@ -35,7 +34,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "pl",
         "analysis": "tagger"
     }

@@ -1,7 +1,6 @@
 {
     "task": "Stylometry",
     "deployment": "production",
-    "softwareType": "quantitative",
     "name": "WebSty",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",
@@ -32,8 +31,8 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
-        "lang": "self.linkToResourceLanguage",
+        "input": null,
+        "lang": null,
         "analysis": "websty",
         "batch": "true"
     }

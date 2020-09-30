@@ -1,7 +1,6 @@
 {
     "task": "Coreference Resolution",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Concraft -> Bartek",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/Bartek",
@@ -30,7 +29,7 @@
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "analysis": "5"
     }
 }

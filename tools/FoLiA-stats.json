@@ -1,7 +1,6 @@
 {
     "task": "N-Gramming",
     "deployment": "development",
-    "softwareType": "quantitative",
     "name": "FoLiA-stats",
     "logo": "foliastats.jpg",
     "homepage": "https://github.com/LanguageMachines/foliautils",
@@ -31,7 +30,7 @@
     "url": "https://webservices-lst.science.ru.nl/foliastats/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "foliainput_url"

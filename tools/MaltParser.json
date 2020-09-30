@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "MaltParser",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",
@@ -35,7 +34,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "pl",
         "analysis": "parser"
     }

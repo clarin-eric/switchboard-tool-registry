@@ -1,7 +1,6 @@
 {
     "task": "TF, IDF, TF-IDF calculation",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "TF-IDF",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",
@@ -35,7 +34,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "pl",
         "analysis": "tfidf"
     }

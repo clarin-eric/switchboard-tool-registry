@@ -1,7 +1,6 @@
 {
     "task": "NLP suite for Dutch",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Frog (plain text)",
     "logo": "frog.jpg",
     "homepage": "https://languagemachines.github.io/frog/",
@@ -29,7 +28,7 @@
     "url": "https://webservices-lst.science.ru.nl/frog/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "maininput_url"

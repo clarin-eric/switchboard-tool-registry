@@ -1,7 +1,6 @@
 {
     "task": "Named Entity Recognition",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Concraft -> Nerf",
     "logo": "zil.png",
     "homepage": "http://zil.ipipan.waw.pl/Nerf",
@@ -30,7 +29,7 @@
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "analysis": "2"
     }
 }

@@ -1,7 +1,6 @@
 {
     "task": "Spelling correction",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Valkuil (plain text)",
     "logo": "valkuil.jpg",
     "homepage": "http://valkuil.net",
@@ -28,7 +27,7 @@
     "url": "https://webservices-lst.science.ru.nl/valkuil/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "textinput_url"

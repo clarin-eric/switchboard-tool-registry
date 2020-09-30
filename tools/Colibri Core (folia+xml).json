@@ -1,7 +1,6 @@
 {
     "task": "N-Gramming",
     "deployment": "development",
-    "softwareType": "quantitative",
     "name": "Colibri Core (folia+xml)",
     "logo": "colibriCore.jpg",
     "homepage": "https://github.com/proycon/colibri-core",
@@ -35,8 +34,8 @@
     "url": "https://webservices-lst.science.ru.nl/colibricore/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource",
-        "lang": "self.linkToResourceLanguage",
+        "input": null,
+        "lang": null,
         "sentenceperline_input": "false",
         "sentenceperline_output": "false"
     },

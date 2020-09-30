@@ -1,7 +1,6 @@
 {
     "task": "Spelling correction",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Valkuil (folia+xml)",
     "logo": "valkuil.jpg",
     "homepage": "https://languagemachines.github.io/Valkuil/",
@@ -28,7 +27,7 @@
     "url": "https://webservices-lst.science.ru.nl/valkuil/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "foliainput_url"

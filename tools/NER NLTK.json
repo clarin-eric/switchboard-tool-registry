@@ -1,7 +1,6 @@
 {
     "task": "Named Entity Recognition",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "NER NLTK",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",
@@ -34,7 +33,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "en",
         "analysis": "nerNLTK"
     }

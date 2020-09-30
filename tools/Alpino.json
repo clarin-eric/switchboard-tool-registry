@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "development",
-    "softwareType": "qualitative",
     "name": "Alpino",
     "logo": "alpino.jpg",
     "homepage": "http://www.let.rug.nl/vannoord/alp/Alpino/",
@@ -30,7 +29,7 @@
     "url": "https://webservices-lst.science.ru.nl/alpino/",
     "parameters": {
         "project": "new",
-        "input": "self.linkToResource"
+        "input": null
     },
     "mapping": {
         "input": "untokinput_url"

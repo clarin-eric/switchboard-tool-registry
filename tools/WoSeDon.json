@@ -1,7 +1,6 @@
 {
     "task": "Word sense disambiguation",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "WoSeDon",
     "logo": "clarin-pl.png",
     "homepage": "https://ws.clarin-pl.eu",
@@ -35,7 +34,7 @@
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "lang": "pl",
         "analysis": "wsd"
     }

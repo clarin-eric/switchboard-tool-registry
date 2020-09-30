@@ -1,7 +1,6 @@
 {
     "task": "Dependency Parsing",
     "deployment": "production",
-    "softwareType": "qualitative",
     "name": "Spacy (hosted by D4Science) - DE",
     "lifecycle": "beta",
     "logo": "d4science.png",
@@ -28,7 +27,7 @@
     ],
     "url": "https://next.d4science.org/nlp-hub-spacyGerman/",
     "parameters": {
-        "input": "self.linkToResource",
+        "input": null,
         "token": "27061e4d-3567-482d-9f12-3a1af5e42ab9-843339462"
     }
 }
