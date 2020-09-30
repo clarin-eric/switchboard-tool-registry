@@ -1,6 +1,6 @@
 {
     "task": "3D Visualisation",
-    "deployment": "production",
+    "deployment": "development",
     "name": "Ariadne Visual Media Service",
     "logo": "YourLogoComesHere.png",
     "homepage": "https://visual.ariadne-infrastructure.eu",
