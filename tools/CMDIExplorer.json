@@ -2,7 +2,7 @@
     "task": "Metadata Processing",
     "deployment": "production",
     "name": "CMDI Explorer",
-    "logo": "cmdiexplorer.jpg",
+    "logo": "cmdiexplorer.png",
     "homepage": "https://weblicht.sfs.uni-tuebingen.de/CMDIExplorer",
     "location": "Tuebingen, Germany",
     "creators": "CLARIN-D Centre at the University of Tuebingen, Germany",
