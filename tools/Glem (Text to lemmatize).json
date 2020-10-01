@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "no",
     "url": "http://webservices.cls.ru.nl",
-    "logo": null,
     "mapping": {
         "input": "text_to_lemmatize_url"
     },

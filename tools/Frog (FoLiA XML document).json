@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/frog",
-    "logo": "frog.jpg",
     "mapping": {
         "input": "foliainput_url"
     },
@@ -29,6 +28,7 @@
     "languages": [
         "nld"
     ],
+    "logo": "frog.jpg",
     "output": [
         "text/plain",
         "text/xml"

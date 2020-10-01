@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/colibricore",
-    "logo": null,
     "mapping": {
         "lang": "textinput_untok_language",
         "input": "textinput_untok_url"
@@ -42,8 +41,8 @@
         "fry"
     ],
     "output": [
-        "text/plain",
         "application/octet-stream",
+        "text/plain",
         "text/csv"
     ],
     "langEncoding": "639-1"

@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/valkuil",
-    "logo": "valkuil.jpg",
     "mapping": {
         "input": "textinput_url"
     },
@@ -29,9 +28,10 @@
     "languages": [
         "nld"
     ],
+    "logo": "valkuil.jpg",
     "output": [
-        "text/xml",
-        "text/plain"
+        "text/plain",
+        "text/xml"
     ],
     "langEncoding": "639-3"
 }

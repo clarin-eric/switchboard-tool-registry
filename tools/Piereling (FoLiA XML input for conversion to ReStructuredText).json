@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/piereling",
-    "logo": null,
     "mapping": {
         "input": "folia2rst_in_url"
     },
@@ -28,8 +27,8 @@
     ],
     "languages": [],
     "output": [
-        "text/rst",
-        "text/plain"
+        "text/plain",
+        "text/rst"
     ],
     "langEncoding": "639-3"
 }

@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/tscan",
-    "logo": "tscan.jpg",
     "mapping": {
         "input": "textinput_url"
     },
@@ -38,11 +37,12 @@
     "languages": [
         "nld"
     ],
+    "logo": "tscan.jpg",
     "output": [
-        "text/xml",
-        "application/xslt+xml",
         "text/csv",
-        "text/plain"
+        "application/xslt+xml",
+        "text/plain",
+        "text/xml"
     ],
     "langEncoding": "639-3"
 }

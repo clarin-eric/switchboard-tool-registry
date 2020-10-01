@@ -14,7 +14,6 @@
     "version": null,
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/alpino",
-    "logo": "alpino.jpg",
     "mapping": {
         "input": "tokinput_url"
     },
@@ -28,10 +27,11 @@
     "languages": [
         "nld"
     ],
+    "logo": "alpino.jpg",
     "output": [
-        "text/xml",
         "application/zip",
-        "text/plain"
+        "text/plain",
+        "text/xml"
     ],
     "langEncoding": "639-3"
 }
