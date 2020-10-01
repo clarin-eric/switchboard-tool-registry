@@ -32,9 +32,9 @@
     ],
     "languages": [],
     "output": [
+        "application/octet-stream",
         "text/csv",
-        "text/plain",
-        "application/octet-stream"
+        "text/plain"
     ],
     "langEncoding": "639-3"
 }

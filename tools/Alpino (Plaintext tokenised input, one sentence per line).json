@@ -29,9 +29,9 @@
         "nld"
     ],
     "output": [
-        "text/plain",
         "text/xml",
-        "application/zip"
+        "application/zip",
+        "text/plain"
     ],
     "langEncoding": "639-3"
 }
