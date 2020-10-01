@@ -35,7 +35,7 @@ clam2switchboard --ignore --url https://webservices.cls.ru.nl/glem -l grc --task
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/g2pservice  --task "Grapheme to Phoneme Conversion"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/t2t -l rus,ukr,ara  --task "Transliteration"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/valkuil -l nld --task "Spelling correction"
-clam2switchboard --ignore --url https://webservices.cls.ru.nl/tscan -l nld --task "Text analytics"
+clam2switchboard --ignore --url https://webservices.cls.ru.nl/tscan -l nld --task "Text Analytics"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/piccl --langparam lang --task "Text Normalisation" #not enough, needs multiple tasks
 
 
