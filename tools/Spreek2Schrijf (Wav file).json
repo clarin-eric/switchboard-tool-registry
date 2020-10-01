@@ -12,6 +12,7 @@
         "email": ""
     },
     "version": null,
+    "logo": "",
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/spreek2schrijf",
     "mapping": {
@@ -28,8 +29,8 @@
         "nld"
     ],
     "output": [
-        "text/xml",
-        "text/plain"
+        "text/plain",
+        "text/xml"
     ],
     "langEncoding": "639-3"
 }

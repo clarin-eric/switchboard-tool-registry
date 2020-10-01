@@ -12,6 +12,7 @@
         "email": "c.bary@ftr.ru.nl"
     },
     "version": null,
+    "logo": "",
     "authentication": "no",
     "url": "http://webservices.cls.ru.nl",
     "mapping": {

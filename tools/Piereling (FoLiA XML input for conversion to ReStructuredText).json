@@ -12,6 +12,7 @@
         "email": "proycon@anaproy.nl"
     },
     "version": null,
+    "logo": "",
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/piereling",
     "mapping": {
@@ -27,8 +28,8 @@
     ],
     "languages": [],
     "output": [
-        "text/plain",
-        "text/rst"
+        "text/rst",
+        "text/plain"
     ],
     "langEncoding": "639-3"
 }

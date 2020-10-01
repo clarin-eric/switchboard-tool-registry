@@ -12,6 +12,7 @@
         "email": "lamasoftware@science.ru.nl"
     },
     "version": null,
+    "logo": "",
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/colibricore",
     "mapping": {
@@ -41,9 +42,9 @@
         "fry"
     ],
     "output": [
-        "application/octet-stream",
+        "text/csv",
         "text/plain",
-        "text/csv"
+        "application/octet-stream"
     ],
     "langEncoding": "639-1"
 }

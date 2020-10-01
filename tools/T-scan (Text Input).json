@@ -12,6 +12,7 @@
         "email": "M.H.vanderKlis@uu.nl"
     },
     "version": null,
+    "logo": "",
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/tscan",
     "mapping": {
@@ -37,12 +38,11 @@
     "languages": [
         "nld"
     ],
-    "logo": "tscan.jpg",
     "output": [
-        "text/csv",
-        "application/xslt+xml",
         "text/plain",
-        "text/xml"
+        "text/csv",
+        "text/xml",
+        "application/xslt+xml"
     ],
     "langEncoding": "639-3"
 }

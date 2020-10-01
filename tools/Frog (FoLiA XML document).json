@@ -12,6 +12,7 @@
         "email": "lamasoftware@science.ru.nl"
     },
     "version": null,
+    "logo": "",
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/frog",
     "mapping": {
@@ -28,10 +29,9 @@
     "languages": [
         "nld"
     ],
-    "logo": "frog.jpg",
     "output": [
-        "text/plain",
-        "text/xml"
+        "text/xml",
+        "text/plain"
     ],
     "langEncoding": "639-3"
 }
