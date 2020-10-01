@@ -3,13 +3,13 @@
     "task": "Speech Recognition",
     "deployment": "production",
     "description": "Deze webservice gebruikt spraakherkenning om opnamen in de Tweede Kamer om te zetten in een spraaktranscriptie, en een vertaalengine om deze vervolgens naar schrijftaal om te zetten.",
-    "homepage": "https://webservices.cls.ru.nl/spreek2schrijf",
-    "licence": "",
-    "location": "unknown",
-    "creators": "",
+    "homepage": "https://github.com/proycon/spreek2schrijf",
+    "licence": "GNU Public License v3",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Maarten van Gompel, Louis ten Bosch (Centre for Language and Speech Technology, Radboud University)",
     "contact": {
-        "person": "",
-        "email": ""
+        "person": "h.vandenheuvel@let.ru.nl",
+        "email": "h.vandenheuvel@let.ru.nl"
     },
     "version": null,
     "logo": "",

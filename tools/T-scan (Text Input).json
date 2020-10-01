@@ -39,10 +39,10 @@
         "nld"
     ],
     "output": [
-        "application/xslt+xml",
-        "text/plain",
         "text/csv",
-        "text/xml"
+        "application/xslt+xml",
+        "text/xml",
+        "text/plain"
     ],
     "langEncoding": "639-3"
 }
