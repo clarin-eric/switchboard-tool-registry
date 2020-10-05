@@ -44,6 +44,7 @@
         "Keyword Extractor",
         "Lemmatization",
         "Machine Translation",
+        "Metadata Processing",
         "Morpho-syntactic tagger",
         "Morphological Analysis",
         "N-Gramming",
