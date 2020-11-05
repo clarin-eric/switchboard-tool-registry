@@ -1,7 +1,7 @@
 {
     "task": "Visualisation",
     "deployment": "development",
-    "name": "DARIAH-DE Geo-Browser",
+    "name": "DARIAH-DE Geo-Browser (CSV)",
     "logo": "dariah.svg",
     "homepage": "https://de.dariah.eu/en/geobrowser",
     "location": "Göttingen, Germany",
@@ -19,9 +19,6 @@
     ],
     "mimetypes": [
         "text/csv",
-        "application/vnd.google-earth.kml+xml",
-        "application/vnd.google-earth.kmz",
-        "application/vnd.dariahde.geobrowser.kml+xml",
         "application/vnd.dariahde.geobrowser.csv"
     ],
     "languages": [
@@ -29,8 +26,11 @@
         "generic"
     ],
     "langEncoding": "639-1",
+    "url": "https://geobrowser.de.dariah.eu/beta/",
     "parameters": {
-        "input": "self.linkToResource"
+        "input": null
     },
-    "url": "https://geobrowser.de.dariah.eu/beta/"
+    "mapping": {
+        "input": "csv"
+    }
 }
