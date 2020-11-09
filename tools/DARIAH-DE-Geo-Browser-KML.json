@@ -2,7 +2,7 @@
     "task": "Visualisation",
     "deployment": "development",
     "name": "DARIAH-DE Geo-Browser (KML)",
-    "logo": "dariah.svg",
+    "logo": "dariah-de.svg",
     "homepage": "https://de.dariah.eu/en/geobrowser",
     "location": "Göttingen, Germany",
     "creators": "Ubbo Veentjer (SUB Göttingen) and Stefan E. Funk (SUB Göttingen)",
