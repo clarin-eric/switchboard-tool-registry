@@ -5,14 +5,14 @@
     "logo": "dariah-de.svg",
     "homepage": "https://de.dariah.eu/en/geobrowser",
     "location": "Göttingen, Germany",
-    "creators": "Ubbo Veentjer (SUB Göttingen) and Stefan E. Funk (SUB Göttingen)",
+    "creators": "DARIAH-DE",
     "contact": {
-        "person": "Stefan E Funk",
+        "person": "DARIAH-DE Helpdesk",
         "email": "support@de.dariah.eu"
     },
     "version": "v3.6-BETA",
     "authentication": "DARIAH AAI (restricted resources), none (public resources)",
-    "description": "The DARIAH-DE Geo-Browser allows a comparative visualization of several requests and facilitates the representation of data and their visualization in a correlation of geographic spatial relations at corresponding points of time and sequences. Thus, researchers can analyze space-time relations of data and collections of source material and simultaneously establish correlations between them. This sample dataset for the Geo-Browser shows publishing dates and locations of works by Friedrich Schiller and Johann Wolfgang von Goethe plotted against each other.",
+    "description": "The DARIAH-DE Geo-Browser allows a comparative visualization of several requests and facilitates the representation of data and their visualization in a correlation of geographic spatial relations at corresponding points of time and sequences. Thus, researchers can analyze space-time relations of data and collections of source material and simultaneously establish correlations between them.",
     "licence": "LGPL-3.0-or-later",
     "output": [
         "none"
