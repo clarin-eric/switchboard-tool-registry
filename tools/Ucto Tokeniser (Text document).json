@@ -1,0 +1,49 @@
+{
+    "name": "Ucto Tokeniser (Text document)",
+    "task": "Tokenisation",
+    "deployment": "production",
+    "description": "Ucto is a unicode-compliant tokeniser. It takes input in the form of one or more untokenised texts, and subsequently tokenises them. Several languages are supported, but the software is extensible to other languages.",
+    "homepage": "https://languagemachines.github.io/ucto",
+    "licence": "GNU General Public License v3",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Maarten van Gompel, Ko van der Sloot (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "lamasoftware@science.ru.nl",
+        "email": "lamasoftware@science.ru.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/ucto",
+    "mapping": {
+        "lang": "untokinput_language",
+        "input": "untokinput_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "xml": true,
+        "lang": "self.linkToResourceLanguage"
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [
+        "eng",
+        "nld",
+        "fra",
+        "deu",
+        "ita",
+        "fry",
+        "swe",
+        "rus",
+        "spa",
+        "por",
+        "tur"
+    ],
+    "output": [
+        "text/xml",
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

@@ -1,0 +1,48 @@
+{
+    "name": "T-scan (Text Input)",
+    "task": "Text Analytics",
+    "deployment": "production",
+    "description": "T-Scan is an analysis tool for dutch texts to assess the complexity of the text, and is based on original work by Rogier Kraf (Utrecht University) (see: Kraf et al., 2009). The code has been reimplemented and extended by Ko van der Sloot (Tilburg University), and is currently maintained and continued by Martijn van der Klis (Utrecht University).",
+    "homepage": "https://github.com/proycon/tscan",
+    "licence": "GNU Affero General Public License v3",
+    "location": "Utrecht University",
+    "creators": "Ko van der Sloot, Martijn van der Klis, Maarten van Gompel (Utrecht University)",
+    "contact": {
+        "person": "M.H.vanderKlis@uu.nl",
+        "email": "M.H.vanderKlis@uu.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/tscan",
+    "mapping": {
+        "input": "textinput_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "overlapSize": 50,
+        "frequencyClip": 99.0,
+        "mtldThreshold": 0.72,
+        "useAlpino": "yes",
+        "useWopr": "yes",
+        "sentencePerLine": "no",
+        "prevalence": "nl",
+        "word_freq_lex": "SoNaR500.wordfreqlist_words.freq",
+        "lemma_freq_lex": "SoNaR500.wordfreqlist_lemma.freq",
+        "top_freq_lex": "SoNaR500.wordfreqlist20000.freq"
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [
+        "nld"
+    ],
+    "output": [
+        "text/csv",
+        "application/xslt+xml",
+        "text/xml",
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

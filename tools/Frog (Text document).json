@@ -1,0 +1,37 @@
+{
+    "name": "Frog (Text document)",
+    "task": "NLP suite for Dutch",
+    "deployment": "production",
+    "description": "Frog is a suite containing a tokeniser, Part-of-Speech tagger, lemmatiser, morphological analyser, shallow parser, and dependency parser for Dutch.",
+    "homepage": "https://languagemachines.github.io/frog",
+    "licence": "GNU General Public License v3",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Ko van der Sloot, Antal van den Bosch, Maarten van Gompel, Bertjan Busser (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "lamasoftware@science.ru.nl",
+        "email": "lamasoftware@science.ru.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/frog",
+    "mapping": {
+        "input": "maininput_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "skip": []
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [
+        "nld"
+    ],
+    "output": [
+        "text/xml",
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

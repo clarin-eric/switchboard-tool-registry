@@ -1,0 +1,39 @@
+{
+    "name": "Transliterations (Word List)",
+    "task": "Transliteration",
+    "deployment": "production",
+    "description": "Transliteration: Ukranian to Russian, Russian to Ukrainian, or from Arabic to Latin",
+    "homepage": "https://webservices.cls.ru.nl/t2t",
+    "licence": "",
+    "location": "unknown",
+    "creators": "Louis ten Bosch",
+    "contact": {
+        "person": "l.tenbosch@let.ru.nl",
+        "email": "l.tenbosch@let.ru.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/t2t",
+    "mapping": {
+        "input": "wordlist_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "task": "uk2ru",
+        "n": 1
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [
+        "rus",
+        "ukr",
+        "ara"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

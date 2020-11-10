@@ -1,0 +1,37 @@
+{
+    "name": "Valkuil.net (FoLiA Document (tokenised))",
+    "task": "Spelling correction",
+    "deployment": "production",
+    "description": "Valkuil doet context-gevoelige spellingcorrectie voor het Nederlands, aangedreven door Gecco.",
+    "homepage": "https://github.com/proycon/valkuil-gecco",
+    "licence": "Affero GNU General Public License v3",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Maarten van Gompel, Antal van den Bosch (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "lamasoftware@science.ru.nl",
+        "email": "lamasoftware@science.ru.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/valkuil",
+    "mapping": {
+        "input": "foliainput_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "sensitivity": 0.75
+    },
+    "mimetypes": [
+        "text/xml"
+    ],
+    "languages": [
+        "nld"
+    ],
+    "output": [
+        "text/plain",
+        "text/xml"
+    ],
+    "langEncoding": "639-3"
+}

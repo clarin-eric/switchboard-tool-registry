@@ -1,0 +1,39 @@
+{
+    "name": "Grapheme to Phoneme converter (Word List)",
+    "task": "Grapheme to Phoneme Conversion",
+    "deployment": "production",
+    "description": "Grapheme to Phoneme converter using phonetisaurus",
+    "homepage": "https://webservices.cls.ru.nl/g2pservice",
+    "licence": "",
+    "location": "unknown",
+    "creators": "Louis ten Bosch",
+    "contact": {
+        "person": "l.tenbosch@let.ru.nl",
+        "email": "l.tenbosch@let.ru.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/g2pservice",
+    "mapping": {
+        "lang": "_language",
+        "input": "wordlist_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "n": 1,
+        "lang": "self.linkToResourceLanguage"
+    },
+    "mimetypes": [
+        "text/plain"
+    ],
+    "languages": [
+        "nld",
+        "eng"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

@@ -1,0 +1,35 @@
+{
+    "name": "English Automatic Speech Recognition System (Wav file)",
+    "task": "Speech Recognition",
+    "deployment": "production",
+    "description": "This webservice uses automatic speech recognition to provide the transcriptions of recordings spoken in English recordings. You can upload and process only one file per project. For bulk processing and other questions, please contact Henk van den Heuvel at h.vandenheuvel@let.ru.nl.",
+    "homepage": "https://github.com/schemreier/oralhistory",
+    "licence": "",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Emre Yilmaz (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "h.vandenheuvel@let.ru.nl",
+        "email": "h.vandenheuvel@let.ru.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/eng_ASR",
+    "mapping": {
+        "input": "InputWavFile_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null
+    },
+    "mimetypes": [
+        "audio/wav"
+    ],
+    "languages": [
+        "eng"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

@@ -1,0 +1,58 @@
+{
+    "name": "PICCL (DJVU document containing scanned pages (perform OCR))",
+    "task": "Text Normalisation",
+    "deployment": "production",
+    "description": "PICCL offers a workflow for corpus building and builds on a variety of tools. The primary component of PICCL is TICCL; a Text-induced Corpus Clean-up system, which performs spelling correction and OCR post-correction (normalisation of spelling variants etc).",
+    "homepage": "https://webservices.cls.ru.nl/piccl",
+    "licence": "",
+    "location": "unknown",
+    "creators": "Martin Reynaert, Maarten van Gompel, Ko van der Sloot",
+    "contact": {
+        "person": "reynaert@uvt.nl",
+        "email": "reynaert@uvt.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/piccl",
+    "mapping": {
+        "lang": "_lang",
+        "input": "djvu_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "ticcl": "yes",
+        "ucto": "yes",
+        "frog": "yes",
+        "pos": true,
+        "lemma": true,
+        "lang": "self.linkToResourceLanguage"
+    },
+    "mimetypes": [
+        "application/pdf"
+    ],
+    "languages": [
+        "eng",
+        "nld",
+        "fin",
+        "fra",
+        "deu",
+        "ell",
+        "grc",
+        "isl",
+        "ita",
+        "lat",
+        "pol",
+        "por",
+        "ron",
+        "rus",
+        "spa",
+        "swe"
+    ],
+    "output": [
+        "text/xml",
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}

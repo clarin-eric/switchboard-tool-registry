@@ -1,0 +1,35 @@
+{
+    "name": "Piereling (FoLiA XML input for conversion to ReStructuredText)",
+    "task": "Data Conversion",
+    "deployment": "production",
+    "description": "Piereling can convert a wide variety of document formats to FoLiA XML, and from FoLiA XML to various formats. Data conversions such as these provide the groundwork for Natural Language Processing pipelines. It relies on numerous specialised conversion tools in combination with notable third-party tools such as pandoc.",
+    "homepage": "https://github.com/proycon/piereling",
+    "licence": "GNU Public License v3",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Maarten van Gompel (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "proycon@anaproy.nl",
+        "email": "proycon@anaproy.nl"
+    },
+    "version": null,
+    "logo": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/piereling",
+    "mapping": {
+        "input": "folia2rst_in_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "validationmode": "fail"
+    },
+    "mimetypes": [
+        "text/xml"
+    ],
+    "languages": [],
+    "output": [
+        "text/rst",
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}
