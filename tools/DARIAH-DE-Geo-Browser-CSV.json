@@ -11,7 +11,7 @@
         "email": "support@de.dariah.eu"
     },
     "version": "v3.6-BETA",
-    "authentication": "DARIAH AAI (restricted resources), none (public resources)",
+    "authentication": "no",
     "description": "The DARIAH-DE Geo-Browser allows a comparative visualization of several requests and facilitates the representation of data and their visualization in a correlation of geographic spatial relations at corresponding points of time and sequences. Thus, researchers can analyze space-time relations of data and collections of source material and simultaneously establish correlations between them.",
     "licence": "LGPL-3.0-or-later",
     "output": [
@@ -22,7 +22,6 @@
         "application/vnd.dariahde.geobrowser.csv"
     ],
     "languages": [
-        "eng",
         "generic"
     ],
     "langEncoding": "639-1",
