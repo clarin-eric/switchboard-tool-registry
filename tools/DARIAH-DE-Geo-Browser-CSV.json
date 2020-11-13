@@ -19,6 +19,7 @@
     ],
     "mimetypes": [
         "text/csv",
+        "text/comma-separated-value",
         "application/vnd.dariahde.geobrowser.csv"
     ],
     "languages": [
