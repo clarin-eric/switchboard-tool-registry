@@ -7,8 +7,8 @@ import json
 import fastjsonschema
 
 
-HELP = """Usage: validate-all-tools.py -s <SCHEMA_DEFINITION_FILE> -t <TOOLS_DIRECTORY>"""
-SCHEMA_DEFINITION_FILE = None
+HELP = """Usage: validate-all-tools.py -s <SCHEMA_DEFINITION_FILE1> -t <TOOLS_DIRECTORY>"""
+SCHEMA_DEFINITION_FILES = []
 TOOLS_DIRECTORY = None
 
 
@@ -28,13 +28,13 @@ def load_arguments(argv):
             print(HELP)
             sys.exit()
         elif opt in ("-s"):
-            global SCHEMA_DEFINITION_FILE
-            SCHEMA_DEFINITION_FILE = arg
+            global SCHEMA_DEFINITION_FILES
+            SCHEMA_DEFINITION_FILES.append(arg)
         elif opt in ("-t"):
             global TOOLS_DIRECTORY
             TOOLS_DIRECTORY = arg
 
-    if not SCHEMA_DEFINITION_FILE:
+    if not SCHEMA_DEFINITION_FILES:
         print("Missing SCHEMA_DEFINITION_FILE argument", file=sys.stderr)
         print(HELP)
         sys.exit(2)
@@ -45,14 +45,20 @@ def load_arguments(argv):
 
 
 def validate_tools():
-    print("Reading ", SCHEMA_DEFINITION_FILE)
-    try :
-        with open(SCHEMA_DEFINITION_FILE) as schema_file:
-            json_data = json.loads(schema_file.read())
-            validate = fastjsonschema.compile(json_data)
-    except fastjsonschema.JsonSchemaDefinitionException as xc:
-        print("! Error in json schema, file {}:\n\t{}\n".format(SCHEMA_DEFINITION_FILE, xc))
-        sys.exit(2)
+    validate_fns = []
+    for schema in SCHEMA_DEFINITION_FILES:
+        print("Reading schema", schema)
+        try:
+            with open(schema) as schema_file:
+                json_data = json.loads(schema_file.read())
+                validate = fastjsonschema.compile(json_data)
+                validate_fns.append(validate)
+        except json.JSONDecodeError as xc:
+            print("! Error in json schema, file {}:\n\t{}\n".format(schema, xc))
+            sys.exit(2)
+        except fastjsonschema.JsonSchemaDefinitionException as xc:
+            print("! Error in json schema, file {}:\n\t{}\n".format(schema, xc))
+            sys.exit(2)
 
     tool_dir_entries = [join(TOOLS_DIRECTORY, f) for f in listdir(TOOLS_DIRECTORY)]
     tool_files = [f for f in tool_dir_entries if isfile(f)]
@@ -60,13 +66,23 @@ def validate_tools():
     failed = False
     for filepath in tool_files:
         print("Validating", filepath)
+        failures = []
         with open(filepath) as file:
-            json_data = json.loads(file.read())
-            try :
-                validate(json_data)
-            except fastjsonschema.JsonSchemaException as xc:
-                print("! Error in json file {}:\n\t{}\n".format(filepath, xc))
-                failed = True
+            try:
+                json_data = json.loads(file.read())
+            except json.JSONDecodeError as xc:
+                print("! JSON decoding error: file {}\n\t{}".format(filepath, xc))
+                sys.exit(2)
+            for validate in validate_fns:
+                try:
+                    validate(json_data)
+                except fastjsonschema.JsonSchemaException as xc:
+                    failures.append(xc)
+        if len(failures) == len(validate_fns):
+            print("! Error in json file {}:\n".format(filepath))
+            for i, xc in enumerate(failures):
+                print("    --- failed to match schema {}: {}\n".format(i, xc))
+            failed = True
 
     if failed:
         sys.exit(2)

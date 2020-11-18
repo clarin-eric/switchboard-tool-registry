@@ -1,0 +1,98 @@
+{
+    "formatVersion": "2",
+    "task": "Constituency Parsing",
+    "deployment": "production",
+    "name": "EXMARaLDA",
+    "logo": "exmaralda.png",
+    "homepage": "https://exmaralda.org/",
+    "description": "**EXMARaLDA** is a system for working with oral corpora on a computer. It consists of a transcription and annotation tool\n([Partitur-Editor](https://exmaralda.org/en/partitur-editor-2/ \"Partitur Editor\")),\na tool for managing corpora\n([Corpus-Manager](https://exmaralda.org/en/corpus-manager-coma-2/ \"Corpus-Manager (Coma)\"))\nand a query and analysis tool\n([EXAKT](https://exmaralda.org/en/exakt-3/ \"EXAKT\")).\n\n**EXMARaLDA's** features include, for instance:\n\n- time-aligned transcription of digital audio or video\n- flexible annotation for freely choosable categories,\n- systematic documentation of a corpus through metadata\n- flexible output of transcription data in various\nlayouts and formats (notation, document)\n- computer-assisted querying of transcription,\nannotation and metadata\n- interoperable as it works XML based data formats that allow\nfor data exchange with other tools (like Praat, ELAN,\nTranscriber etc.) and enable a flexible processing and\nsustainable usage of the data.\n\n**EXMARaLDA** is used by [researchers world\nwide](https://exmaralda.org/en/projects/ \"Projekte\") in\ndifferent contexts in which spoken language is analysed,\nthese include:\n\n- conversation and discourse analysis,\n- study of language acquisition and multilingualism,\n- phonetics and phonology,\n- dialectology and sociolinguistics.\n\n**EXMARaLDA** was developed in the project \"Computer\nassisted methods for the creation and analysis of\nmultilingual data\" at the Collaborative Research Center\n\"Multilingualism\" (Sonderforschungsbereich\n\"Mehrsprachigkeit\" – SFB 538) at the University of\nHamburg. Since July 2011, the development of EXMARaLDA\nis continued at the [Hamburg Centre for Language\nCorpora](https://corpora.uni-hamburg.de/drupal/en),\nsince November 2011 in cooperation with the [Archive for\nSpoken German](http://agd.ids-mannheim.de/index.shtml)\nat the Institute for the German Language in Mannheim.",
+    "location": "Hamburg Germany; Mannheim, Germany",
+    "creators": "Thomas Schmidt (developer), Kai Wörner (developer), Timm Lehmberg (developer), Hanna Hedeland (developer)",
+    "contact": {
+        "url": "https://exmaralda.org/en/contact/"
+    },
+    "inputs": [
+        {
+            "id": "input",
+            "mediatypes": [
+                "application/tei+xml; format-variant=tei-iso-spoken",
+                "application/xml; format-variant=weblicht-tcf",
+                "application/xml; format-variant=exmaralda-exb",
+                "application/xml; format-variant=transcriber-trs",
+                "application/xml; format-variant=folker-fln",
+                "application/xml; format-variant=elan-eaf",
+                "application/xml; format-variant=clan-cha",
+                "text/plain; format-variant=praat-textgrid",
+                "audio/mp3",
+                "audio/ogg",
+                "audio/wav",
+                "video/mp4",
+                "audio/aiff",
+                "audio/mpeg",
+                "video/mpeg",
+                "video/ogg",
+                "video/avi",
+                "video/x-divx",
+                "video/mov"
+            ]
+        }
+    ],
+    "output": [
+        "application/tei+xml; format-variant=tei-iso-spoken",
+        "application/xml; format-variant=weblicht-tcf",
+        "application/xml; format-variant=exmaralda-exb",
+        "application/xml; format-variant=transcriber-trs",
+        "application/xml; format-variant=folker-fln",
+        "application/xml; format-variant=elan-eaf",
+        "application/xml; format-variant=clan-cha",
+        "application/plain+praat"
+    ],
+    "standaloneApplication": {
+        "downloadURL": [
+            {
+                "url": "https://exmaralda.org/en/release-version/",
+                "type": "release"
+            },
+            {
+                "url": "https://exmaralda.org/de/offizielle-version/",
+                "type": "release",
+                "targetlang": "de"
+            },
+            {
+                "url": "https://exmaralda.org/en/release-version/",
+                "type": "preview",
+                "targetlang": "en"
+            },
+            {
+                "url": "https://exmaralda.org/de/vorschau-version/",
+                "type": "preview",
+                "targetlang": "en"
+            }
+        ],
+        "applicationSuite": "EXMARaLDA",
+        "runtimeInformation": {
+            "runtimeEnvironment": [
+                "Java (included in newer versions)"
+            ],
+            "operatingSystem": [
+                {
+                    "name": "Windows",
+                    "versionFrom": "7",
+                    "versionTo": "10"
+                },
+                {
+                    "name": "macOS",
+                    "versionFrom": "10"
+                },
+                {
+                    "name": "Linux"
+                }
+            ]
+        }
+    },
+    "keywords": [
+        "Speech",
+        "Spoken Language",
+        "Transcription"
+    ]
+}

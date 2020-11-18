@@ -1,0 +1,94 @@
+{
+    "formatVersion": "2",
+    "task": "Constituency Parsing",
+    "deployment": "production",
+    "name": "test tool for validation",
+    "logo": "testtool.jpg",
+    "homepage": "https://example.org/",
+    "description": "**My test tool** \n\n Please report this tool as incorrectly listed.",
+    "location": "Tuebingen, Germany",
+    "creators": "Emanuel Dima",
+    "contact": {
+        "url": "https://example.org/en/contact/"
+    },
+    "authentication": null,
+    "inputs": [
+        {
+            "id": "speech",
+            "name": "Speech",
+            "mediatypes": [
+                "audio/basic",
+                "audio/flac",
+                "audio/mpeg",
+                "video/mp4",
+                "audio/ogg",
+                "audio/x-aiff",
+                "audio/x-flac",
+                "audio/x-wav",
+                "audio/x-nist",
+                "audio/x-sph",
+                "video/x-msvideo",
+                "video/x-flv"
+            ]
+        },
+        {
+            "id": "text",
+            "name": "Text",
+            "mediatypes": [
+                "text/plain",
+                "application/msword",
+                "application/pdf",
+                "application/rtf",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/vnd.oasis.opendocument.text"
+            ],
+            "languages": ["eng", "deu"]
+        }
+    ],
+
+    "output": [],
+
+    "standaloneApplication": {
+        "applicationSuite": "The Office",
+        "featureList": "",
+        "permissions": "",
+        "releaseNotes": "",
+        "softwareAddOn":"",
+        "softwareRequirements": "",
+        "supportingData": "",
+        "dataTransfer": "N/A",
+        "licenseInformation": ["CCBY"],
+        "availableOnDevice": ["any"],
+        "runtimeInformation": {
+            "operatingSystem": [
+                {"name": "Windows", "versionFrom": "7", "versionTo":"10"},
+                {"name": "macOS", "versionFrom": "10"},
+                {"name": "Linux"}
+            ],
+            "runtimeEnvironment": ["Java 14", "Docker"],
+            "memoryRequirements": "",
+            "storageRequirements": "",
+            "processorRequirements": "",
+            "fileSize": "",
+            "installationLicense": ["CCBY"]
+        },
+        "installURL": [ "https://some_url." ],
+        "downloadURL": [ {
+            "type": "release",
+            "targetlang": "eng",
+            "url": "https://example.org/en/release-version/"
+        }]
+    },
+
+    "webApplication": {
+        "applicationSuite":"The Office on Web",
+        "browserRequirements":"Chrome 922",
+        "scalabilityType":"classroomSize",
+        "licenseInformation":["CCBY"]
+    },
+
+    "usageRestrictions": {
+        "individualUserRestrictions": "academic",
+        "countriesNotSupported": "North Korea"
+    }
+}

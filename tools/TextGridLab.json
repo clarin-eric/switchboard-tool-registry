@@ -1,0 +1,85 @@
+{
+    "formatVersion": "2",
+    "task": "Editing",
+    "deployment": "production",
+    "name": "TextGrid Laboratory",
+    "logo": "textgrid.png",
+    "homepage": "https://textgrid.de/",
+    "description": "With the ***TextGridLab***, a free software package, you can access tools and services to create, manage and edit research data. The open source software is the entry point to the virtual research environment. It is available for Windows, Mac OS X and Linux and provides differentiated access rights management within the protected research environment. The TextGridLab is optimised for XML/TEI development, e.g. in the context of digital editions.\n\n**TextGridLab** features include, for instance:\n\n- Editor for text and XML with WYSIWYG functionality\n- Integrated unicode character table from the Unicode character set\n- A Text-Image-Link Editor\n- The Dictionary Search Tool\n- The note editor MEISE.\n\nThe infrastructure include powerful Project and User Management, Project Browser\n/Navigator, Search Tool, Metadata Editor Aggregation Composer, Import/Export Tool, revisions and collection publication (in the repository) supported by an automated metadata validation.\n\n**TextGridLab** is used by German researchers in different research networks and edition projects,\nsuch as:\n- hybrid edition of Theodor Fontane's notebooks (Fontane Research Centre of the University of Göttingen)\n- text database and dictionary of classical Maya (University of Bonn)\n- the Library of Neology (University of Münster).\n\n(see https://textgrid.de/en/web/guest/kooperationsprojekte)\n\n**TextGrid Lab** TextGrid was a project of ten partners, funded by the German Federal Ministry of Education and Research (BMBF) for the period from June 2012 to May 2015 (reference number: 01UG1203A). Since 2016, TextGrid is part of the DARIAH-DE Research Infrastructure.",
+    "location": "Göttingen Germany",
+    "creators": "Ubbo Veentjer, Stefan Funnk, Thorsten Vitt, Philipp Wieder",
+    "contact": {
+        "email": "funk@sub.uni-goettingen.de"
+    },
+    "inputs": [
+        {
+            "id": "input",
+            "mediatypes": [
+                "text/plain",
+                "application/xml",
+                "image/tiff"
+            ],
+            "languages": [
+                "deu",
+                "eng"
+            ]
+        }
+    ],
+    "output": [
+        "application/xml+tei"
+    ],
+    "standaloneApplication": {
+        "installURL": [
+            "https://textgrid.liferay.de.dariah.eu/en/web/guest/download"
+        ],
+        "downloadURL": [
+            {
+                "url": "https://textgridlab.org/download/3.3.0/TextGridLab-3.3.0-linux.gtk.x86.tar.gz",
+                "type": "release"
+            }
+        ],
+        "applicationSuite": "TextGrid",
+        "releaseNotes": "TextGridLab 3.3 bundles Java in version 8 and resolves problems which could occur with wrong or missing Java packages. Bugs in the Text-Image-Link Editor where resolved, which now works more reliable with larger numbers of images.",
+        "supportingData": "2018-10-23",
+        "licenseInformation": [
+            "https://textgrid.liferay.de.dariah.eu/en/web/guest/terms-of-use",
+            "https://wiki.de.dariah.eu/display/TextGrid/Data+Policies"
+        ],
+        "runtimeInformation": {
+            "processorRequirements": "32 / 64 bit",
+            "fileSize": "135 MB",
+            "runtimeEnvironment": [
+                "Java Runtime Environment, JRE Version 6"
+            ],
+            "installationLicense": [
+                "https://textgrid.liferay.de.dariah.eu/en/web/guest/terms-of-use"
+            ],
+            "operatingSystem": [
+                {
+                    "name": "Windows",
+                    "versionFrom": "XP",
+                    "versionTo": "10"
+                },
+                {
+                    "name": "macOS",
+                    "versionTo": "X"
+                },
+                {
+                    "name": "Linux",
+                    "versionTo": "X"
+                },
+                {
+                    "name": "Linux"
+                }
+            ]
+        }
+    },
+    "authentication": "DFN-AAI",
+    "keywords": [
+        "Corpus and Digital Library of TextGrid",
+        "Open Archival Information System (OAIS)"
+    ],
+    "usageRestrictions": {
+        "individualUserRestrictions": "academic"
+    }
+}
