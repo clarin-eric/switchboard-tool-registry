@@ -12,9 +12,9 @@
         "email": "c.bary@ftr.ru.nl"
     },
     "version": null,
-    "logo": "",
-    "authentication": "no",
-    "url": "http://webservices.cls.ru.nl",
+    "logo": "clst.png",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices.cls.ru.nl/glem",
     "mapping": {
         "input": "text_to_lemmatize_url"
     },
