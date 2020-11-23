@@ -42,8 +42,8 @@
         "tur"
     ],
     "output": [
-        "text/xml",
-        "text/plain"
+        "text/plain",
+        "text/xml"
     ],
     "langEncoding": "639-3"
 }

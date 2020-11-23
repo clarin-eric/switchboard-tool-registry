@@ -33,7 +33,7 @@ clam2switchboard --ignore --url https://webservices.cls.ru.nl/spreek2schrijf -l 
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/forcedalignment2 -l nld --logo clst.png --task "Speech Recognition"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/glem -l grc --logo clst.png --task "Lemmatization"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/g2pservice  --logo clst.png --task "Grapheme to Phoneme Conversion"
-clam2switchboard --ignore --url https://webservices.cls.ru.nl/t2t -l rus,ukr,ara  --task "Transliteration"
+clam2switchboard --ignore --url https://webservices.cls.ru.nl/t2t -l rus,ukr,ara  --logo clst.png --task "Transliteration"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/valkuil -l nld --task "Spelling correction"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/tscan -l nld --logo clst.png --task "Text Analytics"
 clam2switchboard --ignore --url https://webservices.cls.ru.nl/piccl --langparam lang --logo clst.png --task "Text Normalisation" #not enough, needs multiple tasks
