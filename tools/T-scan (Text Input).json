@@ -40,9 +40,9 @@
     ],
     "output": [
         "application/xslt+xml",
-        "text/xml",
         "text/csv",
-        "text/plain"
+        "text/plain",
+        "text/xml"
     ],
     "langEncoding": "639-3"
 }
