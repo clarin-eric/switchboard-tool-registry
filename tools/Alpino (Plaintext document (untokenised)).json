@@ -12,7 +12,7 @@
         "email": "lamasoftware@science.ru.nl"
     },
     "version": null,
-    "logo": "",
+    "logo": "alpino.jpg",
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/alpino",
     "mapping": {
@@ -29,9 +29,9 @@
         "nld"
     ],
     "output": [
-        "application/zip",
         "text/plain",
-        "text/xml"
+        "text/xml",
+        "application/zip"
     ],
     "langEncoding": "639-3"
 }
