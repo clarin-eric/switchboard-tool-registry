@@ -22,9 +22,7 @@
         "text/comma-separated-value",
         "application/vnd.dariahde.geobrowser.csv"
     ],
-    "languages": [
-        "generic"
-    ],
+    "languages": [],
     "langEncoding": "639-1",
     "url": "https://geobrowser.de.dariah.eu/beta/",
     "parameters": {

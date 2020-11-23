@@ -22,9 +22,7 @@
         "application/vnd.google-earth.kmz",
         "application/vnd.dariahde.geobrowser.kml+xml"
     ],
-    "languages": [
-        "generic"
-    ],
+    "languages": [],
     "langEncoding": "639-1",
     "url": "https://geobrowser.de.dariah.eu/beta/",
     "parameters": {
