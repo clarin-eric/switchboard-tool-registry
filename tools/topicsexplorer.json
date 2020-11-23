@@ -1,0 +1,45 @@
+{
+    "formatVersion": "2",
+    "task": "Analysing",
+    "deployment": "production",
+    "name": "TopicsExplorer",
+    "logo": "dariah-de.svg",
+    "homepage": "https://dariah-de.github.io/TopicsExplorer/",
+    "description": "The Topicsexplorer is a beginner-oriented Software allowing interested researchers to experiment with topic modeling on their own computers, with their own text corpora.",
+    "location": "",
+    "creators": "",
+    "contact": {
+        "email": "info@de.dariah.eu"
+    },
+    "inputs": [
+        {
+            "id": "input",
+            "mediatypes": [
+                "text/plain",
+                "text/xml"
+            ],
+            "languages": [
+                "any"
+            ]
+        }
+    ],
+    "output": [
+        "text/csv"
+    ],
+    "standaloneApplication": {
+        "downloadURL": [
+            {
+                "url": "https://github.com/DARIAH-DE/TopicsExplorer/releases/tag/v2.0",
+                "type": "release"
+            }
+        ],
+        "applicationSuite": "TopicsExplorer",
+        "licenseInformation": [
+            "Apache License, Version 2.0"
+        ]
+    },
+    "authentication": null,
+    "usageRestrictions": {
+        "individualUserRestrictions": "academic"
+    }
+}

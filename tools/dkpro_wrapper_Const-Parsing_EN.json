@@ -1,0 +1,54 @@
+{
+    "formatVersion": "2",
+    "task": "Annotating",
+    "deployment": "production",
+    "name": "DARIAH DKPro-Wrapper: Constituency Parsing",
+    "logo": "dariah-de.svg",
+    "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",
+    "description": "The DARIAH DKPro Wrapper is a wrapper for DKPro Core, a tool for linguistic annotation.",
+    "location": "",
+    "creators": "",
+    "contact": {
+        "email": "info@de.dariah.eu"
+    },
+    "inputs": [
+        {
+            "id": "input",
+            "mediatypes": [
+                "text/plain",
+                "text/xml"
+            ],
+            "languages": ["eng", "deu"]
+        }
+    ],
+    "output": [
+        "text/csv"
+    ],
+    "standaloneApplication": {
+        "downloadURL": [
+            {
+                "url": "https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases",
+                "type": "release"
+            },
+            {
+                "url": "https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/releases",
+                "type": "preview"
+            }
+        ],
+        "applicationSuite": "DARIAH-DE DKPro-Wrapper",
+        "featureList": "https://dkpro.github.io/dkpro-core/releases/2.1.0/docs/language-reference.html#_overview",
+        "licenseInformation": [
+            "Apache License, Version 2.0. Component licenses apply (see https://github.com/DARIAH-DE/DARIAH-DKPro-Wrapper/blob/master/License_Components.txt)"
+        ],
+        "runtimeInformation": {
+            "memoryRequirements": "4GB",
+            "runtimeEnvironment": [
+                "Java 1.8 or higher, 64bit"
+            ]
+        }
+    },
+    "authentication": null,
+    "usageRestrictions": {
+        "individualUserRestrictions": "academic"
+    }
+}
