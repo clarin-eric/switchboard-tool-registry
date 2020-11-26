@@ -1,4 +1,4 @@
-[![CI](https://github.com/clarin-eric/switchboard-tool-registry/workflows/CI/badge.svg)](https://github.com/clarin-eric/switchboard-tool-registry/actions?query=workflow%3ACI+branch%3Amain)
+[![CI](https://github.com/clarin-eric/switchboard-tool-registry/workflows/CI/badge.svg)](https://github.com/clarin-eric/switchboard-tool-registry/actions?query=workflow%3ACI)
 
 # The Switchboard Tool Registry
 
