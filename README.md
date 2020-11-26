@@ -1,3 +1,5 @@
+[![CI](https://github.com/clarin-eric/switchboard-tool-registry/workflows/CI/badge.svg)](https://github.com/clarin-eric/switchboard-tool-registry/actions?query=workflow%3ACI+branch%3Amain)
+
 # The Switchboard Tool Registry
 
 This repository hosts the registry of all tools used by the Switchboard (https://switchboard.clarin.eu).
