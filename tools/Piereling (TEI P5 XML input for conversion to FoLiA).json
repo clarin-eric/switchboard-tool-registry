@@ -24,7 +24,7 @@
         "validationmode": "fail"
     },
     "mimetypes": [
-        "text/tei+xml"
+        "application/tei+xml"
     ],
     "languages": [],
     "output": [
