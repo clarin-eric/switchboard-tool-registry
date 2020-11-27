@@ -24,7 +24,7 @@
         "topic": "OH"
     },
     "mimetypes": [
-        "audio/wav"
+        "audio/vnd.wave"
     ],
     "languages": [
         "nld"
