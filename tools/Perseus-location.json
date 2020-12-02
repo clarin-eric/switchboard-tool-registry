@@ -1,0 +1,31 @@
+{
+    "task": "Dictionary",
+    "deployment": "production",
+    "name": "Perseus Location Search",
+    "logo": "perseus.png",
+    "homepage": "https://www.perseus.tufts.edu/hopper/",
+    "location": "Massachusetts, United States",
+    "creators": "https://www.perseus.tufts.edu/hopper/about/who",
+    "contact": {
+        "person": "Gregory Crane (Editor in Chief)",
+        "email": "gregory.crane@tufts.edu"
+    },
+    "version": "4.0",
+    "authentication": null,
+    "licence": null,
+    "description": "The Perseus Digital Library, founded as and still often known as the Perseus Project, is an evolving digital library of resources for the study of the humanities. We are funded to perform research on developing tools to provide users with improved access to various types of materials. Past work has focused on building and linking together collections. Current work considers ways of developing and refining tools for presentation of the materials in the Perseus DL. We are primarily a research project, although we do incorporate services for our audience.\n\nFor more on who we are and what we do, see the [About Perseus](https://www.perseus.tufts.edu/hopper/about) page and our list of [publications](https://www.perseus.tufts.edu/hopper/about/publications).",
+    "languages": ["generic"],
+    "langEncoding": "639-3",
+    "mimetypes": ["text/plain"],
+    "output": ["text/plain"],
+    "url": "http://www.perseus.tufts.edu/hopper/nebrowser",
+    "parameters": {
+        "content":  null,
+        "full": "on",
+        "type_": "place"
+    },
+    "mapping": {
+        "content": "keyword",
+        "type_": "type"
+    }
+}
