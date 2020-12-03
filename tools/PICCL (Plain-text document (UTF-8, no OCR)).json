@@ -16,7 +16,7 @@
     "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
     "url": "https://webservices.cls.ru.nl/piccl",
     "mapping": {
-        "lang": "_lang",
+        "lang": "lang",
         "input": "textocr_url"
     },
     "parameters": {
