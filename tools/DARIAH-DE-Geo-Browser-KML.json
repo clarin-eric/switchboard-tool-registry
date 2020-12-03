@@ -1,0 +1,34 @@
+{
+    "task": "Visualisation",
+    "deployment": "production",
+    "name": "DARIAH-DE Geo-Browser (KML)",
+    "logo": "dariah-de.svg",
+    "homepage": "https://de.dariah.eu/en/geobrowser",
+    "location": "Göttingen, Germany",
+    "creators": "DARIAH-DE",
+    "contact": {
+        "person": "DARIAH-DE Helpdesk",
+        "email": "support@de.dariah.eu"
+    },
+    "version": "v3.6",
+    "authentication": "no",
+    "description": "The DARIAH-DE Geo-Browser allows a comparative visualization of several requests and facilitates the representation of data and their visualization in a correlation of geographic spatial relations at corresponding points of time and sequences. Thus, researchers can analyze space-time relations of data and collections of source material and simultaneously establish correlations between them.",
+    "licence": "LGPL-3.0-or-later",
+    "output": [
+        "none"
+    ],
+    "mimetypes": [
+        "application/vnd.google-earth.kml+xml",
+        "application/vnd.google-earth.kmz",
+        "application/vnd.dariahde.geobrowser.kml+xml"
+    ],
+    "languages": [],
+    "langEncoding": "639-1",
+    "url": "https://geobrowser.de.dariah.eu/",
+    "parameters": {
+        "input": null
+    },
+    "mapping": {
+        "input": "kml"
+    }
+}
