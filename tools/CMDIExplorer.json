@@ -1,0 +1,32 @@
+{
+    "task": "Metadata Processing",
+    "deployment": "production",
+    "name": "CMDI Explorer",
+    "logo": "cmdiexplorer.png",
+    "homepage": "https://weblicht.sfs.uni-tuebingen.de/CMDIExplorer",
+    "location": "Tuebingen, Germany",
+    "creators": "CLARIN-D Centre at the University of Tuebingen, Germany",
+    "contact": {
+        "person": "CLARIN WebLicht Support",
+        "email": "wlsupport@sfs.uni-tuebingen.de"
+    },
+    "version": "v1.0",
+    "authentication": null,
+    "licence": null,
+    "description": "The Explorer helps you explore CMDI metadata and process the resources they describe.",
+    "languages": [],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "application/x-cmdi+xml"
+    ],
+    "output": [
+        "application/zip"
+    ],
+    "url": "https://weblicht.sfs.uni-tuebingen.de/CMDIExplorer/input/#/switchboard/",
+    "parameters": {
+        "input": null
+    },
+    "mapping": {
+        "input": ""
+    }
+}
