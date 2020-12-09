@@ -1,5 +1,5 @@
 {
-    "task": "Relation between name entities detection",
+    "task": "Named Entity Relation Detection",
     "deployment": "production",
     "name": "Serel",
     "logo": "clarin-pl.png",
