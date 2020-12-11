@@ -30,7 +30,6 @@
       "type": "string",
       "title": "Task description",
       "enum": [
-        "3D Visualisation",
         "Constituency Parsing",
         "Coreference Resolution",
         "Data Conversion",
@@ -68,7 +67,8 @@
         "Tokenisation",
         "Topic Modelling",
         "Transliteration",
-        "Visualisation",
+        "Visualisation of 3D models",
+        "Visualisation of Geographic Data",
         "Word sense disambiguation"
       ]
     },
