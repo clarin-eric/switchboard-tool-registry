@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Speech transcription",
     "deployment": "production",
+    "integrationType": "External",
     "name": "ASR",
     "logo": "bas.png",
     "homepage": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR",

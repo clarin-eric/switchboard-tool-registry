@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Editing",
     "deployment": "production",
+    "integrationType": "Local",
     "name": "TextGrid Laboratory",
     "logo": "textgrid.png",
     "homepage": "https://textgrid.de/",

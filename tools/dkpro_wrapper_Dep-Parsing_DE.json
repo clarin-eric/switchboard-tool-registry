@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Dependency Parsing",
     "deployment": "production",
+    "integrationType": "Local",
     "name": "DARIAH DKPro-Wrapper: Depency Parsing DE",
     "logo": "dariah-de.svg",
     "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",

@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Lookup Tools",
     "deployment": "production",
+    "integrationType": "Integrated",
     "name": "iDAI.vocab DE",
     "logo": "dai-vocab.png",
     "homepage": "https://archwort.dainst.org",

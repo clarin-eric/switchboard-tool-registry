@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Named Entity Recognition",
     "deployment": "production",
+    "integrationType": "Local",
     "name": "DARIAH DKPro-Wrapper: Named Entity Recognition EN",
     "logo": "dariah-de.svg",
     "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",

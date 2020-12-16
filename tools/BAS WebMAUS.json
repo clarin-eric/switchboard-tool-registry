@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Speech segmentation",
     "deployment": "production",
+    "integrationType": "External",
     "name": "WebMAUS",
     "logo": "bas.png",
     "homepage": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic",
