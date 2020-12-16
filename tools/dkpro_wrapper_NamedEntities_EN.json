@@ -1,6 +1,6 @@
 {
     "formatVersion": "2",
-    "task": "Annotating",
+    "task": "Named Entity Recognition",
     "deployment": "production",
     "name": "DARIAH DKPro-Wrapper: Named Entity Recognition",
     "logo": "dariah-de.svg",

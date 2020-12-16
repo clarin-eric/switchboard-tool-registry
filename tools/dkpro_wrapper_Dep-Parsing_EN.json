@@ -1,6 +1,6 @@
 {
     "formatVersion": "2",
-    "task": "Annotating",
+    "task": "Dependency Parsing",
     "deployment": "production",
     "name": "DARIAH DKPro-Wrapper: Depency Parsing",
     "logo": "dariah-de.svg",

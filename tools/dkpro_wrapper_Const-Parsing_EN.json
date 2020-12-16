@@ -1,6 +1,6 @@
 {
     "formatVersion": "2",
-    "task": "Annotating",
+    "task": "Constituency Parsing",
     "deployment": "production",
     "name": "DARIAH DKPro-Wrapper: Constituency Parsing",
     "logo": "dariah-de.svg",

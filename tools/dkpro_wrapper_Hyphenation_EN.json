@@ -1,6 +1,6 @@
 {
     "formatVersion": "2",
-    "task": "Annotating",
+    "task": "Hyphenation",
     "deployment": "production",
     "name": "DARIAH DKPro-Wrapper: Hyphenation",
     "logo": "dariah-de.svg",

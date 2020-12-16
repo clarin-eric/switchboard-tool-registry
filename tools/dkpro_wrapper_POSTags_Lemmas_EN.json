@@ -1,6 +1,6 @@
 {
     "formatVersion": "2",
-    "task": "Annotating",
+    "task": "Lemmatization",
     "deployment": "production",
     "name": "DARIAH DKPro-Wrapper: POS-Tagging und Lemmatization",
     "logo": "dariah-de.svg",
