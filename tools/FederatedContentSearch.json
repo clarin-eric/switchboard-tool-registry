@@ -1,0 +1,28 @@
+{
+    "task": "Dictionary",
+    "deployment": "production",
+    "name": "Content Search",
+    "logo": "fcs.png",
+    "homepage": "https://contentsearch.clarin.eu/",
+    "creators": "https://contentsearch.clarin.eu/ws/fcs/2.0/aggregator/about",
+    "contact": {
+        "person": "Content Search Contact",
+        "email": "fcs@clarin.eu"
+    },
+    "authentication": null,
+    "licence": null,
+    "location": "Utrecht, Netherlands",
+    "description": "The CLARIN Content Search is a simple service that enables researchers to search for specific patterns across collections of data. The service is powered by a search engine that connects to the local data collections that are available in the centres. The data itself stays at the centre where it is hosted – therefore the underlying technique is called federated content search. The service summarizes and displays what is available. An easy next step is to go to the centre's specialised search interface to perform a more sophisticated query.",
+    "languages": ["generic"],
+    "langEncoding": "639-3",
+    "mimetypes": ["text/plain"],
+    "output": ["text/plain"],
+    "url": "https://contentsearch.clarin.eu/",
+    "parameters": {
+        "content":  null,
+        "mode": "search"
+    },
+    "mapping": {
+        "content": "query"
+    }
+}
