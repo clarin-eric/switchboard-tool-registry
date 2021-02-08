@@ -51,7 +51,8 @@
         "downloadURL": [
             {
                 "url": "https://exmaralda.org/en/release-version/",
-                "type": "release"
+                "type": "release",
+                "targetlang": "en"
             },
             {
                 "url": "https://exmaralda.org/de/offizielle-version/",
