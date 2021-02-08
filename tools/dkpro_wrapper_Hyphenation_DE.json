@@ -1,9 +1,9 @@
 {
     "formatVersion": "2",
-    "task": "Lemmatization",
+    "task": "Hyphenation",
     "deployment": "production",
-    "name": "DARIAH DKPro-Wrapper: POS-Tagging und Lemmatization EN",
-    "logo": "dariah-de.svg",
+    "name": "DARIAH DKPro-Wrapper: Hyphenation DE",
+    "logo": "",
     "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",
     "description": "The DARIAH DKPro Wrapper is a wrapper for DKPro Core, a tool for linguistic annotation.",
     "location": "",
@@ -14,8 +14,13 @@
     "inputs": [
         {
             "id": "input",
-            "mediatypes": ["text/plain", "text/xml"],
-            "languages": ["eng"]
+            "mediatypes": [
+                "text/plain",
+                "text/xml"
+            ],
+            "languages": [
+                "deu"
+            ]
         }
     ],
     "output": [
@@ -46,8 +51,7 @@
     },
     "authentication": null,
     "keywords": [
-        "POS",
-        "Lemma"
+        "Cleanup"
     ],
     "usageRestrictions": {
         "individualUserRestrictions": "academic"

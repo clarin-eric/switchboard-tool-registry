@@ -18,9 +18,7 @@
                 "text/plain",
                 "text/xml"
             ],
-            "languages": [
-                "any"
-            ]
+            "languages": "generic"
         }
     ],
     "output": [
@@ -31,6 +29,10 @@
             {
                 "url": "https://github.com/DARIAH-DE/TopicsExplorer/releases/tag/v2.0",
                 "type": "release"
+            },
+            {
+                "url": "https://github.com/DARIAH-DE/TopicsExplorer/releases/tag/v2.0",
+                "type": "preview"
             }
         ],
         "applicationSuite": "TopicsExplorer",
@@ -39,6 +41,9 @@
         ]
     },
     "authentication": null,
+    "keywords": [
+        "Topic modeling"
+    ],
     "usageRestrictions": {
         "individualUserRestrictions": "academic"
     }

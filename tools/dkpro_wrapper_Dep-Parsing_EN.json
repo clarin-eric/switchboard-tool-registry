@@ -2,7 +2,7 @@
     "formatVersion": "2",
     "task": "Dependency Parsing",
     "deployment": "production",
-    "name": "DARIAH DKPro-Wrapper: Depency Parsing",
+    "name": "DARIAH DKPro-Wrapper: Depency Parsing EN",
     "logo": "dariah-de.svg",
     "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",
     "description": "The DARIAH DKPro Wrapper is a wrapper for DKPro Core, a tool for linguistic annotation.",
@@ -18,7 +18,7 @@
                 "text/plain",
                 "text/xml"
             ],
-            "languages": ["eng", "deu"]
+            "languages": ["eng"]
         }
     ],
     "output": [
@@ -48,6 +48,9 @@
         }
     },
     "authentication": null,
+    "keywords": [
+        "Parsing"
+    ],
     "usageRestrictions": {
         "individualUserRestrictions": "academic"
     }

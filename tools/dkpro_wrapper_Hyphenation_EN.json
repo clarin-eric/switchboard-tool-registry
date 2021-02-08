@@ -2,7 +2,7 @@
     "formatVersion": "2",
     "task": "Hyphenation",
     "deployment": "production",
-    "name": "DARIAH DKPro-Wrapper: Hyphenation",
+    "name": "DARIAH DKPro-Wrapper: Hyphenation EN",
     "logo": "dariah-de.svg",
     "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",
     "description": "The DARIAH DKPro Wrapper is a wrapper for DKPro Core, a tool for linguistic annotation.",
@@ -14,11 +14,8 @@
     "inputs": [
         {
             "id": "input",
-            "mediatypes": [
-                "text/plain",
-                "text/xml"
-            ],
-            "languages": ["eng", "deu"]
+            "mediatypes": ["text/plain", "text/xml"],
+            "languages": ["eng"]
         }
     ],
     "output": [
@@ -48,6 +45,9 @@
         }
     },
     "authentication": null,
+    "keywords": [
+        "Cleanup"
+    ],
     "usageRestrictions": {
         "individualUserRestrictions": "academic"
     }
