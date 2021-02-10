@@ -1,0 +1,43 @@
+{
+    "formatVersion": "2",
+    "task": "Speech segmentation",
+    "deployment": "production",
+    "name": "WebMINNI",
+    "logo": "bas.png",
+    "homepage": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMINNI",
+    "location": "München, Germany",
+    "creators": "Florian Schiel, Andreas Kipp, Thomas Kisler",
+    "contact": {
+        "person": "Webservices",
+        "email": "webservices@phonetik.uni-muenchen.de"
+    },
+    "authentication": null,
+    "description": "The service WebMINNI calculates a phonetic segmentation and labeling based solely on the speech signal and without any text/phonological input. The service applies standard speech recognition techniques (HMM) combined with a phonotactic bi-gram model. The resulting segmentation/labeling is not of the same quality level as of the MAUS services (since the lexical/phonological information is missing). Nevertheless, the WebMINNI service may be useful for a coarse first labeling of a corpus that lacks any kind of text annotation.",
+    "inputs": [
+        {
+            "id": "speech",
+            "name": "Speech",
+            "mediatypes": [
+                "audio/basic",
+                "audio/flac",
+                "audio/mpeg",
+                "video/mp4",
+                "audio/ogg",
+                "audio/x-aiff",
+                "audio/x-flac",
+                "audio/vnd.wave",
+                "audio/x-nist",
+                "audio/x-sph",
+                "video/x-msvideo",
+                "video/x-flv"
+            ]
+        }
+    ],
+    "output": [],
+    "webApplication": {
+        "url": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMINNI",
+        "manualParameters": [
+            {"name": "input", "bind": "text/dataurl"}
+        ]
+    }
+}

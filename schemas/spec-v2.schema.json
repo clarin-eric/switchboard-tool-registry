@@ -55,6 +55,8 @@
                 "Shallow Parsing",
                 "Spatial expression detection",
                 "Speech Recognition",
+                "Speech segmentation",
+                "Speech transcription",
                 "Spelling correction",
                 "Stylometry",
                 "Text Analytics",
@@ -210,6 +212,11 @@
                 "pathParameters": {
                     "type": "array",
                     "title": "Path parameter list",
+                    "items": {"$ref": "#/definitions/service_param"}
+                },
+                "manualParameters": {
+                    "type": "array",
+                    "title": "Manual parameter list",
                     "items": {"$ref": "#/definitions/service_param"}
                 }
             },
