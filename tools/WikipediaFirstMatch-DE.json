@@ -1,7 +1,7 @@
 {
     "task": "Lookup Tools",
     "deployment": "production",
-    "name": "Wikipedia DE",
+    "name": "Wikipedia First Match DE",
     "logo": "wikipedia.png",
     "homepage": "https://www.wikipedia.org/",
     "creators": "https://en.wikipedia.org/wiki/Wikipedia:Who_writes_Wikipedia%3F",

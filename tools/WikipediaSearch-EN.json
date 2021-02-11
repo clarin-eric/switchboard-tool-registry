@@ -1,7 +1,7 @@
 {
     "task": "Lookup Tools",
     "deployment": "production",
-    "name": "Wikipedia EN",
+    "name": "Wikipedia Search EN",
     "logo": "wikipedia.png",
     "homepage": "https://www.wikipedia.org/",
     "creators": "https://en.wikipedia.org/wiki/Wikipedia:Who_writes_Wikipedia%3F",
@@ -18,9 +18,10 @@
     "langEncoding": "639-3",
     "mimetypes": ["text/plain"],
     "output": ["text/plain"],
-    "url": "https://en.wikipedia.org/",
+    "url": "https://en.wikipedia.org/w/index.php",
     "parameters": {
-        "content":  null
+        "content":  null,
+        "fulltext": "1"
     },
     "mapping": {
         "content": "search"
