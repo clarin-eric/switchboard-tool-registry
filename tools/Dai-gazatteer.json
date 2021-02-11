@@ -1,5 +1,5 @@
 {
-    "task": "Dictionary",
+    "task": "Lookup Tools",
     "deployment": "production",
     "name": "iDAI.gazetteer",
     "logo": "dai-gazetteer.png",
