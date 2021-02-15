@@ -1,6 +1,6 @@
 {
     "formatVersion": "2",
-    "task": "Dictionary",
+    "task": "Lookup Tools",
     "deployment": "production",
     "name": "iDAI.vocab DE",
     "logo": "dai-vocab.png",

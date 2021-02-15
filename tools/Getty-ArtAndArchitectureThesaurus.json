@@ -1,0 +1,31 @@
+{
+    "task": "Lookup Tools",
+    "deployment": "production",
+    "name": "Getty Art and Architecture Thesaurus",
+    "logo": "gettyart.png",
+    "homepage": "http://www.getty.edu/research/tools/vocabularies/aat",
+    "creators": "http://www.getty.edu/research/tools/vocabularies/aat/about.html",
+    "contact": {
+        "person": "The Vocabulary Program",
+        "email": "vocab@getty.edu"
+    },
+    "authentication": null,
+    "location": "Earth",
+    "licence": "Copyright © 2017 The J. Paul Getty Trust. All rights reserved. The Getty vocabularies are made available via the Web browsers to support limited research and cataloging efforts. Companies and institutions interested in more extensive use of AAT, TGN, or ULAN are advised to explore the Linked Open Data releases. APIs are available. Relational tables and XML releases are also available, but may be discontinued in the future. All releases are available under the Open Data Commons Attribution License (ODC-By) 1.0. Releases of CONA and the IA are under development.",
+    "description": "The Art & Architecture Thesaurus ® (AAT), the Getty Thesaurus of Geographic Names ® (TGN), the Union List of Artist Names ® (ULAN), the Cultural Objects Name Authority ® (CONA), and the Iconography Authority ™(IA) are structured resources that can be used to improve access to information for art, architecture, and other material culture. Through rich metadata and links, the Getty Vocabularies provide powerful conduits for knowledge creation, research, and discovery for digital art history and related disciplines. \n\n - Cataloging: The Getty Vocabularies may be used as data value standards at the point of documentation or cataloging. In this context, they may be used as a controlled vocabulary or authority by the cataloger or indexer; they provide preferred names/terms and synonyms for people, places, and things. They also provide structure and classification schemes that can aid in documentation. \n\n - Retrieval: The Getty Vocabularies aid in retrieval and discovery. They may be used as search assistants in database retrieval systems and more broadly in a linked environment. They are knowledge bases that include semantic networks that show links and paths between concepts; these relationships can make retrieval more successful.\n\n - Research tools: They may be utilized as research tools, valuable because of the rich information and contextual knowledge that they contain. \n\n - Linked Open Data (LOD): The Getty Vocabularies are constructed to allow their use in linked data. Releasing the Getty vocabularies as Linked Open Data is part of the Getty's ongoing effort to make our knowledge resources freely available to all. The AAT, TGN, and ULAN are now available as LOD. They are published under the Open Data Commons Attribution License (ODC-By) 1.0.",
+    "languages": ["generic"],
+    "langEncoding": "639-3",
+    "mimetypes": ["text/plain"],
+    "output": ["text/plain"],
+    "url": "http://www.getty.edu/vow/AATServlet",
+    "parameters": {
+        "content":  null,
+        "english": "N",
+        "logic": "AND",
+        "page": "1",
+        "note": " "
+    },
+    "mapping": {
+        "content": "find"
+    }
+}

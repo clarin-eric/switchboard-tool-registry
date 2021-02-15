@@ -3,7 +3,7 @@
     "task": "Part-Of-Speech Tagging",
     "deployment": "production",
     "name": "DARIAH DKPro-Wrapper: POS-Tagging und Lemmatization DE",
-    "logo": "",
+    "logo": "dariah-de.svg",
     "homepage": "http://dariah-de.github.io/DARIAH-DKPro-Wrapper/",
     "description": "The DARIAH DKPro Wrapper is a wrapper for DKPro Core, a tool for linguistic annotation.",
     "location": "",

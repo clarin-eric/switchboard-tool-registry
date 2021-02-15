@@ -1,13 +1,13 @@
 {
-    "task": "Dictionary",
+    "task": "Lookup Tools",
     "deployment": "production",
-    "name": "Wikipedia DE",
+    "name": "Wikipedia Search DE",
     "logo": "wikipedia.png",
     "homepage": "https://www.wikipedia.org/",
     "creators": "https://en.wikipedia.org/wiki/Wikipedia:Who_writes_Wikipedia%3F",
     "contact": {
         "person": "Wikipedia Contacts",
-        "email": "info-de@wikimedia.org"
+        "email": "info-en@wikimedia.org"
     },
     "authentication": null,
     "location": "Earth",
@@ -18,9 +18,10 @@
     "langEncoding": "639-3",
     "mimetypes": ["text/plain"],
     "output": ["text/plain"],
-    "url": "https://de.wikipedia.org/",
+    "url": "https://de.wikipedia.org/w/index.php",
     "parameters": {
-        "content":  null
+        "content":  null,
+        "fulltext": "1"
     },
     "mapping": {
         "content": "search"
