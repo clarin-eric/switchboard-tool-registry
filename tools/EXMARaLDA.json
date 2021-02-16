@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Constituency Parsing",
     "deployment": "production",
+    "integrationType": "Local",
     "name": "EXMARaLDA",
     "logo": "exmaralda.png",
     "homepage": "https://exmaralda.org/",

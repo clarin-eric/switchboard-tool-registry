@@ -8,6 +8,7 @@
         "formatVersion",
         "task",
         "deployment",
+        "integrationType",
         "name",
         "description",
         "logo",
@@ -77,6 +78,13 @@
             "title": "Deployment type",
             "default": "development",
             "enum": ["production", "development"]
+        },
+        "integrationType": {
+            "type": "string",
+            "title": "Integration with Switchboard",
+            "description": "Integration level: Integrated (fully integrated), External (some parameters must be supplied by the user) and Local (download and install the application locally)",
+            "default": "Integrated",
+            "enum": ["Integrated", "External", "Local"]
         },
         "name": {
             "title": "Tool name",
@@ -164,8 +172,8 @@
                 "examples": ["application/xml"]
             }
         },
-        "webApplication": {"$ref": "#/definitions/web_application"},
-        "standaloneApplication": {"$ref": "#/definitions/standalone_application"},
+        "webApplication": {},
+        "standaloneApplication": {},
         "usageRestrictions": {
             "type": "object",
             "title": "Usage Restrictions",
@@ -179,8 +187,25 @@
             },
             "additionalProperties": false
         }
-   },
-
+    },
+    "allOf": [
+        {
+            "if": {"properties": {"integrationType": {"const": "Local"}}},
+            "then": {"properties": {"standaloneApplication": {"$ref": "#/definitions/standalone_application"}}}
+        },
+        {
+            "if": {"properties": {"integrationType": {"const": "Integrated"}}},
+            "then": {"properties": {"webApplication": {"$ref": "#/definitions/web_application"}}}
+        },
+        {
+            "if": {"properties": {"integrationType": {"const": "External"}}},
+            "then": {"properties": {"webApplication": {
+                "allOf": [
+                    {"$ref": "#/definitions/web_application"},
+                    {"$ref": "#/definitions/with_manual_args"}
+                ]}}}
+        }
+    ],
     "definitions": {
         "web_application": {
             "$id": "#web_application",
@@ -213,14 +238,20 @@
                     "type": "array",
                     "title": "Path parameter list",
                     "items": {"$ref": "#/definitions/service_param"}
-                },
+                }
+            }
+        },
+        "with_manual_args": {
+            "$id": "#with_manual_args",
+            "type": "object",
+            "title": "Application with manual arguments",
+            "properties": {
                 "manualParameters": {
                     "type": "array",
                     "title": "Manual parameter list",
                     "items": {"$ref": "#/definitions/service_param"}
                 }
-            },
-            "additionalProperties": false
+            }
         },
         "standalone_application": {
             "$id": "#standalone_application",

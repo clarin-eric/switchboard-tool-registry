@@ -2,6 +2,7 @@
     "formatVersion": "2",
     "task": "Topic Modelling",
     "deployment": "production",
+    "integrationType": "Local",
     "name": "TopicsExplorer",
     "logo": "dariah-de.svg",
     "homepage": "https://dariah-de.github.io/TopicsExplorer/",
