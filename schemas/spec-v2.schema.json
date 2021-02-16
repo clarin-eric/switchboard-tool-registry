@@ -17,6 +17,7 @@
         "contact",
         "inputs"
     ],
+    "additionalProperties": false,
     "properties": {
         "formatVersion": {
             "type": "string",
@@ -171,6 +172,8 @@
                 "examples": ["application/xml"]
             }
         },
+        "webApplication": {},
+        "standaloneApplication": {},
         "usageRestrictions": {
             "type": "object",
             "title": "Usage Restrictions",
@@ -199,7 +202,7 @@
             "then": {"properties": {"webApplication": {
                 "allOf": [
                     {"$ref": "#/definitions/web_application"},
-                    {"$ref": "#/definitions/manual_args"}
+                    {"$ref": "#/definitions/with_manual_args"}
                 ]}}}
         }
     ],
@@ -238,8 +241,8 @@
                 }
             }
         },
-        "manual_args": {
-            "$id": "#manual_args",
+        "with_manual_args": {
+            "$id": "#with_manual_args",
             "type": "object",
             "title": "Application with manual arguments",
             "properties": {
