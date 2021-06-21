@@ -17,7 +17,6 @@
     "inputs": [
         {
             "id": "speech",
-            "name": "Speech",
             "mediatypes": [
                 "audio/basic",
                 "audio/flac",
@@ -35,7 +34,6 @@
         },
         {
             "id": "text",
-            "name": "Text",
             "mediatypes": [
                 "text/plain",
                 "application/msword",

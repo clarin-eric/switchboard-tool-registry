@@ -1,33 +1,50 @@
 {
+    "formatVersion": "2",
     "task": "Visualisation of 3D models",
     "deployment": "development",
+    "integrationType": "Integrated",
     "name": "Ariadne Visual Media Service",
-    "logo": "YourLogoComesHere.png",
+    "description": "The Visual Media Service provides easy publication and presentation on the web of complex visual media assets. It is an automatic service that allows to upload visual media files on an server and to transform them into an efficient web format, making them ready for web-based visualization.",
+    "logo": "avms.png",
     "homepage": "https://visual.ariadne-infrastructure.eu",
-    "location": "Pisa, Italy",
     "creators": "Visual Computing Lab of CNR-ISTI",
     "contact": {
         "person": "Federico Ponchio",
         "email": "ponchio@gmail.com"
     },
-    "version": null,
-    "authentication": null,
-    "licence": null,
-    "description": "The Visual Media Service provides easy publication and presentation on the web of complex visual media assets. It is an automatic service that allows to upload visual media files on an server and to transform them into an efficient web format, making them ready for web-based visualization.",
-    "languages": [],
-    "langEncoding": "639-3",
-    "mimetypes": [
-        "model/prs.ply"
+    "location": "Pisa, Italy",
+    "inputs": [
+        {
+            "id": "model",
+            "mediatypes": ["model/prs.ply", "model/prs.obj"]
+        },
+        {
+            "id": "material",
+            "mediatypes": ["image/jpeg", "model/prs.material"],
+            "multiple": true,
+            "optional": true
+        }
     ],
     "output": [],
-    "url": "https://visual.ariadne-infrastructure.eu/switchboard",
-    "parameters": {
-        "input": null,
-        "title": "Unnamed",
-        "type_": "3d"
-    },
-    "mapping": {
-        "input": "url",
-        "type_": "type"
+    "webApplication": {
+        "url": "https://visual.ariadne-infrastructure.eu/switchboard",
+        "queryParameters": [
+            {
+                "name": "title",
+                "value": "Unnamed"
+            },
+            {
+                "name": "type",
+                "value": "3d"
+            },
+            {
+                "name": "url",
+                "bind": "model/dataurl"
+            },
+            {
+                "name": "url${index}",
+                "bind": "material/dataurl"
+            }
+        ]
     }
 }
