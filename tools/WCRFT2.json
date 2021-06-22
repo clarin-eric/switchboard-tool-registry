@@ -36,6 +36,6 @@
     "parameters": {
         "input": null,
         "lang": "pl",
-        "analysis": "tagger"
+        "analysis": "tager"
     }
 }
