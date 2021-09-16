@@ -371,7 +371,9 @@
                     {"type": "string"},
                     {"type":"array", "items": {"$ref": "#/definitions/language_code_3"}}
                 ]},
-                "maxSize": {"type": "integer"}
+                "maxSize": {"type": "integer"},
+                "multiple": {"type": "boolean"},
+                "optional": {"type": "boolean"}
             },
             "additionalProperties": false
         },
