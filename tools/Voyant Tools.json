@@ -13,7 +13,6 @@
         "email": "switchboard@clarin.eu"
     },
     "location": "Canada (Quebec)",
-    "version": "v2.1",
     "authentication": "no",
     "inputs": [
         {
@@ -30,9 +29,6 @@
             "languages": "generic",
             "multiple": true
         }
-    ],
-    "output": [
-        "none"
     ],
     "webApplication": {
         "url": "https://voyant-tools.org/",
