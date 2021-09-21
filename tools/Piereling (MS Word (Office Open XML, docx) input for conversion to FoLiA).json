@@ -1,4 +1,5 @@
 {
+    "id": 79,
     "name": "Piereling (MS Word (Office Open XML, docx) input for conversion to FoLiA)",
     "task": "Data Conversion",
     "deployment": "production",
@@ -27,9 +28,5 @@
         "application/msword"
     ],
     "languages": [],
-    "output": [
-        "text/plain",
-        "text/xml"
-    ],
     "langEncoding": "639-3"
 }

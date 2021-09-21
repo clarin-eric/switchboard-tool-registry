@@ -1,4 +1,5 @@
 {
+    "id": 139,
     "task": "Word sense disambiguation",
     "deployment": "production",
     "name": "WoSeDon",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "application/xml"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

@@ -1,4 +1,5 @@
 {
+    "id": 14,
     "name": "Colibri Core (Plain text input (untokenised))",
     "task": "N-Gramming",
     "deployment": "production",
@@ -26,7 +27,7 @@
         "minlength": 1,
         "maxlength": 5,
         "cooc": 0,
-        "npmi": -1.0,
+        "npmi": -1,
         "lang": "self.linkToResourceLanguage"
     },
     "mimetypes": [
@@ -40,11 +41,6 @@
         "spa",
         "por",
         "fry"
-    ],
-    "output": [
-        "application/octet-stream",
-        "text/csv",
-        "text/plain"
     ],
     "langEncoding": "639-1"
 }

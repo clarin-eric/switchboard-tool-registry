@@ -1,4 +1,5 @@
 {
+    "id": 55,
     "task": "Dependency Parsing",
     "deployment": "production",
     "name": "MaltParser",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "CoNLL Format"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

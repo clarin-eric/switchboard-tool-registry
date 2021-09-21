@@ -1,4 +1,5 @@
 {
+    "id": 21,
     "task": "Part-Of-Speech Tagging",
     "deployment": "production",
     "name": "Concraft",
@@ -21,11 +22,6 @@
     "mimetypes": [
         "text/plain",
         "text/html"
-    ],
-    "output": [
-        "application/json",
-        "CoNLL format",
-        "Visualization"
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {

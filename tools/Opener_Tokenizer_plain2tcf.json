@@ -1,41 +1,39 @@
 {
-	"task": "Tokenisation",
-	"deployment": "development",
-	"name": "Opener Tokenizer",
-	"logo": "ilc4clarin.png",
-	"homepage": "http://ilc4clarin.ilc.cnr.it/services/opener/readme",
-	"location": "Pisa, Italy",
-	"creators": "CLARIN-IT",
-	"contact": {
-		"person": "Riccardo Del Gratta",
-		"email": "riccardo.delgratta@ilc.cnr.it"
-	},
-	"version": "1.0",
-	"licence": null,
-	"authentication": "no",
-	"description": "Tokenizer for Dutch, English, German, French, Spanish and Italian. Consumes Plain text and produces TCF.",
-	"languages": [
-		"eng",
-		"ita",
-		"spa",
-		"fra",
-		"nld",
-		"deu"
-	],
-	"langEncoding": "639-3",
-	"mimetypes": [
-		"text/plain"
-	],
-	"output": [
-		"application/tcf+xml"
-	],
-	"url": "http://ilc4clarin.ilc.cnr.it/services/opener/tokenizer/lrs",
-	"parameters": {
-		"input": null,
-		"lang": null,
-		"format": "tcf"
-	},
-	"mapping": {
-		"input": "url"
-	}
+    "id": 60,
+    "task": "Tokenisation",
+    "deployment": "development",
+    "name": "Opener Tokenizer",
+    "logo": "ilc4clarin.png",
+    "homepage": "http://ilc4clarin.ilc.cnr.it/services/opener/readme",
+    "location": "Pisa, Italy",
+    "creators": "CLARIN-IT",
+    "contact": {
+        "person": "Riccardo Del Gratta",
+        "email": "riccardo.delgratta@ilc.cnr.it"
+    },
+    "version": "1.0",
+    "licence": null,
+    "authentication": "no",
+    "description": "Tokenizer for Dutch, English, German, French, Spanish and Italian. Consumes Plain text and produces TCF.",
+    "languages": [
+        "eng",
+        "ita",
+        "spa",
+        "fra",
+        "nld",
+        "deu"
+    ],
+    "langEncoding": "639-3",
+    "mimetypes": [
+        "text/plain"
+    ],
+    "url": "http://ilc4clarin.ilc.cnr.it/services/opener/tokenizer/lrs",
+    "parameters": {
+        "input": null,
+        "lang": null,
+        "format": "tcf"
+    },
+    "mapping": {
+        "input": "url"
+    }
 }

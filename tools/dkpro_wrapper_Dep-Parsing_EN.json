@@ -1,4 +1,5 @@
 {
+    "id": 143,
     "formatVersion": "2",
     "task": "Dependency Parsing",
     "deployment": "production",
@@ -19,11 +20,10 @@
                 "text/plain",
                 "text/xml"
             ],
-            "languages": ["eng"]
+            "languages": [
+                "eng"
+            ]
         }
-    ],
-    "output": [
-        "text/csv"
     ],
     "standaloneApplication": {
         "downloadURL": [

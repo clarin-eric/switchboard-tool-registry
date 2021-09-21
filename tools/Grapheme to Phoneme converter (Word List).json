@@ -1,4 +1,5 @@
 {
+    "id": 50,
     "name": "Grapheme to Phoneme converter (Word List)",
     "task": "Grapheme to Phoneme Conversion",
     "deployment": "production",
@@ -31,9 +32,6 @@
     "languages": [
         "nld",
         "eng"
-    ],
-    "output": [
-        "text/plain"
     ],
     "langEncoding": "639-3"
 }

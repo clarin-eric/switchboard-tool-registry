@@ -1,4 +1,5 @@
 {
+    "id": 70,
     "name": "Piereling (Docbook for conversion to FoLiA)",
     "task": "Data Conversion",
     "deployment": "production",
@@ -27,9 +28,5 @@
         "application/docbook+xml"
     ],
     "languages": [],
-    "output": [
-        "text/plain",
-        "text/xml"
-    ],
     "langEncoding": "639-3"
 }

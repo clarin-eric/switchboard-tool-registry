@@ -1,4 +1,5 @@
 {
+    "id": 27,
     "formatVersion": "2",
     "task": "Lookup Tools",
     "deployment": "production",
@@ -16,14 +17,22 @@
     "description": "The German Archaeological Institute is a scientific institution of the confederation in the business area of the Department of Foreign Affairs.",
     "inputs": [
         {
-            "id":"text",
-            "mediatypes": ["text/plain"],
-            "languages": ["deu"]
+            "id": "text",
+            "mediatypes": [
+                "text/plain"
+            ],
+            "languages": [
+                "deu"
+            ]
         }
     ],
-    "output": ["text/plain"],
     "webApplication": {
         "url": "https://archwort.dainst.org/de/search/",
-        "pathParameters": [{"name": "", "bind": "text/content"}]
+        "pathParameters": [
+            {
+                "name": "",
+                "bind": "text/content"
+            }
+        ]
     }
 }

@@ -1,4 +1,5 @@
 {
+    "id": 89,
     "task": "Lookup Tools",
     "deployment": "production",
     "name": "SSHOC Marketplace",
@@ -14,13 +15,16 @@
     "version": null,
     "licence": null,
     "description": "The Social Sciences and Humanities Open Marketplace, built as part of the Social Sciences and Humanities Open Cloud project (SSHOC), is a discovery portal which pools and contextualises resources for Social Sciences and Humanities research communities: tools, services, training materials, datasets and workflows. The Marketplace highlights and showcases solutions and research practices for every step of the SSH research data life cycle.",
-    "languages": ["eng"],
+    "languages": [
+        "eng"
+    ],
     "langEncoding": "639-3",
-    "mimetypes": ["text/plain"],
-    "output": ["text/plain"],
+    "mimetypes": [
+        "text/plain"
+    ],
     "url": "https://marketplace.sshopencloud.eu/search",
     "parameters": {
-        "content":  null
+        "content": null
     },
     "mapping": {
         "content": "q"

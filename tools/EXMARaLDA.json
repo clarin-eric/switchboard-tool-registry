@@ -1,4 +1,5 @@
 {
+    "id": 41,
     "formatVersion": "2",
     "task": "Constituency Parsing",
     "deployment": "production",
@@ -37,16 +38,6 @@
                 "video/mov"
             ]
         }
-    ],
-    "output": [
-        "application/tei+xml; format-variant=tei-iso-spoken",
-        "application/xml; format-variant=weblicht-tcf",
-        "application/xml; format-variant=exmaralda-exb",
-        "application/xml; format-variant=transcriber-trs",
-        "application/xml; format-variant=folker-fln",
-        "application/xml; format-variant=elan-eaf",
-        "application/xml; format-variant=clan-cha",
-        "application/plain+praat"
     ],
     "standaloneApplication": {
         "downloadURL": [

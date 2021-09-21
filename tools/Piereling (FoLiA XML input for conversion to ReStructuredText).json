@@ -1,4 +1,5 @@
 {
+    "id": 73,
     "name": "Piereling (FoLiA XML input for conversion to ReStructuredText)",
     "task": "Data Conversion",
     "deployment": "production",
@@ -27,9 +28,5 @@
         "text/xml"
     ],
     "languages": [],
-    "output": [
-        "text/plain",
-        "text/rst"
-    ],
     "langEncoding": "639-3"
 }

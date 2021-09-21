@@ -1,4 +1,5 @@
 {
+    "id": 99,
     "name": "T-scan (Text Input)",
     "task": "Text Analytics",
     "deployment": "production",
@@ -22,7 +23,7 @@
         "project": "new",
         "input": null,
         "overlapSize": 50,
-        "frequencyClip": 99.0,
+        "frequencyClip": 99,
         "mtldThreshold": 0.72,
         "useAlpino": "yes",
         "useWopr": "yes",
@@ -37,12 +38,6 @@
     ],
     "languages": [
         "nld"
-    ],
-    "output": [
-        "application/xslt+xml",
-        "text/csv",
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

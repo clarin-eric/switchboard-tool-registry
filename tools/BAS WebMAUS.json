@@ -1,4 +1,5 @@
 {
+    "id": 9,
     "formatVersion": "2",
     "task": "Speech segmentation",
     "deployment": "production",
@@ -42,15 +43,24 @@
                 "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
                 "application/vnd.oasis.opendocument.text"
             ],
-            "languages": ["eng", "deu"]
+            "languages": [
+                "eng",
+                "deu"
+            ]
         }
     ],
-    "output": [],
     "webApplication": {
         "url": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic",
         "manualParameters": [
-            {"name": "input", "bind": "text/dataurl"},
-            {"name": "lang", "bind": "text/language", "encoding": "639-1"}
+            {
+                "name": "input",
+                "bind": "text/dataurl"
+            },
+            {
+                "name": "lang",
+                "bind": "text/language",
+                "encoding": "639-1"
+            }
         ]
     }
 }

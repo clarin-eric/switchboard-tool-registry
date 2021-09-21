@@ -1,4 +1,5 @@
 {
+    "id": 7,
     "name": "Automatic Transcription of Dutch Speech Recordings (Wav file)",
     "task": "Speech Recognition",
     "deployment": "production",
@@ -28,10 +29,6 @@
     ],
     "languages": [
         "nld"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

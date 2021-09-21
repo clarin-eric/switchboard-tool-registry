@@ -1,4 +1,5 @@
 {
+    "id": 134,
     "task": "Stylometry",
     "deployment": "production",
     "name": "WebSty",
@@ -25,9 +26,6 @@
     "langEncoding": "639-1",
     "mimetypes": [
         "application/zip"
-    ],
-    "output": [
-        "application/octet-stream"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {
