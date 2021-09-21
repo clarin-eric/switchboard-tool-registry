@@ -64,6 +64,7 @@ def validate_tools():
     tool_files = [f for f in tool_dir_entries if isfile(f)]
 
     failed = False
+    tool_ids = set()
     for filepath in tool_files:
         print("Validating", filepath)
         failures = []
@@ -73,6 +74,15 @@ def validate_tools():
             except json.JSONDecodeError as xc:
                 print("! JSON decoding error: file {}\n\t{}".format(filepath, xc))
                 sys.exit(2)
+            tool_name = json_data.get("name")
+            if json_data.get("id") is None:
+                failures.append(f"Null ID in tool: {tool_name}")
+            elif json_data.get("id") <= 0:
+                failures.append(f"Negative or 0 ID in tool: {tool_name}")
+            else:
+                if json_data.get("id") in tool_ids:
+                    failures.append(f"Duplicate ID in tool: {tool_name}")
+                tool_ids.add(json_data.get("id"))
             for validate in validate_fns:
                 try:
                     validate(json_data)
