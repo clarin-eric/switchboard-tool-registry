@@ -1,4 +1,5 @@
 {
+    "id": 52,
     "task": "Shallow Parsing",
     "deployment": "production",
     "name": "Iobber",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "application/xml"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

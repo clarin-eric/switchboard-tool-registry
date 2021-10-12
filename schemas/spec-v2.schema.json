@@ -1,0 +1,389 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://switchboard.clarin.eu/tool-spec-v2.json",
+    "title": "JSON Schema for the Switchboard tool specification v.2",
+    "type": "object",
+    "items": null,
+    "required": [
+        "formatVersion",
+        "id",
+        "task",
+        "deployment",
+        "integrationType",
+        "name",
+        "description",
+        "logo",
+        "homepage",
+        "creators",
+        "contact",
+        "inputs"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "formatVersion": {
+            "type": "string",
+            "enum": ["2"]
+        },
+        "id": {
+            "type": "integer"
+        },
+        "task": {
+            "type": "string",
+            "title": "Task description",
+            "enum": [
+                "Constituency Parsing",
+                "Coreference Resolution",
+                "Data Conversion",
+                "Dependency Parsing",
+                "Distant Reading",
+                "Editing",
+                "Extraction of Polish terminology",
+                "Grapheme to Phoneme Conversion",
+                "Handwritten Text Recognition",
+                "Hyphenation",
+                "Inclusion detection",
+                "Keyword Extractor",
+                "Lemmatization",
+                "Lookup Tools",
+                "Machine Translation",
+                "Metadata Processing",
+                "Morpho-syntactic tagger",
+                "Morphological Analysis",
+                "N-Gramming",
+                "Named Entity Recognition",
+                "Named Entity Relation Detection",
+                "NLP suite for Dutch",
+                "Optical Character Recognition",
+                "Part-Of-Speech Tagging",
+                "Relation between name entities detection",
+                "Sentiment Analysis",
+                "Shallow Parsing",
+                "Spatial expression detection",
+                "Speech Recognition",
+                "Speech segmentation",
+                "Speech transcription",
+                "Spelling correction",
+                "Stylometry",
+                "Text Analytics",
+                "Text Enhancement",
+                "Text Normalisation",
+                "Text Summarization",
+                "TF, IDF, TF-IDF calculation",
+                "Tokenisation",
+                "Topic Modelling",
+                "Transliteration",
+                "Visualisation of 3D models",
+                "Visualisation of Geographic Data",
+                "Word sense disambiguation"
+            ]
+        },
+        "deployment": {
+            "type": "string",
+            "title": "Deployment type",
+            "default": "development",
+            "enum": ["production", "development"]
+        },
+        "integrationType": {
+            "type": "string",
+            "title": "Integration with Switchboard",
+            "description": "Integration level: Integrated (fully integrated), External (some parameters must be supplied by the user) and Local (download and install the application locally)",
+            "default": "Integrated",
+            "enum": ["Integrated", "External", "Local"]
+        },
+        "name": {
+            "title": "Tool name",
+            "type": "string"
+        },
+        "description": {
+            "type": "string",
+            "title": "Tool's description"
+        },
+        "logo": {
+            "type": "string",
+            "title": "The tool's logo file name",
+            "examples": ["mylogo.jpg"]
+        },
+        "homepage": {
+            "type": "string",
+            "format": "uri",
+            "title": "Homepage",
+            "examples": ["https://example.com"]
+        },
+        "keywords": {
+            "type": "array",
+            "title": "Keywords",
+            "items": {"type": "string"}
+        },
+        "creators": {
+            "type": "string",
+            "title": "Tool's creators"
+        },
+        "contact": {
+            "type": "object",
+            "title": "The Contact Schema",
+            "properties": {
+                "person": {
+                    "type": "string",
+                    "title": "Person name"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email",
+                    "title": "Email"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "title": "Contact Page Link"
+                }
+            },
+            "additionalProperties": false
+        },
+        "location": {
+             "type": "string",
+            "title": "Geographical location",
+            "examples": ["Tuebingen, Germany"]
+        },
+        "authentication": {
+            "type": ["string", "null"],
+            "title": "Authentication mechanism description, or null",
+            "default": null
+        },
+        "inputs": {
+            "type": "array",
+            "title": "Input specs",
+            "items": {"$ref": "#/definitions/input_entry"}
+        },
+        "batchProcessing": {
+            "type": "object",
+            "title": "Batch processing",
+            "properties": {
+                "mode": {"type": "string", "enum": ["zip"]},
+                "queryParameters": {
+                    "type": "array",
+                    "title": "Batch mode query parameters",
+                    "items": {"$ref": "#/definitions/service_param"}
+                }
+            }
+        },
+        "webApplication": {},
+        "standaloneApplication": {},
+        "usageRestrictions": {
+            "type": "object",
+            "title": "Usage Restrictions",
+            "properties": {
+                "individualUserRestrictions": {
+                    "type": "string",
+                    "enum": ["academic", "public", "regional", "other", "unknown", "license only"]
+                },
+                "countriesNotSupported": {"type": "string"},
+                "countriesSupported": {"type": "string"}
+            },
+            "additionalProperties": false
+        }
+    },
+    "allOf": [
+        {
+            "if": {"properties": {"integrationType": {"const": "Local"}}},
+            "then": {"properties": {"standaloneApplication": {"$ref": "#/definitions/standalone_application"}}}
+        },
+        {
+            "if": {"properties": {"integrationType": {"const": "Integrated"}}},
+            "then": {"properties": {"webApplication": {"$ref": "#/definitions/web_application"}}}
+        },
+        {
+            "if": {"properties": {"integrationType": {"const": "External"}}},
+            "then": {"properties": {"webApplication": {
+                "allOf": [
+                    {"$ref": "#/definitions/web_application"},
+                    {"$ref": "#/definitions/with_manual_args"}
+                ]}}}
+        }
+    ],
+    "definitions": {
+        "web_application": {
+            "$id": "#web_application",
+            "type": "object",
+            "title": "Web Application",
+            "properties": {
+                "browserRequirements": {"type": "string"},
+                "applicationSuite": {"type": "string"},
+                "scalabilityType": {
+                    "type": "string",
+                    "enum": ["singleUser", "smallGroups", "classroomSize", "lectureSize", "unlimited", "unknown", "other"]
+                },
+                "licenseInformation": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "runtimeInformation": {"$ref": "#/definitions/runtime_information"},
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "title": "Tool's URL",
+                    "examples": ["https://weblicht.sfs.uni-tuebingen.de/weblicht/"]
+                },
+                "queryParameters": {
+                    "type": "array",
+                    "title": "Query parameter list",
+                    "items": {"$ref": "#/definitions/service_param"}
+                },
+                "pathParameters": {
+                    "type": "array",
+                    "title": "Path parameter list",
+                    "items": {"$ref": "#/definitions/service_param"}
+                }
+            }
+        },
+        "with_manual_args": {
+            "$id": "#with_manual_args",
+            "type": "object",
+            "title": "Application with manual arguments",
+            "properties": {
+                "manualParameters": {
+                    "type": "array",
+                    "title": "Manual parameter list",
+                    "items": {"$ref": "#/definitions/service_param"}
+                }
+            }
+        },
+        "standalone_application": {
+            "$id": "#standalone_application",
+            "type": "object",
+            "title": "Standalone Application",
+            "properties": {
+                "availableOnDevice": {
+                    "type":"array",
+                    "items": {"type": "string"}
+                },
+                "installURL" : {
+                    "type":"array",
+                    "items": {"type": "string"}
+                },
+                "downloadURL" : {
+                    "type":"array",
+                    "items": {
+                        "type": "object",
+                        "required": ["type", "url"],
+                        "properties": {
+                            "type": {"type": "string"},
+                            "targetlang": {"$ref": "#/definitions/language_code"},
+                            "url": {"type": "string", "format": "uri"},
+                            "additionalProperties": false
+                        }
+                    }
+                },
+                "applicationSuite": {"type": "string"},
+                "featureList": {"type": "string"},
+                "permissions": {"type": "string"},
+                "releaseNotes": {"type": "string"},
+                "softwareAddOn": {"type": "string"},
+                "softwareRequirements": {"type": "string"},
+                "supportingData": {"type": "string"},
+                "dataTransfer": {
+                    "type": "string",
+                    "enum": ["none", "local", "cloud", "unknown", "other", "N/A"]
+                },
+                "licenseInformation": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "runtimeInformation": {"$ref": "#/definitions/runtime_information"}
+            },
+            "additionalProperties": false
+        },
+        "runtime_information": {
+            "$id": "#runtime_information",
+            "type": "object",
+            "title": "Runtime Information",
+            "properties": {
+                "memoryRequirements": {"type": "string"},
+                "storageRequirements": {"type": "string"},
+                "processorRequirements": {"type": "string"},
+                "operatingSystem": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {"type": "string"},
+                            "versionFrom": {"type": "string"},
+                            "versionTo": {"type": "string"}
+                        },
+                        "additionalProperties": false
+                    }
+                },
+                "fileSize": {"type": "string"},
+                "installationLicense": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "runtimeEnvironment": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            },
+            "additionalProperties": false
+        },
+        "service_param": {
+            "$id": "#service_param",
+            "type": "object",
+            "title": "Parameter",
+            "properties": {
+                "name": {"type": "string"},
+                "bind": {"type": "string"},
+                "value": {"type": "string"},
+                "encoding": {"type": "string"}
+            },
+            "required": ["name"],
+            "additionalProperties": false
+        },
+        "mimetype_list": {
+            "$id": "#mimetype_list",
+            "type": "array",
+            "title": "Mediatype list",
+            "minItems": 1,
+            "items": {
+                "type": "string",
+                "title": "Mediatype",
+                "examples": [
+                    "text/plain",
+                    "text/rtf",
+                    "application/pdf",
+                    "application/msword"
+                ]
+            }
+        },
+        "input_entry": {
+            "$id": "#input_entry",
+            "type": "object",
+            "title": "Input entry",
+            "properties": {
+                "id": {"type": "string"},
+                "name": {"type": "string"},
+                "mediatypes": {"$ref": "#/definitions/mimetype_list"},
+                "languages": {"oneOf": [
+                    {"type": "string"},
+                    {"type":"array", "items": {"$ref": "#/definitions/language_code_3"}}
+                ]},
+                "maxSize": {"type": "integer"},
+                "multiple": {"type": "boolean"},
+                "optional": {"type": "boolean"}
+            },
+            "additionalProperties": false
+        },
+        "language_code_3": {
+            "type": "string",
+            "title": "Language Identifier, ISO 693-3",
+            "default": "eng",
+            "examples": ["eng", "deu"],
+            "pattern": "^(.{3})$"
+        },
+        "language_code": {
+            "type": "string",
+            "title": "Language Identifier, ISO 693-3",
+            "default": "eng",
+            "examples": ["eng", "deu"],
+            "pattern": "^(.{2,3})$"
+        }
+    }
+}

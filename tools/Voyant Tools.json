@@ -1,42 +1,43 @@
 {
+    "id": 110,
+    "formatVersion": "2",
     "task": "Distant Reading",
     "deployment": "production",
+    "integrationType": "Integrated",
     "name": "Voyant Tools",
+    "description": "Use it to learn how computers-assisted analysis works. Check out our examples that show you how to do real academic tasks with Voyant. Use it to study texts that you find on the web or texts that you have carefully edited and have on your computer. Use it to add functionality to your online collections, journals, blogs or web sites so others can see through your texts with analytical tools. Use it to add interactive evidence to your essays that you publish online. Add interactive panels right into your research essays (if they can be published online) so your readers can recapitulate your results. Use it to develop your own tools using our functionality and code.",
     "logo": "voyant-tools.jpg",
     "homepage": "http://voyant-tools.org",
-    "location": "Canada (Quebec)",
     "creators": "Stéfan Sinclair (McGill Alberta) and Geoffrey Rockwell (U Alberta)",
     "contact": {
         "person": "Unknown Person",
         "email": "switchboard@clarin.eu"
     },
-    "version": "v2.1",
+    "location": "Canada (Quebec)",
     "authentication": "no",
-    "licence": null,
-    "description": "Use it to learn how computers-assisted analysis works. Check out our examples that show you how to do real academic tasks with Voyant. Use it to study texts that you find on the web or texts that you have carefully edited and have on your computer. Use it to add functionality to your online collections, journals, blogs or web sites so others can see through your texts with analytical tools. Use it to add interactive evidence to your essays that you publish online. Add interactive panels right into your research essays (if they can be published online) so your readers can recapitulate your results. Use it to develop your own tools using our functionality and code.",
-    "languages": [
-        "eng",
-        "deu",
-        "spa",
-        "nld",
-        "fra",
-        "generic"
+    "inputs": [
+        {
+            "id": "text",
+            "mediatypes": [
+                "text/plain",
+                "text/rtf",
+                "application/pdf",
+                "application/msword",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "application/tei+xml",
+                "application/tei+xml;format-variant=tei-dta"
+            ],
+            "languages": "generic",
+            "multiple": true
+        }
     ],
-    "langEncoding": "639-1",
-    "mimetypes": [
-        "text/plain",
-        "text/rtf",
-        "application/pdf",
-        "application/msword",
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "application/tei+xml",
-        "application/tei+xml;format-variant=tei-dta"
-    ],
-    "output": [
-        "none"
-    ],
-    "url": "https://voyant-tools.org/",
-    "parameters": {
-        "input": null
+    "webApplication": {
+        "url": "https://voyant-tools.org/",
+        "queryParameters": [
+            {
+                "name": "input",
+                "bind": "text/dataurl"
+            }
+        ]
     }
 }

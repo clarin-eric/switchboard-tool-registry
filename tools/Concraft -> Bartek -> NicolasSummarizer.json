@@ -1,4 +1,5 @@
 {
+    "id": 15,
     "task": "Text Summarization",
     "deployment": "production",
     "name": "Concraft -> Bartek -> NicolasSummarizer",
@@ -21,11 +22,6 @@
     "mimetypes": [
         "text/plain",
         "text/html"
-    ],
-    "output": [
-        "application/json",
-        "CoNLL format",
-        "Visualization"
     ],
     "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
     "parameters": {
