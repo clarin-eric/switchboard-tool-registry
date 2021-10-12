@@ -1,4 +1,5 @@
 {
+    "id": 92,
     "task": "Shallow Parsing",
     "deployment": "production",
     "name": "Spejd",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "application/xml"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

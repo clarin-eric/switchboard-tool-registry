@@ -1,4 +1,5 @@
 {
+    "id": 102,
     "task": "Extraction of Polish terminology",
     "deployment": "production",
     "name": "TermoPL",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "application/json"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

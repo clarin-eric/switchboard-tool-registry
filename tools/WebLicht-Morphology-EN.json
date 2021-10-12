@@ -1,4 +1,5 @@
 {
+    "id": 125,
     "task": "Morphological Analysis",
     "deployment": "production",
     "name": "WebLicht Morphology EN",
@@ -24,9 +25,6 @@
         "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    ],
-    "output": [
-        "application/tcf+xml"
     ],
     "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
     "parameters": {

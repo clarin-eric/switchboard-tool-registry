@@ -1,4 +1,5 @@
 {
+    "id": 51,
     "task": "Inclusion detection",
     "deployment": "production",
     "name": "Inkluz",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "application/octet-stream"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

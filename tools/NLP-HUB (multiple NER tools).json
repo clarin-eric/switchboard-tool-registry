@@ -1,4 +1,5 @@
 {
+    "id": 59,
     "task": "Named Entity Recognition",
     "deployment": "production",
     "name": "NLP-HUB (multiple NER tools)",
@@ -24,9 +25,6 @@
     "langEncoding": "639-1",
     "mimetypes": [
         "text/plain"
-    ],
-    "output": [
-        "application/xml"
     ],
     "url": "https://nlp.d4science.org/hub",
     "parameters": {
