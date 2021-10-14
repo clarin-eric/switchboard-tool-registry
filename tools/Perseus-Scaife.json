@@ -1,4 +1,5 @@
 {
+    "id": 67,
     "task": "Lookup Tools",
     "deployment": "production",
     "name": "Perseus Scaife Viewer",
@@ -13,13 +14,16 @@
     "authentication": null,
     "licence": null,
     "description": "The Perseus Digital Library, founded as and still often known as the Perseus Project, is an evolving digital library of resources for the study of the humanities. We are funded to perform research on developing tools to provide users with improved access to various types of materials. \n\nFor more on who we are and what we do, see the [About Perseus](https://www.perseus.tufts.edu/hopper/about) page and our list of [publications](https://www.perseus.tufts.edu/hopper/about/publications). \n\nThe Scaife Viewer is a reading environment for pre-modern text collections in both their original languages and in translation. It is the first phase of work towards the next version of the Perseus Digital Library, Perseus 5.0.",
-    "languages": ["generic"],
+    "languages": [
+        "generic"
+    ],
     "langEncoding": "639-3",
-    "mimetypes": ["text/plain"],
-    "output": ["text/plain"],
+    "mimetypes": [
+        "text/plain"
+    ],
     "url": "https://scaife.perseus.org/search/",
     "parameters": {
-        "content":  null
+        "content": null
     },
     "mapping": {
         "content": "q"

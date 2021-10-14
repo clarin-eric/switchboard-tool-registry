@@ -1,4 +1,5 @@
 {
+    "id": 107,
     "name": "Ucto Tokeniser (Text document)",
     "task": "Tokenisation",
     "deployment": "production",
@@ -40,10 +41,6 @@
         "spa",
         "por",
         "tur"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

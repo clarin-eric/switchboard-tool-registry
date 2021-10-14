@@ -1,4 +1,5 @@
 {
+    "id": 103,
     "formatVersion": "2",
     "task": "Editing",
     "deployment": "production",
@@ -25,9 +26,6 @@
                 "eng"
             ]
         }
-    ],
-    "output": [
-        "application/xml+tei"
     ],
     "standaloneApplication": {
         "installURL": [

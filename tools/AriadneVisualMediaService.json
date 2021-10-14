@@ -1,4 +1,5 @@
 {
+    "id": 4,
     "formatVersion": "2",
     "task": "Visualisation of 3D models",
     "deployment": "development",
@@ -16,16 +17,21 @@
     "inputs": [
         {
             "id": "model",
-            "mediatypes": ["model/prs.ply", "model/prs.obj"]
+            "mediatypes": [
+                "model/prs.ply",
+                "model/prs.obj"
+            ]
         },
         {
             "id": "material",
-            "mediatypes": ["image/jpeg", "model/prs.material"],
+            "mediatypes": [
+                "image/jpeg",
+                "model/prs.material"
+            ],
             "multiple": true,
             "optional": true
         }
     ],
-    "output": [],
     "webApplication": {
         "url": "https://visual.ariadne-infrastructure.eu/switchboard",
         "queryParameters": [

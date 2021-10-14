@@ -1,4 +1,5 @@
 {
+    "id": 93,
     "name": "Spreek2Schrijf (Flemish input HTML (very specific formatting, not just any HTML))",
     "task": "Speech Recognition",
     "deployment": "production",
@@ -27,10 +28,6 @@
     ],
     "languages": [
         "nld"
-    ],
-    "output": [
-        "text/html",
-        "text/plain"
     ],
     "langEncoding": "639-3"
 }

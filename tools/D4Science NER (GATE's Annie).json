@@ -1,4 +1,5 @@
 {
+    "id": 22,
     "task": "Named Entity Recognition",
     "deployment": "development",
     "name": "D4Science NER (GATE's Annie)",
@@ -20,9 +21,6 @@
     "langEncoding": "639-1",
     "mimetypes": [
         "text/plain"
-    ],
-    "output": [
-        "application/xml"
     ],
     "url": "https://next.d4science.org/nlp-hub/",
     "parameters": {

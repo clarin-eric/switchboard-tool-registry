@@ -1,4 +1,5 @@
 {
+    "id": 2,
     "name": "Alpino (Plaintext tokenised input, one sentence per line)",
     "task": "Dependency Parsing",
     "deployment": "production",
@@ -27,11 +28,6 @@
     ],
     "languages": [
         "nld"
-    ],
-    "output": [
-        "application/zip",
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

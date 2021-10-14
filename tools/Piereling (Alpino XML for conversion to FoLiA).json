@@ -1,4 +1,5 @@
 {
+    "id": 68,
     "name": "Piereling (Alpino XML for conversion to FoLiA)",
     "task": "Data Conversion",
     "deployment": "production",
@@ -27,9 +28,5 @@
         "text/alpino+xml"
     ],
     "languages": [],
-    "output": [
-        "text/plain",
-        "text/xml"
-    ],
     "langEncoding": "639-3"
 }

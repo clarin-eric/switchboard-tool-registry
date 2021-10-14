@@ -1,4 +1,5 @@
 {
+    "id": 65,
     "name": "PICCL (Plain-text document (UTF-8, no OCR))",
     "task": "Text Normalisation",
     "deployment": "production",
@@ -49,10 +50,6 @@
         "rus",
         "spa",
         "swe"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

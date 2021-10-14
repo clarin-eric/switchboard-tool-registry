@@ -1,4 +1,5 @@
 {
+    "id": 3,
     "task": "Text Enhancement",
     "deployment": "development",
     "name": "Apache Stanbol Enhancer",
@@ -20,9 +21,6 @@
     "langEncoding": "639-1",
     "mimetypes": [
         "text/plain"
-    ],
-    "output": [
-        "application/json"
     ],
     "url": "https://enrich-lrs.acdh.oeaw.ac.at/StanbolWrapper",
     "parameters": {

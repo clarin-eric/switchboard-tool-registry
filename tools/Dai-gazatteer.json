@@ -1,4 +1,5 @@
 {
+    "id": 25,
     "task": "Lookup Tools",
     "deployment": "production",
     "name": "iDAI.gazetteer",
@@ -14,10 +15,13 @@
     "authentication": null,
     "licence": "CC-BY",
     "description": "The iDAI.gazetteer is a web service that combines place names with coordinates and works in two directions. Internally, it serves as a standard data vocabulary for all location-related information and information systems of the DAI. Outwardly, it connects these with the global gazetteer systems.",
-    "languages": ["generic"],
+    "languages": [
+        "generic"
+    ],
     "langEncoding": "639-1",
-    "mimetypes": ["text/plain"],
-    "output": ["text/plain"],
+    "mimetypes": [
+        "text/plain"
+    ],
     "url": "https://gazetteer.dainst.org/app/#!/search",
     "parameters": {
         "content": null

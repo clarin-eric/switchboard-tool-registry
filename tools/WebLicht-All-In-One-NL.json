@@ -1,4 +1,5 @@
 {
+    "id": 114,
     "task": "Text Analytics",
     "deployment": "production",
     "name": "WebLicht All In One (NL)",
@@ -24,9 +25,6 @@
         "application/pdf",
         "application/msword",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    ],
-    "output": [
-        "application/tcf+xml"
     ],
     "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
     "parameters": {

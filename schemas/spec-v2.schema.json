@@ -6,6 +6,7 @@
     "items": null,
     "required": [
         "formatVersion",
+        "id",
         "task",
         "deployment",
         "integrationType",
@@ -22,6 +23,9 @@
         "formatVersion": {
             "type": "string",
             "enum": ["2"]
+        },
+        "id": {
+            "type": "integer"
         },
         "task": {
             "type": "string",
@@ -160,16 +164,6 @@
                     "title": "Batch mode query parameters",
                     "items": {"$ref": "#/definitions/service_param"}
                 }
-            }
-        },
-        "output": {
-            "type": "array",
-            "title": "Tool's output mediatypes",
-            "items": {
-                "$id": "#/properties/output/items",
-                "type": "string",
-                "title": "Outputs",
-                "examples": ["application/xml"]
             }
         },
         "webApplication": {},

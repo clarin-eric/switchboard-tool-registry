@@ -1,4 +1,5 @@
 {
+    "id": 95,
     "name": "Spreek2Schrijf (Ogg file)",
     "task": "Speech Recognition",
     "deployment": "production",
@@ -27,10 +28,6 @@
     ],
     "languages": [
         "nld"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

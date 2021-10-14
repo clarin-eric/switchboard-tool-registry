@@ -1,4 +1,5 @@
 {
+    "id": 8,
     "formatVersion": "2",
     "task": "Speech transcription",
     "deployment": "production",
@@ -34,11 +35,13 @@
             ]
         }
     ],
-    "output": [],
     "webApplication": {
         "url": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR",
         "manualParameters": [
-            {"name": "input", "bind": "text/dataurl"}
+            {
+                "name": "input",
+                "bind": "text/dataurl"
+            }
         ]
     }
 }

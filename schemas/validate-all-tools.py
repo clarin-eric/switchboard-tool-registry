@@ -43,6 +43,19 @@ def load_arguments(argv):
         print(HELP)
         sys.exit(2)
 
+def check_tool_id(tool_ids, failures, tool):
+    tool_name = tool.get("name")
+    id = tool.get("id")
+    if id is None:
+        failures.append(f"Null ID in tool: {tool_name}")
+    elif type(id) != int:
+        failures.append(f"Non-int tool id `{id}` in `{tool_name}`")
+    elif id <= 0:
+        failures.append(f"Negative or 0 id `{id}` in `{tool_name}`")
+    else:
+        if id in tool_ids:
+            failures.append(f"Duplicate id `{id}` in `{tool_name}`")
+        tool_ids.add(id)
 
 def validate_tools():
     validate_fns = []
@@ -64,6 +77,7 @@ def validate_tools():
     tool_files = [f for f in tool_dir_entries if isfile(f)]
 
     failed = False
+    tool_ids = set()
     for filepath in tool_files:
         print("Validating", filepath)
         failures = []
@@ -73,6 +87,7 @@ def validate_tools():
             except json.JSONDecodeError as xc:
                 print("! JSON decoding error: file {}\n\t{}".format(filepath, xc))
                 sys.exit(2)
+            check_tool_id(tool_ids, failures, json_data)
             for validate in validate_fns:
                 try:
                     validate(json_data)

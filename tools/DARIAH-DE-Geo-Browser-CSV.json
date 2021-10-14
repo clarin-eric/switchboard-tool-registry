@@ -1,4 +1,5 @@
 {
+    "id": 23,
     "task": "Visualisation of Geographic Data",
     "deployment": "production",
     "name": "DARIAH-DE Geo-Browser (CSV)",
@@ -14,9 +15,6 @@
     "authentication": "no",
     "description": "The DARIAH-DE Geo-Browser allows a comparative visualization of several requests and facilitates the representation of data and their visualization in a correlation of geographic spatial relations at corresponding points of time and sequences. Thus, researchers can analyze space-time relations of data and collections of source material and simultaneously establish correlations between them.",
     "licence": "LGPL-3.0-or-later",
-    "output": [
-        "none"
-    ],
     "mimetypes": [
         "text/csv",
         "text/comma-separated-value",

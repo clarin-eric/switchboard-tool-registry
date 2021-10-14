@@ -1,4 +1,5 @@
 {
+    "id": 42,
     "name": "English Automatic Speech Recognition System (MP3 file)",
     "task": "Speech Recognition",
     "deployment": "production",
@@ -27,10 +28,6 @@
     ],
     "languages": [
         "eng"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

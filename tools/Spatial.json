@@ -1,4 +1,5 @@
 {
+    "id": 91,
     "task": "Spatial expression detection",
     "deployment": "production",
     "name": "Spatial",
@@ -28,9 +29,6 @@
         "application/pdf",
         "text/html",
         "text/rtf"
-    ],
-    "output": [
-        "application/json"
     ],
     "url": "https://ws.clarin-pl.eu/weblicht.html",
     "parameters": {

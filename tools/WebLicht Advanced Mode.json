@@ -1,4 +1,5 @@
 {
+    "id": 112,
     "formatVersion": "2",
     "task": "Text Analytics",
     "deployment": "production",
@@ -17,18 +18,29 @@
     "inputs": [
         {
             "id": "text",
-            "mediatypes": ["text/plain", "text/rtf", "application/rtf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
+            "mediatypes": [
+                "text/plain",
+                "text/rtf",
+                "application/rtf",
+                "application/msword",
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            ],
             "languages": "generic",
             "maxSize": 10240000
         }
     ],
-    "output": ["application/tcf+xml"],
     "webApplication": {
         "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht/",
         "queryParameters": [
-            {"name": "input", "bind": "text/dataurl"},
-            {"name": "lang", "bind": "text/language", "encoding": "639-1"}
+            {
+                "name": "input",
+                "bind": "text/dataurl"
+            },
+            {
+                "name": "lang",
+                "bind": "text/language",
+                "encoding": "639-1"
+            }
         ]
     }
 }
-

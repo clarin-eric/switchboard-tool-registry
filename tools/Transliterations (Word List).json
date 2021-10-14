@@ -1,4 +1,5 @@
 {
+    "id": 105,
     "name": "Transliterations (Word List)",
     "task": "Transliteration",
     "deployment": "production",
@@ -31,9 +32,6 @@
         "rus",
         "ukr",
         "ara"
-    ],
-    "output": [
-        "text/plain"
     ],
     "langEncoding": "639-3"
 }

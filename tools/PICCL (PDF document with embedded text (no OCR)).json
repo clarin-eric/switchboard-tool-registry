@@ -1,4 +1,5 @@
 {
+    "id": 63,
     "name": "PICCL (PDF document with embedded text (no OCR))",
     "task": "Text Normalisation",
     "deployment": "production",
@@ -49,10 +50,6 @@
         "rus",
         "spa",
         "swe"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }

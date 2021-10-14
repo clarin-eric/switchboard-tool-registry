@@ -1,4 +1,5 @@
 {
+    "id": 150,
     "formatVersion": "2",
     "task": "Topic Modelling",
     "deployment": "production",
@@ -21,9 +22,6 @@
             ],
             "languages": "generic"
         }
-    ],
-    "output": [
-        "text/csv"
     ],
     "standaloneApplication": {
         "downloadURL": [

@@ -1,4 +1,5 @@
 {
+    "id": 72,
     "name": "Piereling (FoLiA XML input for conversion to HTML)",
     "task": "Data Conversion",
     "deployment": "production",
@@ -27,9 +28,5 @@
         "text/xml"
     ],
     "languages": [],
-    "output": [
-        "text/html",
-        "text/plain"
-    ],
     "langEncoding": "639-3"
 }

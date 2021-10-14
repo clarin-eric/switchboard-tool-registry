@@ -1,4 +1,5 @@
 {
+    "id": 84,
     "name": "Piereling (PDF with embedded text (pdf) for conversion to FoLiA)",
     "task": "Data Conversion",
     "deployment": "production",
@@ -27,9 +28,5 @@
         "application/pdf"
     ],
     "languages": [],
-    "output": [
-        "text/plain",
-        "text/xml"
-    ],
     "langEncoding": "639-3"
 }

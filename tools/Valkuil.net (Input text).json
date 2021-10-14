@@ -1,4 +1,5 @@
 {
+    "id": 109,
     "name": "Valkuil.net (Input text)",
     "task": "Spelling correction",
     "deployment": "production",
@@ -28,10 +29,6 @@
     ],
     "languages": [
         "nld"
-    ],
-    "output": [
-        "text/plain",
-        "text/xml"
     ],
     "langEncoding": "639-3"
 }
