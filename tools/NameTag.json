@@ -1,4 +1,5 @@
 {
+    "id": 151,
     "task": "Named Entity Recognition",
     "deployment": "production",
     "name": "NameTag",
@@ -24,9 +25,6 @@
     ],
     "mimetypes": [
         "text/plain"
-    ],
-    "output": [
-        "CoNLL-U Format"
     ],
     "url": "https://lindat.mff.cuni.cz/services/nametag/",
     "parameters": {
