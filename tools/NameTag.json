@@ -1,0 +1,38 @@
+{
+    "id": 151,
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "name": "NameTag",
+    "logo": "lindat.jpg",
+    "homepage": "https://ufal.mff.cuni.cz/nametag",
+    "location": "Charles University, Prague, Czech Republic",
+    "creators": "Jana Straková, Milan Straka",
+    "contact": {
+        "person": "Milan Straka",
+        "email": "straka@ufal.mff.cuni.cz"
+    },
+    "version": "v2.0",
+    "authentication": "no",
+    "licence": "The service is freely available for testing. Respect the CC BY-NC-SA licence of the models – explicit written permission of the authors is required for any commercial exploitation of the system. If you use the service, you agree that data obtained by us during such use can be used for further improvements of the systems at UFAL.",
+    "description": "NameTag is an open-source tool for named entity recognition (NER). NameTag identifies proper names in text and classifies them into predefined categories, such as names of persons, locations, organizations, etc.",
+    "langEncoding": "639-3",
+    "languages": [
+            "ces",
+            "eng",
+            "deu",
+            "nld",
+            "spa"
+    ],
+    "mimetypes": [
+        "text/plain"
+    ],
+    "url": "https://lindat.mff.cuni.cz/services/nametag/",
+    "parameters": {
+        "input": null,
+        "lang": null
+    },
+    "mapping": {
+        "input": "data",
+        "lang": "model"
+    }
+}
