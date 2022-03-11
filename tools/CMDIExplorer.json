@@ -20,7 +20,7 @@
     "mimetypes": [
         "application/x-cmdi+xml"
     ],
-    "url": "https://weblicht.sfs.uni-tuebingen.de/CMDIExplorer/input/#/switchboard/",
+    "url": "https://weblicht.sfs.uni-tuebingen.de/CMDIExplorer/#/switchboard/",
     "parameters": {
         "input": null
     },
