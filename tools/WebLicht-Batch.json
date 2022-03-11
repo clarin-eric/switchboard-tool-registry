@@ -1,0 +1,31 @@
+{
+    "id": 211,
+    "task": "Batch Processing with WebLicht",
+    "deployment": "production",
+    "name": "WebLicht-Batch",
+    "logo": "weblichtbatch.png",
+    "homepage": "https://weblicht.sfs.uni-tuebingen.de/weblicht-batch",
+    "location": "Tuebingen, Germany",
+    "creators": "CLARIN-D Centre at the University of Tuebingen, Germany",
+    "contact": {
+        "person": "CLARIN WebLicht Support",
+        "email": "wlsupport@sfs.uni-tuebingen.de"
+    },
+    "version": null,
+    "authentication": null,
+    "licence": null,
+    "description": "WebLicht-Batch helps you to submit batch jobs to WebLicht and check their status.",
+    "languages": [],
+    "langEncoding": "639-1",
+    "mimetypes": [
+	"text/plain",
+	"application/zip"
+    ],
+    "url": "https://weblicht.sfs.uni-tuebingen.de/weblicht-batch/#/switchboard/",
+    "parameters": {
+        "input": null
+    },
+    "mapping": {
+        "input": ""
+    }
+}
