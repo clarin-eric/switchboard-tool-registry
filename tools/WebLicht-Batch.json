@@ -1,6 +1,6 @@
 {
     "id": 211,
-    "task": "Batch Processing with WebLicht",
+    "task": "Text Analytics",
     "deployment": "production",
     "name": "WebLicht-Batch",
     "logo": "weblichtbatch.png",
