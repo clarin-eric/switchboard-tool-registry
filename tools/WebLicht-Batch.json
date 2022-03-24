@@ -14,7 +14,7 @@
     "version": null,
     "authentication": null,
     "licence": null,
-    "description": "WebLicht-Batch helps you to submit batch jobs to WebLicht and check their status.",
+    "description": "WebLicht-Batch helps you to submit batch jobs to the WebLicht Workflow Engine, an execution environment for the automatic annotation of text corpora.",
     "languages": [],
     "langEncoding": "639-1",
     "mimetypes": [
