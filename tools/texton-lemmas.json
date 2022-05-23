@@ -79,7 +79,13 @@
     "url": "https://cst.dk/texton/specifyGoal",
     "parameters": {
         "input": null,
-        "lang": null
+        "UIlanguage": "en",
+        "Ifacet": "txt",
+        "Iambig": "una",
+        "Iapp": "nrm",
+        "Ofacet": "lem",
+        "Operiod": "c21",
+        "Opres": "nml"
     },
     "mapping": {
         "input": "URLS",
