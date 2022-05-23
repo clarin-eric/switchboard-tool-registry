@@ -11,7 +11,6 @@
         "email": "bartj@hum.ku.dk"
     },
     "version": "v1.0",
-
     "authentication": "no",
     "licence": null,
     "description": "The Text Tonsorium designs and enacts workflows that fulfil your goal. Here, the goal is set to \"lemmatization of the input\". Once in Text Tonsorium, you can refine or change the goal.",
@@ -79,6 +78,7 @@
     "url": "https://cst.dk/texton/specifyGoal",
     "parameters": {
         "input": null,
+        "lang": null,
         "UIlanguage": "en",
         "Ifacet": "txt",
         "Iambig": "una",
