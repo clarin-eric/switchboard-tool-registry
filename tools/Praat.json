@@ -1,0 +1,62 @@
+{
+    "id": 153,
+    "formatVersion": "2",
+    "task": "Speech analysis",
+    "deployment": "production",
+    "integrationType": "Local",
+    "name": "Praat",
+    "logo": "praat.png",
+    "homepage": "https://praat.org/",
+    "description": "**Praat**  (/prɑːt/; Dutch: [praːt] (listen), \"talk\") is a speech analysis tool used for doing phonetics by computer. Praat can analyse, synthesize, and manipulate speech, and create high-quality pictures for your publications.",
+    "location": "Amsterdam, Netherlands",
+    "creators": "Paul Boersma, David Weenink",
+    "contact": {
+        "email": "paul.boersma@uva.nl"
+    },
+    "inputs": [
+        {
+            "id": "input",
+            "mediatypes": [
+                "audio/vnd.wave",
+                "audio/aiff",
+                "audio/basic",
+                "audio/flac",
+                "audio/mp3"
+            ]
+        }
+    ],
+    "standaloneApplication": {
+        "downloadURL": [
+            {
+                "url": "https://www.fon.hum.uva.nl/praat/",
+                "type": "release",
+                "targetlang": "en"
+            }
+        ],
+        "runtimeInformation": {
+            "operatingSystem": [
+                {
+                    "name": "Windows",
+                    "versionFrom": "7",
+                    "versionTo": "11"
+                },
+                {
+                    "name": "macOS",
+                    "versionFrom": "10.9"
+                },
+                {
+                    "name": "Linux"
+                }
+            ]
+        },
+        "licenseInformation": ["Praat is free software distributed under the General Public License, version 3 or higher."]
+    },
+    "keywords": [
+        "Speech analysis",
+        "Speech synthesis",
+        "Speech manipulation",
+        "Speech labelling",
+        "Grammar models",
+        "Statistical analysis"
+    ]
+}

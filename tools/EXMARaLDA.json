@@ -1,7 +1,7 @@
 {
     "id": 41,
     "formatVersion": "2",
-    "task": "Constituency Parsing",
+    "task": "Transcription",
     "deployment": "production",
     "integrationType": "Local",
     "name": "EXMARaLDA",
@@ -27,7 +27,7 @@
                 "text/plain; format-variant=praat-textgrid",
                 "audio/mp3",
                 "audio/ogg",
-                "audio/wav",
+                "audio/vnd.wave",
                 "video/mp4",
                 "audio/aiff",
                 "audio/mpeg",

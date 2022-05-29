@@ -1,0 +1,67 @@
+{
+    "id": 152,
+    "formatVersion": "2",
+    "task": "Transcription",
+    "deployment": "production",
+    "integrationType": "Local",
+    "name": "ELAN",
+    "logo": "elan.png",
+    "homepage": "https://archive.mpi.nl/tla/elan/",
+    "description": "**ELAN** is a professional tool to manually and semi-automatically annotate and transcribe audio or video recordings. It has a tier-based data model that supports multi-level, multi-participant annotation of time-based media. It is applied in humanities and social sciences research (language documentation, sign language and gesture research) for the purpose of documentation and of qualitative and quantitative analysis",
+    "location": "Nijmegen, Netherlands",
+    "creators": "The Language Archive",
+    "contact": {
+        "url": "https://archive.mpi.nl/tla/contact"
+    },
+    "inputs": [
+        {
+            "id": "input",
+            "mediatypes": [
+                "application/xml; format-variant=elan-eaf",
+                "application/xml; format-variant=clan-cha",
+                "application/xml; format-variant=transcriber-trs",
+                "text/plain; format-variant=praat-textgrid",
+                "audio/mp3",
+                "audio/vnd.wave",
+                "video/mp4",
+                "audio/mpeg",
+                "video/mpeg",
+                "video/mov"
+            ]
+        }
+    ],
+    "standaloneApplication": {
+        "downloadURL": [
+            {
+                "url": "https://archive.mpi.nl/tla/elan/download",
+                "type": "release",
+                "targetlang": "en"
+            }
+        ],
+        "runtimeInformation": {
+            "runtimeEnvironment": [
+                "Java (included)"
+            ],
+            "operatingSystem": [
+                {
+                    "name": "Windows",
+                    "versionFrom": "7",
+                    "versionTo": "10"
+                },
+                {
+                    "name": "macOS",
+                    "versionFrom": "10.13"
+                },
+                {
+                    "name": "Linux"
+                }
+            ]
+        },
+        "licenseInformation": ["General Public License: http://www.gnu.org"]
+    },
+    "keywords": [
+        "Speech",
+        "Spoken Language",
+        "Transcription"
+    ]
+}
