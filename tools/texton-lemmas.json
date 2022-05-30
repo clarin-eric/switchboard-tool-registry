@@ -61,6 +61,8 @@
         "application/vnd.oasis.opendocument.text",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/json",
+        "application/tei+xml",
+        "application/rtf",
         "image/gif",
         "image/jpeg",
         "image/pjpeg",
