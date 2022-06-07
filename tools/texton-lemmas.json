@@ -63,6 +63,7 @@
         "application/json",
         "application/tei+xml",
         "application/rtf",
+        "application/xhtml+xml",
         "image/gif",
         "image/jpeg",
         "image/pjpeg",
