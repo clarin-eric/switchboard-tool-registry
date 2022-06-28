@@ -1,20 +1,55 @@
 {
-    "task": "Lemmatization",
-    "deployment": "production",
-    "name": "Text Tonsorium - Lemmas.",
-    "logo": "texton.png",
-    "homepage": "https: //cst.dk/texton/",
-    "location": "Copenhagen, Denmark",
-    "creators": "CLARIN B-centre at the University of Copenhagen, Denmark",
-    "contact": {
-        "person": "Bart Jongejan",
-        "email": "bartj@hum.ku.dk"
-    },
-    "version": "v1.0",
-    "authentication": "no",
-    "licence": null,
-    "description": "The Text Tonsorium designs and enacts workflows that fulfil your goal. Here, the goal is set to \"lemmatization of the input\". Once in Text Tonsorium, you can refine or change the goal.",
-    "languages": [
+  "formatVersion": "2",
+  "id": 222,
+  "task": "Lemmatization",
+  "deployment": "production",
+  "integrationType": "Integrated",
+  "name": "Text Tonsorium - Lemmas.",
+  "description": "The Text Tonsorium designs and enacts workflows that fulfil your goal. Here, the goal is set to \"lemmatization of the input\". Once in Text Tonsorium, you can refine or change the goal.",
+  "logo": "texton.png",
+  "homepage": "https://cst.dk/texton/help",
+  "creators": "CLARIN B-centre at the University of Copenhagen, Denmark",
+  "contact": {
+    "person": "Bart Jongejan",
+    "email": "bartj@hum.ku.dk"
+  },
+  "keywords": [ "lemmatization", "lemmatisation", "TEI P5", "CONLL", "HTML","JSON","PDF","Word","contemporary","late modern","medieval","OCR","fraktur","Danish"],
+  "location": "Copenhagen, Denmark",
+  "authentication": "no",
+  "inputs": [
+    {
+      "id": "text",
+      "mediatypes": [
+        "application/pdf",
+        "application/vnd.ms-powerpoint",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "application/vnd.oasis.opendocument.presentation",
+        "application/vnd.ms-excel",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.shee",
+        "application/vnd.oasis.opendocument.spreadsheet",
+        "application/x-download",
+        "application/octet-stream",
+        "application/msword",
+        "application/vnd.oasis.opendocument.text",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/json",
+        "application/tei+xml",
+        "application/rtf",
+        "application/xhtml+xml",
+        "image/gif",
+        "image/jpeg",
+        "image/pjpeg",
+        "image/png",
+        "image/tiff",
+        "image/vnd.microsoft.icon",
+        "image/svg+xml",
+        "text/html",
+        "text/plain",
+        "text/rtf",
+        "text/x-conll",
+        "text/xml"
+      ],
+      "languages": [
         "afr",
         "bul",
         "ces",
@@ -45,55 +80,56 @@
         "srp",
         "swe",
         "ukr"
-    ],
-    "langEncoding": "639-1",
-    "mimetypes": [
-        "application/pdf",
-        "application/vnd.ms-powerpoint",
-        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-        "application/vnd.oasis.opendocument.presentation",
-        "application/vnd.ms-excel",
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.shee",
-        "application/vnd.oasis.opendocument.spreadsheet",
-        "application/x-download",
-        "application/octet-stream",
-        "application/msword",
-        "application/vnd.oasis.opendocument.text",
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "application/json",
-        "application/tei+xml",
-        "application/rtf",
-        "application/xhtml+xml",
-        "image/gif",
-        "image/jpeg",
-        "image/pjpeg",
-        "image/png",
-        "image/tiff",
-        "image/vnd.microsoft.icon",
-        "image/svg+xml",
-        "text/html",
-        "text/plain",
-        "text/rtf",
-        "text/x-conll",
-        "text/xml"
-    ],
-    "output": [ "text/xml", "application/zip", "text/html", "application/json", "audio/wav", "text/plain" ],
-    "url": "https://cst.dk/texton/specifyGoal",
-    "parameters": {
-        "input": null,
-        "lang": null,
-        "UIlanguage": "en",
-        "Ifacet": "txt",
-        "Iambig": "una",
-        "Iapp": "nrm",
-        "Ofacet": "lem",
-        "Operiod": "c21",
-        "Opres": "nml"
-    },
-    "mapping": {
-        "input": "URLS",
-        "lang": "Ilang",
-        "lang": "Olang"
+      ],
+      "maxSize": 40960000,
+      "multiple": true
     }
-
+  ],
+  "webApplication": {
+    "url": "https://cst.dk/texton/specifyGoal",
+    "queryParameters": [
+      {
+        "name": "URLS",
+        "bind": "text/dataurl"
+      },
+      {
+        "name": "Ilang",
+        "bind": "text/language",
+        "encoding": "639-1"
+      },
+      {
+        "name": "Olang",
+        "bind": "text/language",
+        "encoding": "639-1"
+      },
+      {
+        "name": "UIlanguage",
+        "value": "en"
+      },
+      {
+        "name": "Ifacet",
+        "value": "txt"
+      },
+      {
+        "name": "Iambig",
+        "value": "una"
+      },
+      {
+        "name": "Iapp",
+        "value": "nrm"
+      },
+      {
+        "name": "Ofacet",
+        "value": "lem"
+      },
+      {
+        "name": "Operiod",
+        "value": "c21"
+      },
+      {
+        "name": "Opres",
+        "value": "nml"
+      }
+    ]
+  }
 }
