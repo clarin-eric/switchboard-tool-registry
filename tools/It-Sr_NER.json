@@ -1,0 +1,38 @@
+{
+	"formatVersion": 2,
+    "id": 122121,
+    "task": "Named entity recognition and named entity linking",
+    "deployment": "production",
+    "integrationType" : "Integrated",
+    "name": "It-Sr_NER",
+    "logo": "It-Sr-NER-logo-small.png",
+    "homepage": "https://github.com/rankastankovic/It-Sr-NER",
+    "location": "Belgrade, Serbia",
+    "creators": "Università degli studi di Torino",
+    "contact": {
+        "person": "Olja Perisic",
+        "email": "olja.perisic@unito.it"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": null,
+    "description": "NER and NEL web service for monolingual (txt) and parallel text (tmx).",
+    
+    "languages": [
+        "ca", "zh", "hr", "da", "nl", "en", "fi", "fr", "de", "el", "it", "ja", "ko", "lt", "mk", "nb", "pl", "pt", "ro", "ru", "es", "sv", "uk", "sr"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "application/xml"
+    ],
+    "url": "http://ners.jerteh.rs/api",
+    "parameters": {
+        "lng": null,
+        "with_ner": "on",
+        "with_nel" : null,
+        "with_tmx" : null,
+        "data" : ""
+
+    }
+}
