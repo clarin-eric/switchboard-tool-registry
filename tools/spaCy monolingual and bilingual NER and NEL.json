@@ -4,7 +4,7 @@
     "task": "Named Entity Recognition",
     "deployment": "production",
     "integrationType" : "Integrated",
-    "name": "It-Sr_NER",
+    "name": "spaCy monolingual and bilingual NER and NEL",
     "logo": "It-Sr-NER-logo-small.png",
     "homepage": "https://github.com/rankastankovic/It-Sr-NER",
     "location": "Belgrade, Serbia",
@@ -17,7 +17,7 @@
     "description": "NER and NEL web service for monolingual (txt) and parallel text (tmx).",
     
     "webApplication" : {
-		"url": "http://ners.jerteh.rs/api",
+		"url": "https://ners.jerteh.rs/api",
     	"queryParameters": [{
 			"name": "lng",
 			"bind": "file/language",
@@ -53,11 +53,11 @@
 		optional : true
      }, {
 		id: "with_ner",
-       optional : true
+      		optional : true
 	
      }, {
 		id: "with_tmx",
-       optional : true
+       		optional : true
 	
      }],
       
