@@ -45,19 +45,19 @@
     
 
      "inputs" : [{
-        id: "file",
-        mediatypes: ["text/plain", "application/xml"],
-        languages: ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
+        "id": "file",
+        "mediatypes": ["text/plain", "application/xml"],
+        "languages": ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
      }, {
-		id: "with_nel",
-		optional : true
+		"id": "with_nel",
+		"optional" : true
      }, {
-		id: "with_ner",
-      		optional : true
+		"id": "with_ner",
+      		"optional" : true
 	
      }, {
-		id: "with_tmx",
-       		optional : true
+		"id": "with_tmx",
+       		"optional" : true
 	
      }],
       
