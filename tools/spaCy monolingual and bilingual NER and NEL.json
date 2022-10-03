@@ -38,7 +38,7 @@
           	"name": "file",
 			"bind": "file/dataurl",
 			"encoding": "639-1"
-        }],
+        }]
           
        
     },
