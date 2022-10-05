@@ -1,7 +1,7 @@
 {
     "id": 41,
     "formatVersion": "2",
-    "task": "Transcription",
+    "task": "Speech transcription",
     "deployment": "production",
     "integrationType": "Local",
     "name": "EXMARaLDA",
