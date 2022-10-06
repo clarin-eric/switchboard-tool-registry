@@ -27,7 +27,7 @@
 			"value": "nernel"
        	}, {
           	"name": "data",
-			"bind": "data/dataurl",
+			"bind": "file/dataurl",
 			"encoding": "639-1"
         }]
           
@@ -36,7 +36,7 @@
     
 
      "inputs" : [{
-        "id": "data",
+        "id": "file",
         "mediatypes": ["text/plain", "application/xml"],
         "languages": ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
      }]
