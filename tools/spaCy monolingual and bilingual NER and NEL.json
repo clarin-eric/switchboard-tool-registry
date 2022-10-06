@@ -23,20 +23,11 @@
 			"bind": "file/language",
 			"encoding": "639-1"
         }, { 
-          	"name": "with_ner",
-			"bind": "with_ner",
-			"encoding": "639-1"
+          	"name": "feat",
+			"value": "nernel"
        	}, {
-          	"name": "with_nel",
-			"bind": "with_nel",
-			"encoding": "639-1"
-        }, {
-          	"name": "with_tmx",
-			"bind": "with_tmx",
-			"encoding": "639-1"
-        }, {
-          	"name": "file",
-			"bind": "file/dataurl",
+          	"name": "data",
+			"bind": "data/dataurl",
 			"encoding": "639-1"
         }]
           
@@ -45,23 +36,9 @@
     
 
      "inputs" : [{
-        "id": "file",
+        "id": "data",
         "mediatypes": ["text/plain", "application/xml"],
         "languages": ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
-     }, {
-		"id": "with_nel",
-	        "mediatypes": ["text/plain", "application/xml"],
-		"optional" : true
-     }, {
-		"id": "with_ner",
-	        "mediatypes": ["text/plain", "application/xml"],
-      		"optional" : true
-	
-     }, {
-		"id": "with_tmx",
-	        "mediatypes": ["text/plain", "application/xml"],
-       		"optional" : true
-	
      }]
       
 }
