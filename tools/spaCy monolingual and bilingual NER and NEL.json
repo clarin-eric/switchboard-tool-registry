@@ -23,10 +23,10 @@
 			"bind": "file/language",
 			"encoding": "639-1"
         }, { 
-          	"name": "feat",
+          		"name": "feat",
 			"value": "nernel"
        	}, {
-          	"name": "data",
+          		"name": "data",
 			"bind": "file/dataurl",
 			"encoding": "639-1"
         }]
