@@ -14,7 +14,7 @@
         "email": "olja.perisic@unito.it"
     },
     "authentication": "no",
-    "description": "NER and NEL web service for monolingual (txt) and parallel text (tmx).",
+    "description": "NER web service for monolingual (txt) and parallel text (tmx).",
     
     "webApplication" : {
 		"url": "https://ners.jerteh.rs/api",
