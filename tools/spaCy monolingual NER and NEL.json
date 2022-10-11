@@ -4,7 +4,7 @@
     "task": "Named Entity Recognition",
     "deployment": "production",
     "integrationType" : "Integrated",
-    "name": "spaCy monolingual and bilingual NER and NEL",
+    "name": "spaCy monolingual NER and NEL",
     "logo": "It-Sr-NER-logo-small.png",
     "homepage": "https://github.com/rankastankovic/It-Sr-NER",
     "location": "Belgrade, Serbia",
@@ -14,7 +14,7 @@
         "email": "olja.perisic@unito.it"
     },
     "authentication": "no",
-    "description": "NER and NEL web service for monolingual (txt) and parallel text (tmx).",
+    "description": "NER and NEL web service for monolingual (txt) texts and files.",
     
     "webApplication" : {
 		"url": "https://ners.jerteh.rs/api",
@@ -38,7 +38,7 @@
      "inputs" : [{
         "id": "file",
         "mediatypes": ["text/plain", "application/xml"],
-        "languages": ["generic", "cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
+        "languages": ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
      }]
       
 }
