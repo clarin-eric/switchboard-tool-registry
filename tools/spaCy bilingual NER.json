@@ -32,6 +32,6 @@
     
      "inputs" : [{
         "id": "file",
-        "mediatypes": ["text/plain", "application/xml"]}]
+        "mediatypes": ["application/xml"]}]
       
 }
