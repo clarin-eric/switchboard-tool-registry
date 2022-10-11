@@ -18,11 +18,7 @@
     
     "webApplication" : {
 		"url": "https://ners.jerteh.rs/api",
-    	"queryParameters": [{
-			"name": "lng",
-			"bind": "file/language",
-			"encoding": "639-1"
-        }, { 
+    	"queryParameters": [{ 
           		"name": "feat",
 			"value": "geo"
        	}, {
