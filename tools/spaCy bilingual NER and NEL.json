@@ -1,6 +1,6 @@
 {
 	"formatVersion": "2",
-    "id": 122121,
+    "id": 122125,
     "task": "Named Entity Recognition",
     "deployment": "production",
     "integrationType" : "Integrated",
@@ -33,6 +33,6 @@
 
      "inputs" : [{
         "id": "file",
-        "mediatypes": ["text/plain", "application/xml"] }]
+        "mediatypes": ["application/xml"] }]
       
 }
