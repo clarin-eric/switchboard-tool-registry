@@ -1,0 +1,41 @@
+{
+	"formatVersion": "2",
+    "id": 122128,
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "integrationType" : "Integrated",
+    "name": "spaCy bilingual NER and Geoparsing (for TMX)",
+    "logo": "It-Sr-NER-logo-small.png",
+    "homepage": "https://github.com/rankastankovic/It-Sr-NER",
+    "location": "Belgrade, Serbia",
+    "creators": "Università degli studi di Torino",
+    "contact": {
+        "person": "Olja Perisic",
+        "email": "olja.perisic@unito.it"
+    },
+    "authentication": "no",
+    "description": "NER and Geoparsing web service for parallel text (tmx). Service finds location-related named entities and pin them on a map.",
+    
+    "webApplication" : {
+		"url": "https://ners.jerteh.rs/api",
+    	"queryParameters": [{
+			"name": "lng",
+			"bind": "file/language",
+			"encoding": "639-1"
+        }, { 
+          		"name": "feat",
+			"value": "geo"
+       	}, {
+          		"name": "data",
+			"bind": "file/dataurl",
+			"encoding": "639-1"
+        }]    
+    },
+    
+
+     "inputs" : [{
+        "id": "file",
+        "mediatypes": ["application/xml"]
+     }]
+      
+}
