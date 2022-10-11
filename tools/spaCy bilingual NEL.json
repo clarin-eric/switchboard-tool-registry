@@ -37,8 +37,7 @@
 
      "inputs" : [{
         "id": "file",
-        "mediatypes": ["application/xml"],
-        "languages": ["generic"]
+        "mediatypes": ["application/xml"]
      }]
       
 }
