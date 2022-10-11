@@ -1,0 +1,37 @@
+{
+	"formatVersion": "2",
+    "id": 122126,
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "integrationType" : "Integrated",
+    "name": "spaCy bilingual NER (for TMX)",
+    "logo": "It-Sr-NER-logo-small.png",
+    "homepage": "https://github.com/rankastankovic/It-Sr-NER",
+    "location": "Belgrade, Serbia",
+    "creators": "Università degli studi di Torino",
+    "contact": {
+        "person": "Olja Perisic",
+        "email": "olja.perisic@unito.it"
+    },
+    "authentication": "no",
+    "description": "NER web service for parallel text (tmx) files.",
+    
+    "webApplication" : {
+		"url": "https://ners.jerteh.rs/api",
+    	"queryParameters": [ { 
+          		"name": "feat",
+			"value": "ner"
+       	}, {
+          		"name": "data",
+			"bind": "file/dataurl",
+			"encoding": "639-1"
+        }]
+          
+       
+    },
+    
+     "inputs" : [{
+        "id": "file",
+        "mediatypes": ["text/plain", "application/xml"]}]
+      
+}
