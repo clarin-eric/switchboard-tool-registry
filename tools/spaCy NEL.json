@@ -4,7 +4,7 @@
     "task": "Named Entity Recognition",
     "deployment": "production",
     "integrationType" : "Integrated",
-    "name": "spaCy monolingual NEL",
+    "name": "spaCy NEL",
     "logo": "It-Sr-NER-logo-small.png",
     "homepage": "https://github.com/rankastankovic/It-Sr-NER",
     "location": "Belgrade, Serbia",
@@ -14,7 +14,7 @@
         "email": "olja.perisic@unito.it"
     },
     "authentication": "no",
-    "description": "NEL web service for monolingual (txt) files.",
+    "description": "language-independent NEL web service for texts and files (txt).",
     
     "webApplication" : {
 		"url": "https://ners.jerteh.rs/api",
@@ -33,7 +33,7 @@
 
      "inputs" : [{
         "id": "file",
-        "mediatypes": ["text/plain", "application/xml"]
+        "mediatypes": ["text/plain"]
      }]
       
 }
