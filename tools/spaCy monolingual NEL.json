@@ -18,11 +18,7 @@
     
     "webApplication" : {
 		"url": "https://ners.jerteh.rs/api",
-    	"queryParameters": [{
-			"name": "lng",
-			"bind": "file/language",
-			"encoding": "639-1"
-        }, { 
+    	"queryParameters": [{ 
           		"name": "feat",
 			"value": "nel"
        	}, {
@@ -37,8 +33,7 @@
 
      "inputs" : [{
         "id": "file",
-        "mediatypes": ["text/plain", "application/xml"],
-        "languages": ["generic"]
+        "mediatypes": ["text/plain", "application/xml"]
      }]
       
 }
