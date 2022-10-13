@@ -1,10 +1,10 @@
 {
 	"formatVersion": "2",
-    "id": 122122,
+    "id": 122125,
     "task": "Named Entity Recognition",
     "deployment": "production",
     "integrationType" : "Integrated",
-    "name": "spaCy monolingual and bilingual NER",
+    "name": "spaCy binlingual NER and NEL (for TMX)",
     "logo": "It-Sr-NER-logo-small.png",
     "homepage": "https://github.com/rankastankovic/It-Sr-NER",
     "location": "Belgrade, Serbia",
@@ -14,17 +14,13 @@
         "email": "olja.perisic@unito.it"
     },
     "authentication": "no",
-    "description": "NER web service for monolingual (txt) and parallel text (tmx).",
+    "description": "NER and NEL web service for bilingual (tmx) files.",
     
     "webApplication" : {
 		"url": "https://ners.jerteh.rs/api",
-    	"queryParameters": [{
-			"name": "lng",
-			"bind": "file/language",
-			"encoding": "639-1"
-        }, { 
+    	"queryParameters": [{ 
           		"name": "feat",
-			"value": "ner"
+			"value": "nernel"
        	}, {
           		"name": "data",
 			"bind": "file/dataurl",
@@ -37,8 +33,6 @@
 
      "inputs" : [{
         "id": "file",
-        "mediatypes": ["text/plain", "application/xml"],
-        "languages": ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
-     }]
+        "mediatypes": ["application/xml"] }]
       
 }
