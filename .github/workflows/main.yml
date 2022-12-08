@@ -21,4 +21,4 @@ jobs:
       - name: Validate tools' JSON
         run: |
           cd -- schemas/
-          ./validate-all-tools.py -s ./spec-v1.schema.json -t ../tools
+          ./validate-all-tools.py -s ./spec-v1.schema.json -s ./spec-v2.schema.json -t ../tools
