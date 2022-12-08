@@ -1,0 +1,39 @@
+{
+	"formatVersion": "2",
+    "id": 122123,
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "integrationType" : "Integrated",
+    "name": "spaCy NEL",
+    "logo": "It-Sr-NER-logo-small.png",
+    "homepage": "https://github.com/rankastankovic/It-Sr-NER",
+    "location": "Belgrade, Serbia",
+    "creators": "Università degli studi di Torino",
+    "contact": {
+        "person": "Olja Perisic",
+        "email": "olja.perisic@unito.it"
+    },
+    "authentication": "no",
+    "description": "language-independent Named Entity Linking (NEL) web service for texts and files (txt).",
+    
+    "webApplication" : {
+		"url": "https://ners.jerteh.rs/api",
+    	"queryParameters": [{ 
+          		"name": "feat",
+			"value": "nel"
+       	}, {
+          		"name": "data",
+			"bind": "file/dataurl",
+			"encoding": "639-1"
+        }]
+          
+       
+    },
+    
+
+     "inputs" : [{
+        "id": "file",
+        "mediatypes": ["text/plain"]
+     }]
+      
+}

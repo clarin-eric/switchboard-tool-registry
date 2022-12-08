@@ -1,0 +1,44 @@
+{
+	"formatVersion": "2",
+    "id": 122122,
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "integrationType" : "Integrated",
+    "name": "spaCy monolingual NER",
+    "logo": "It-Sr-NER-logo-small.png",
+    "homepage": "https://github.com/rankastankovic/It-Sr-NER",
+    "location": "Belgrade, Serbia",
+    "creators": "Università degli studi di Torino",
+    "contact": {
+        "person": "Olja Perisic",
+        "email": "olja.perisic@unito.it"
+    },
+    "authentication": "no",
+    "description": "Named Entity Recognition (NER) web service for monolingual texts and files (txt).",
+    
+    "webApplication" : {
+		"url": "https://ners.jerteh.rs/api",
+    	"queryParameters": [{
+			"name": "lng",
+			"bind": "file/language",
+			"encoding": "639-1"
+        }, { 
+          		"name": "feat",
+			"value": "ner"
+       	}, {
+          		"name": "data",
+			"bind": "file/dataurl",
+			"encoding": "639-1"
+        }]
+          
+       
+    },
+    
+
+     "inputs" : [{
+        "id": "file",
+        "mediatypes": ["text/plain"],
+        "languages": ["cat", "zho", "hrv", "dan",  "nld", "eng", "fin", "fra", "deu", "ell", "ita", "jpn", "kor", "lit", "mkd", "nob", "pol", "por", "ron", "rus", "spa", "swe", "ukr", "srp"]
+     }]
+      
+}
