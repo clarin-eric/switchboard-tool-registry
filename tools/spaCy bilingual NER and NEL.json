@@ -1,0 +1,38 @@
+{
+	"formatVersion": "2",
+    "id": 122125,
+    "task": "Named Entity Recognition",
+    "deployment": "production",
+    "integrationType" : "Integrated",
+    "name": "spaCy binlingual NER and NEL (for TMX)",
+    "logo": "It-Sr-NER-logo-small.png",
+    "homepage": "https://github.com/rankastankovic/It-Sr-NER",
+    "location": "Belgrade, Serbia",
+    "creators": "Università degli studi di Torino",
+    "contact": {
+        "person": "Olja Perisic",
+        "email": "olja.perisic@unito.it"
+    },
+    "authentication": "no",
+    "description": "Named Entity Recognition (NER) and Named Entity Linking (NEL) web service for bilingual (tmx) files.",
+    
+    "webApplication" : {
+		"url": "https://ners.jerteh.rs/api",
+    	"queryParameters": [{ 
+          		"name": "feat",
+			"value": "nernel"
+       	}, {
+          		"name": "data",
+			"bind": "file/dataurl",
+			"encoding": "639-1"
+        }]
+          
+       
+    },
+    
+
+     "inputs" : [{
+        "id": "file",
+        "mediatypes": ["application/xml"] }]
+      
+}
