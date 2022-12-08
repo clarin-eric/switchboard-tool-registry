@@ -43,6 +43,19 @@ def load_arguments(argv):
         print(HELP)
         sys.exit(2)
 
+def check_tool_id(tool_ids, failures, tool):
+    tool_name = tool.get("name")
+    id = tool.get("id")
+    if id is None:
+        failures.append(f"Null ID in tool: {tool_name}")
+    elif type(id) != int:
+        failures.append(f"Non-int tool id `{id}` in `{tool_name}`")
+    elif id <= 0:
+        failures.append(f"Negative or 0 id `{id}` in `{tool_name}`")
+    else:
+        if id in tool_ids:
+            failures.append(f"Duplicate id `{id}` in `{tool_name}`")
+        tool_ids.add(id)
 
 def validate_tools():
     validate_fns = []
@@ -74,15 +87,7 @@ def validate_tools():
             except json.JSONDecodeError as xc:
                 print("! JSON decoding error: file {}\n\t{}".format(filepath, xc))
                 sys.exit(2)
-            tool_name = json_data.get("name")
-            if json_data.get("id") is None:
-                failures.append(f"Null ID in tool: {tool_name}")
-            elif json_data.get("id") <= 0:
-                failures.append(f"Negative or 0 ID in tool: {tool_name}")
-            else:
-                if json_data.get("id") in tool_ids:
-                    failures.append(f"Duplicate ID in tool: {tool_name}")
-                tool_ids.add(json_data.get("id"))
+            check_tool_id(tool_ids, failures, json_data)
             for validate in validate_fns:
                 try:
                     validate(json_data)
