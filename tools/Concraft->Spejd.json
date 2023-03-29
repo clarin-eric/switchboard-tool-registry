@@ -1,0 +1,31 @@
+{
+    "id": 20,
+    "task": "Shallow Parsing",
+    "deployment": "production",
+    "name": "Concraft->Spejd",
+    "logo": "zil.png",
+    "homepage": "http://zil.ipipan.waw.pl/Spejd",
+    "location": "Warsaw, Poland",
+    "creators": "Institute of Computer Science, Polish Academy of Sciences, Poland",
+    "contact": {
+        "person": "MultiService",
+        "email": "rjawor@amu.edu.pl"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": null,
+    "description": "Tool for partial parsing and rule-based morphosyntactic disambiguation. Part of: Multiservice, a robust  linguistic  Web service for Polish.",
+    "languages": [
+        "pol"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "text/html"
+    ],
+    "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
+    "parameters": {
+        "input": null,
+        "analysis": "1"
+    }
+}

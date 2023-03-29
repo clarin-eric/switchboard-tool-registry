@@ -1,0 +1,31 @@
+{
+    "id": 16,
+    "task": "Coreference Resolution",
+    "deployment": "production",
+    "name": "Concraft -> Bartek",
+    "logo": "zil.png",
+    "homepage": "http://zil.ipipan.waw.pl/Bartek",
+    "location": "Warsaw, Poland",
+    "creators": "Institute of Computer Science, Polish Academy of Sciences, Poland",
+    "contact": {
+        "person": "MultiService",
+        "email": "rjawor@amu.edu.pl"
+    },
+    "version": "v1.0",
+    "authentication": "no",
+    "licence": null,
+    "description": "A statistical tool chain for performing Coreference Resolution. Part of: Multiservice, a robust  linguistic  Web service for Polish.",
+    "languages": [
+        "pol"
+    ],
+    "langEncoding": "639-1",
+    "mimetypes": [
+        "text/plain",
+        "text/html"
+    ],
+    "url": "http://multiservice.nlp.ipipan.waw.pl/en/clrs",
+    "parameters": {
+        "input": null,
+        "analysis": "5"
+    }
+}
