@@ -1,11 +1,11 @@
 {
     "formatVersion": "2",
     "id": 222,
-    "task": "Lemmatization",
+    "task": "Text Analytics",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "Text Tonsorium - Lemmas.",
-    "description": "The Text Tonsorium designs and enacts workflows that fulfil your goal. Here, the goal is set to \"lemmatization of the input\". Once in Text Tonsorium, you can refine or change the goal.",
+    "name": "Text Tonsorium - Advanced mode.",
+    "description": "The Text Tonsorium designs and enacts workflows that fulfil your goal. Once in Text Tonsorium, you can define your goal by picking values from a few drop-down lists, e.g., annotation types in and file format of the output. Some annotation types are only available for a few languages, first and foremost Danish. In case your goal cannot be attained with the currently available tools, the Text Tonsorium will quickly let you know.",
     "logo": "texton.png",
     "homepage": "https://cst.dk/texton/help",
     "creators": "CLARIN B-centre at the University of Copenhagen, Denmark",
@@ -13,7 +13,7 @@
         "person": "Bart Jongejan",
         "email": "bartj@hum.ku.dk"
     },
-    "keywords": [ "lemmatization", "lemmatisation", "TEI P5", "CONLL", "HTML", "JSON", "PDF", "Word", "contemporary", "late modern", "medieval", "OCR", "fraktur", "Danish" ],
+    "keywords": [ "lemmatization", "lemmatisation", "Part of Speech", "Dependency parsing", "Tokenisation", "Named entities", "TEI P5", "CONLL", "HTML", "JSON", "PDF", "Word", "contemporary", "late modern", "medieval", "classic", "OCR", "fraktur", "Danish" ],
     "location": "Copenhagen, Denmark",
     "authentication": "no",
     "inputs": [
@@ -49,7 +49,7 @@
                 "text/x-conll",
                 "text/xml"
             ],
-            "languages": [ "afr", "ast", "bel", "bul", "cat", "ces", "cym", "dan", "deu", "ell", "eng", "est", "fao", "fas", "fra", "gla", "gle", "glg", "glv", "hrv", "hun", "isl", "ita", "kat", "lat", "mkd", "nld", "nor", "pol", "por", "ron", "rus", "slk", "slv", "spa", "sqi", "srp", "swe", "ukr" ],
+            "languages": [ "afr", "ara", "ast", "bel", "bos", "bre", "bul", "cat", "ces", "chu", "cop", "cos", "cym", "dan", "deu", "ell", "eng", "epo", "est", "eus", "fao", "fas", "fin", "fra", "gla", "gle", "glg", "glv", "gml", "got", "hat", "heb", "hin", "hrv", "hun", "hye", "iku", "ind", "isl", "ita", "jav", "jpn", "kan", "kat", "kor", "kur", "lat", "lav", "lit", "ltz", "mal", "mar", "mkd", "mlt", "msa", "nld", "nno", "nob", "nor", "oci", "pol", "por", "ron", "rus", "slk", "slv", "sme", "spa", "sqi", "srp", "swa", "swe", "tam", "tel", "tur", "uig", "ukr", "urd", "uzb", "vie", "wol", "yid", "zho" ],
             "maxSize": 40960000,
             "multiple": true
         }
@@ -86,18 +86,6 @@
             {
                 "name": "Iapp",
                 "value": "nrm"
-            },
-            {
-                "name": "Ofacet",
-                "value": "lem"
-            },
-            {
-                "name": "Operiod",
-                "value": "c21"
-            },
-            {
-                "name": "Opres",
-                "value": "nml"
             }
         ]
     }
