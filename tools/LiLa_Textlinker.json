@@ -29,7 +29,7 @@
         "url": "https://lila-erc.eu/LiLaTextLinker/process",
         "queryParameters": [{
             "name": "text",
-            "bind": "text/plain"
+            "bind": "text/dataurl"
         }]
     }
 }
