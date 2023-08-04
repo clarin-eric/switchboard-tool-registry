@@ -1,0 +1,35 @@
+{
+    "formatVersion": "2",
+    "id": 250,
+    "task": "Lemmatization",
+    "deployment": "production",
+    "integrationType": "Integrated",
+    "name": "LiLa Text Linker",
+    "description": "......",
+    "logo": "LiLaLogo.png",
+    "homepage": "https://lila-erc.eu",
+    "creators": "CIRCSE Research center - Università Cattolica del Sacro Cuore",
+    "contact": {
+        "person": "Marco Passarotti",
+        "email": "info@lila-erc.eu"
+    },
+    "keywords": ["lemmatization", "lemmatisation", "POS", "LOD", "LiLa", "Linked open data", "NLP", "latin"],
+    "location": "Milan - Italy",
+    "authentication": "no",
+    "inputs": [{
+        "id": "text",
+        "mediatypes": [
+            "text/plain"
+        ],
+        "languages": ["lat"],
+        "maxSize": 8000,
+        "multiple": false
+    }],
+    "webApplication": {
+        "url": "https://lila-erc.eu/LiLaTextLinker/process",
+        "queryParameters": [{
+            "name": "text",
+            "bind": "text/plain"
+        }]
+    }
+}
