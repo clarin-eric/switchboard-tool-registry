@@ -22,7 +22,7 @@
             "text/plain"
         ],
         "languages": ["lat"],
-        "maxSize": 8000,
+        "maxSize": 150000,
         "multiple": false
     }],
     "webApplication": {
