@@ -1,19 +1,19 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 56,
+    "task": "Sentiment Analysis",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "AspectEmo",
+    "description": "AspectEmo operates on the sound of individual words. This allows it to recognize nuanced or contrasting opinions within a single sentence or text, rather than providing an overall rating for an entire segment.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/aspectemo",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["sentiment analysis", "opinion mining", "aspect-based sentiment analysis", "emotion detection", "aspect detection"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
@@ -22,7 +22,7 @@
         "languages": ["eng", "pol"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/aspectemo/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

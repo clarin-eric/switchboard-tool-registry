@@ -1,39 +1,31 @@
 {
+    "formatVersion": "2",
     "id": 102,
     "task": "Extraction of Polish terminology",
     "deployment": "production",
+    "integrationType": "Integrated",
     "name": "TermoPL",
+    "description": "Tool used to automatically extract domain terminology from texts. In addition to terminology, the tool can be used to extract multi-word units. Terminology extraction is a helpful mechanism, among others: in creating domain dictionaries, resources for translating texts and document summaries, in developing an ontology of a given field, in document annotation and supporting the search for answers to questions.",
     "logo": "clarin-pl.png",
-    "homepage": "https://ws.clarin-pl.eu",
-    "location": "Wrocław, Poland",
+    "homepage": "https://services.clarin-pl.eu/services/termopl",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "version": "1.0",
-    "licence": null,
-    "authentication": "no",
-    "description": "TermoPL is a tool for automated extraction of terminology from Polish texts.",
-    "languages": [
-        "pol"
-    ],
-    "langEncoding": "639-1",
-    "mimetypes": [
-        "text/plain",
-        "application/msword",
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "application/vnd.oasis.opendocument.text",
-        "application/pdf",
-        "text/html",
-        "text/rtf"
-    ],
-    "url": "https://ws.clarin-pl.eu/weblicht.html",
-    "parameters": {
-        "input": null,
-        "lang": "pl",
-        "analysis": "termopl"
+    "keywords": ["terminology extraction", "multi-word units", "domain terminology", "ontology", "document annotation", "question answering"],
+    "location": "Wroclaw, Poland",
+    "authentication": "Yes, user should create an account on the Clarin-PL website",
+    "inputs": [{
+        "id": "text",
+        "mediatypes": ["application/zip"],
+        "languages": ["eng", "pol"]
+    }],
+    "webApplication": {
+        "url": "https://services.clarin-pl.eu/services/termopl/creator",
+        "queryParameters": [{
+            "name": "weblicht-input",
+            "bind": "text/dataurl"
+        }]
     }
 }

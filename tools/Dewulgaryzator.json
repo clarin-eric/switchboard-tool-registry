@@ -1,28 +1,28 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 91,
+    "task": "Editing",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "Dewulgaryzator",
+    "description": "Service that allows you to replace vulgar expressions with their non-vulgar equivalents while maintaining the original character of the text.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/txt2txt",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["profanity", "substitution", "vulgar"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
         "id": "text",
         "mediatypes": ["application/zip"],
-        "languages": ["eng", "pol"]
+        "languages": ["pol"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/txt2txt/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

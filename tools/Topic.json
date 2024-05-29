@@ -1,32 +1,31 @@
 {
+    "formatVersion": "2",
     "id": 104,
     "task": "Topic Modelling",
     "deployment": "production",
+    "integrationType": "Integrated",
     "name": "Topic",
+    "description": "A service for automatically extracting information about what topics are covered in the texts. It uses topic modeling (LDA), which detects topics based on the co-occurrence of words in one document. The service assigns each document to several topics. The detected topic represents what a list of pairs: the word and the probability of its occurrence in the topic. It enables qualitative (detection of non-obvious topics) and quantitative analysis of processed texts.",
     "logo": "clarin-pl.png",
-    "homepage": "http://ws.clarin-pl.eu",
-    "location": "Wrocław, Poland",
+    "homepage": "https://services.clarin-pl.eu/applications/topic",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "version": "1.0",
-    "licence": null,
-    "authentication": "no",
-    "description": "Topic modelling of texts in Polish. The tools used include: Morfeusz 2 with SGJP dictionary (for morphological analysis), wcrft2 (for tagging), gensim and mallet (for topic modelling), and D3.js plus D3-tip (for result visualisation).",
-    "languages": [
-        "pol"
-    ],
-    "langEncoding": "639-1",
-    "mimetypes": [
-        "application/zip"
-    ],
-    "url": "https://ws.clarin-pl.eu/weblicht.html",
-    "parameters": {
-        "input": null,
-        "lang": "pl",
-        "analysis": "topic",
-        "batch": "true"
+    "keywords": ["topic", "topic modelling", "LDA", "text analysis"],
+    "location": "Wroclaw, Poland",
+    "authentication": "Yes, user should create an account on the Clarin-PL website",
+    "inputs": [{
+        "id": "text",
+        "mediatypes": ["application/zip"],
+        "languages": ["eng", "pol"]
+    }],
+    "webApplication": {
+        "url": "https://services.clarin-pl.eu/tools/en/topic",
+        "queryParameters": [{
+            "name": "weblicht-input",
+            "bind": "text/dataurl"
+        }]
     }
 }

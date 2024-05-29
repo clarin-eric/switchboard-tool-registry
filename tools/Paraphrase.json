@@ -1,19 +1,19 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 90,
+    "task": "Editing",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "TxTParaphrase",
+    "description": "Based on a deep language model that analyzes the semantic content of statements and generates texts with the same meaning but with a changed form. The tool returns text of a similar length to the text entered by the user.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/paraphrase",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["paraphrase", "text", "semantic content"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
@@ -22,7 +22,7 @@
         "languages": ["eng", "pol"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/paraphrase/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"
