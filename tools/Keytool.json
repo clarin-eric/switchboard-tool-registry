@@ -1,19 +1,19 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 88,
+    "task": "Keyword Extractor",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "Keytool",
+    "description": "Service integrates several keyword determination methods, including generative models and multi-label classification. The combination of several advanced techniques makes the results more reliable and accurate.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/keytool",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["keyword extraction", "keyword determination"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
@@ -22,7 +22,7 @@
         "languages": ["eng", "pol"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/keytool/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

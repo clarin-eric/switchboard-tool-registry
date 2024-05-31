@@ -1,0 +1,31 @@
+{
+    "formatVersion": "2",
+    "id": 92,
+    "task": "Text Analytics",
+    "deployment": "production",
+    "integrationType": "Integrated",
+    "name": "LEM",
+    "description": "Service that is used to process literary texts to extract statistical information from them. The service allows, among others, lemmatization, determining parts of speech, characterization of verbs used in the text, creating a list of proper names and extracting statistics from the corpus of texts.",
+    "logo": "clarin-pl.png",
+    "homepage": "https://services.clarin-pl.eu/services/statconverter",
+    "creators": "Clarin-PL",
+    "contact": {
+        "person": "Tomasz Walkowiak",
+        "email": "tomasz.walkowiak@pwr.edu.pl"
+    },
+    "keywords": ["lemmatization", "part of speech", "verbs", "proper names", "statistics"],
+    "location": "Wroclaw, Poland",
+    "authentication": "Yes, user should create an account on the Clarin-PL website",
+    "inputs": [{
+        "id": "text",
+        "mediatypes": ["application/zip"],
+        "languages": ["pol"]
+    }],
+    "webApplication": {
+        "url": "https://services.clarin-pl.eu/services/statconverter/creator",
+        "queryParameters": [{
+            "name": "weblicht-input",
+            "bind": "text/dataurl"
+        }]
+    }
+}

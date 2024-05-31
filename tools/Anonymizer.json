@@ -1,19 +1,19 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 51,
+    "task": "Editing",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "Anonymizer",
+    "description": "Anonymized data is not subject to GDPR and does not pose any other threats to privacy - so it can be archived without risk and freely transferred between departments or to external companies without the use of trustee agreements.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/anonymizer",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["anonymization", "gdpr", "rodo", "privacy", "data protection", "personal data", "data security"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
@@ -22,7 +22,7 @@
         "languages": ["eng", "pol"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/anonymizer/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

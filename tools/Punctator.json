@@ -1,28 +1,28 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 55,
+    "task": "Text Enhancement",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "Punctuator",
+    "description": "Unlike simple tools built into word processors, this tool applies context-sensitive spelling rules rather than placing characters mechanically. It adds not only punctuation marks, but also dots after ordinal numbers and parentheses around parentheses.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/punctuator-premium",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["punctuation"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
         "id": "text",
         "mediatypes": ["application/zip"],
-        "languages": ["eng", "pol"]
+        "languages": ["eng", "pol", "rus"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/punctuator-premium/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

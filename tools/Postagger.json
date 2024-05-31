@@ -1,0 +1,31 @@
+{
+    "formatVersion": "2",
+    "id": 182,
+    "task": "Part-Of-Speech Tagging",
+    "deployment": "production",
+    "integrationType": "Integrated",
+    "name": "Postagger",
+    "description": "Set of tools used in natural language processing to assign labels or tags to text elements such as words or tokens. Postagger works at the stage after the text has been analyzed by a morphological or syntactic tagger and is intended to make the final classification and assign appropriate labels to individual text elements.",
+    "logo": "clarin-pl.png",
+    "homepage": "https://services.clarin-pl.eu/services/postagger",
+    "creators": "Clarin-PL",
+    "contact": {
+        "person": "Tomasz Walkowiak",
+        "email": "tomasz.walkowiak@pwr.edu.pl"
+    },
+    "keywords": ["postagger", "nlp", "natural language processing", "text analysis", "morphological tagger", "syntactic tagger"],
+    "location": "Wroclaw, Poland",
+    "authentication": "Yes, user should create an account on the Clarin-PL website",
+    "inputs": [{
+        "id": "text",
+        "mediatypes": ["application/zip"],
+        "languages": ["eng", "pol"]
+    }],
+    "webApplication": {
+        "url": "https://services.clarin-pl.eu/services/postagger/creator",
+        "queryParameters": [{
+            "name": "weblicht-input",
+            "bind": "text/dataurl"
+        }]
+    }
+}

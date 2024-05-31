@@ -1,28 +1,28 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 91,
+    "task": "Editing",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "Hatespeech",
+    "description": "Tool presents the intensity of hate speech to show on a scale how individual texts are assessed from the recipient's perspective.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/hatespeech",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["hate speech", "profanity", "offensive language"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
         "id": "text",
         "mediatypes": ["application/zip"],
-        "languages": ["eng", "pol"]
+        "languages": ["pol", "eng", "deu", "fra", "spa", "ita", "rus", "por"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/hatespeech/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

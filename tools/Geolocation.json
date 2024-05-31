@@ -1,28 +1,28 @@
 {
     "formatVersion": "2",
-    "id": 98,
-    "task": "Text Summarization",
+    "id": 111,
+    "task": "Visualisation of Geographic Data",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "ShortTxTSummary",
-    "description": "A tool for summarizing texts. The tool automatically selects potentially key fragments of texts and then removes less important elements, ensuring the surface consistency of the text.",
+    "name": "Dewulgaryzator",
+    "description": "Tool based on the Named Entity Recognition service, assigning geographic coordinates to detected place names.",
     "logo": "clarin-pl.png",
-    "homepage": "https://services.clarin-pl.eu/services/summarization",
+    "homepage": "https://services.clarin-pl.eu/services/geolocation",
     "creators": "Clarin-PL",
     "contact": {
         "person": "Tomasz Walkowiak",
         "email": "tomasz.walkowiak@pwr.edu.pl"
     },
-    "keywords": ["summarization"],
+    "keywords": ["geolocation", "named entity recognition", "place names", "geographic coordinates"],
     "location": "Wroclaw, Poland",
     "authentication": "Yes, user should create an account on the Clarin-PL website",
     "inputs": [{
         "id": "text",
         "mediatypes": ["application/zip"],
-        "languages": ["eng", "pol"]
+        "languages": ["pol", "eng"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/services/summarization/creator",
+        "url": "https://services.clarin-pl.eu/services/geolocation/creator",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"
