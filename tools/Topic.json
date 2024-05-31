@@ -22,7 +22,7 @@
         "languages": ["eng", "pol"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/tools/en/topic",
+        "url": "https://services.clarin-pl.eu/tools/en/topic/app/new",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"

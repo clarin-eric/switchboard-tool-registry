@@ -19,10 +19,10 @@
     "inputs": [{
         "id": "text",
         "mediatypes": ["application/zip"],
-        "languages": ["eng", "pol"]
+        "languages": ["eng", "pol", "deu", "rus", "por", "fra", "spa", "dan", "nld", "gre", "ita", "jpn", "lit", "nor", "rom"]
     }],
     "webApplication": {
-        "url": "https://services.clarin-pl.eu/tools/en/websty",
+        "url": "https://services.clarin-pl.eu/tools/en/websty/app/new",
         "queryParameters": [{
             "name": "weblicht-input",
             "bind": "text/dataurl"
