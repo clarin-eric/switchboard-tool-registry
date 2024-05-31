@@ -1,7 +1,7 @@
 {
     "formatVersion": "2",
     "id": 91,
-    "task": "Hate Speech Detection",
+    "task": "Editing",
     "deployment": "production",
     "integrationType": "Integrated",
     "name": "Hatespeech",
