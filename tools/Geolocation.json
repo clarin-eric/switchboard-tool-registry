@@ -4,7 +4,7 @@
     "task": "Visualisation of Geographic Data",
     "deployment": "production",
     "integrationType": "Integrated",
-    "name": "Dewulgaryzator",
+    "name": "Geolocation",
     "description": "Tool based on the Named Entity Recognition service, assigning geographic coordinates to detected place names.",
     "logo": "clarin-pl.png",
     "homepage": "https://services.clarin-pl.eu/services/geolocation",
