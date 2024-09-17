@@ -49,7 +49,7 @@
                 "text/x-conll",
                 "text/xml"
             ],
-            "languages": [ "afr", "ast", "bel", "bul", "cat", "ces", "cym", "dan", "deu", "ell", "eng", "est", "fao", "fas", "fra", "gla", "gle", "glg", "glv", "hrv", "hun", "isl", "ita", "kat", "lat", "mkd", "nld", "nor", "pol", "por", "ron", "rus", "slk", "slv", "spa", "sqi", "srp", "swe", "ukr" ],
+            "languages": [ "afr", "ast", "bel", "bul", "cat", "ces", "cym", "dan", "deu", "ell", "eng", "est", "fao", "fas", "fra", "gla", "gle", "glg", "glv", "gml", "hrv", "hun", "isl", "ita", "kat", "lat", "mkd", "nld", "nor", "pol", "por", "ron", "rus", "slk", "slv", "spa", "sqi", "srp", "swe", "ukr" ],
             "maxSize": 40960000,
             "multiple": true
         }
