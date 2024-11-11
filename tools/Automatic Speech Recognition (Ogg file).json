@@ -1,0 +1,44 @@
+{
+    "id": 6,
+    "name": "Automatic Speech Recognition (Ogg file)",
+    "task": "Speech Recognition",
+    "deployment": "production",
+    "description": "This webservice uses automatic speech recognition based on WhisperX to provide the transcriptions of recordings. Several languages are supported. It also offers speaker diarisation. You can upload and process only one file per project. For bulk processing and other questions, please contact Henk van den Heuvel at henk.vandenheuvel@ru.nl .",
+    "homepage": "https://github.com/opensource-spraakherkenning-nl/asrservice",
+    "licence": "AGPL-3.0",
+    "location": "Centre for Language and Speech Technology, Radboud University",
+    "creators": "Maarten van Gompel, Louis ten Bosch (Centre for Language and Speech Technology, Radboud University)",
+    "contact": {
+        "person": "henk.vandenheuvel@ru.nl",
+        "email": "henk.vandenheuvel@ru.nl"
+    },
+    "version": null,
+    "logo": "clst.png",
+    "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
+    "url": "https://webservices2.cls.ru.nl/asrservice",
+    "mapping": {
+        "input": "InputOggFile_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": null,
+        "model": "large-v2",
+        "gpu": 1
+    },
+    "mimetypes": [
+        "audio/vorbis"
+    ],
+    "languages": [
+        "eng",
+        "nld",
+        "deu",
+        "fra",
+        "ita",
+        "jap",
+        "zho",
+        "spa",
+        "por",
+        "ukr"
+    ],
+    "langEncoding": "639-1"
+}
