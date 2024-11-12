@@ -1,0 +1,41 @@
+{
+    "formatVersion": "2",
+    "id": 154,
+    "task": "Editing",
+    "deployment": "development",
+    "integrationType": "External",
+    "name": "TranscriptionPortal",
+    "description": "A portal that implements a transcription chain for batch processing of speech files using automatic speech recognition, the OCTRA editor, the Munich Automatic Segmentation MAUS and the EMU-webApp viewer.",
+    "logo": "transcription-portal.png",
+    "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal/",
+    "creators": "Julian Poemp, Christoph Draxler",
+    "contact": {
+        "person": "Christoph Draxler",
+        "email": "draxler@phonetik.uni-muenchen.de"
+    },
+    "keywords": ["transcription", "annotation", "asr", "audio-transcribing", "audio-transcription"],
+    "location": "Munich, Germany",
+    "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
+    "inputs": [{
+        "id": "speech",
+        "name": "Speech",
+        "mediatypes": [
+            "audio/vnd.wave"
+        ],
+        "languages": ["deu", "eng", "ita", "nld"]
+    }],
+    "webApplication": {
+        "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
+        "queryParameters": [
+            {
+                "name": "input",
+                "bind": "text/dataurl"
+            },
+            {
+                "name": "lang",
+                "bind": "text/language",
+                "encoding": "639-1"
+            }
+        ]
+    }
+}
