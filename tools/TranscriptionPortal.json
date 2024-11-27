@@ -20,7 +20,12 @@
         "id": "speech",
         "name": "Speech",
         "mediatypes": [
-            "audio/vnd.wave"
+            "audio/vnd.wav",
+            "audio/vnd.wave",
+            "audio/wav",
+            "audio/wave",
+            "audio/x-pn-wav",
+            "audio/x-wav"
         ],
         "languages": ["deu", "eng", "ita", "nld"]
     }],
@@ -28,13 +33,8 @@
         "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
         "queryParameters": [
             {
-                "name": "input",
+                "name": "audio",
                 "bind": "text/dataurl"
-            },
-            {
-                "name": "lang",
-                "bind": "text/language",
-                "encoding": "639-1"
             }
         ]
     }
