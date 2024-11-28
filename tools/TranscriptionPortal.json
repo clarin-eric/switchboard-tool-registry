@@ -27,8 +27,7 @@
             "audio/x-pn-wav",
             "audio/x-wav"
         ],
-        "languages": ["deu", "eng", "ita", "nld"],
-        "langEncoding": "639-1"
+        "languages": ["deu", "eng", "ita", "nld"]
     }],
     "webApplication": {
         "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
