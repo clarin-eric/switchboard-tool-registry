@@ -23,7 +23,7 @@
         "project": "new",
         "input": null,
         "model": "large-v2",
-        "gpu": 1,
+        "gpu": 1
     },
     "mimetypes": [
         "audio/vnd.wave"
