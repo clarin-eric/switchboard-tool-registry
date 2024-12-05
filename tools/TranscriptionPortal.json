@@ -34,7 +34,7 @@
         "queryParameters": [
             {
                 "name": "audio",
-                "bind": "text/dataurl"
+                "bind": "speech/dataurl"
             }
         ]
     }
