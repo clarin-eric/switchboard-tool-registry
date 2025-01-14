@@ -1,41 +1,72 @@
 {
-    "formatVersion": "2",
-    "id": 154,
-    "task": "Editing",
-    "deployment": "development",
-    "integrationType": "External",
-    "name": "TranscriptionPortal",
-    "description": "A portal that implements a transcription chain for batch processing of speech files using automatic speech recognition, the OCTRA editor, the Munich Automatic Segmentation MAUS and the EMU-webApp viewer.",
-    "logo": "transcription-portal.png",
-    "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal/",
-    "creators": "Julian Poemp, Christoph Draxler",
-    "contact": {
-        "person": "Christoph Draxler",
-        "email": "draxler@phonetik.uni-muenchen.de"
+  "formatVersion": "2",
+  "id": 154,
+  "task": "Editing",
+  "deployment": "development",
+  "integrationType": "External",
+  "name": "TranscriptionPortal",
+  "description": "A portal that implements a transcription chain for batch processing of speech files using automatic speech recognition, the OCTRA editor, the Munich Automatic Segmentation MAUS and the EMU-webApp viewer.",
+  "logo": "transcription-portal.png",
+  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
+  "creators": "Julian Poemp, Christoph Draxler",
+  "contact": {
+    "person": "Christoph Draxler",
+    "email": "draxler@phonetik.uni-muenchen.de"
+  },
+  "keywords": ["transcription", "annotation", "asr", "audio-transcribing", "audio-transcription"],
+  "location": "Munich, Germany",
+  "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
+  "inputs": [
+    {
+      "id": "audio",
+      "name": "Speech",
+      "maxSize": 314572800,
+      "mediatypes": [
+        "audio/vnd.wav",
+        "audio/vnd.wave",
+        "audio/wav",
+        "audio/wave",
+        "audio/x-pn-wav",
+        "audio/x-wav"
+      ],
+      "languages": ["deu", "eng", "ita", "nld"]
     },
-    "keywords": ["transcription", "annotation", "asr", "audio-transcribing", "audio-transcription"],
-    "location": "Munich, Germany",
-    "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
-    "inputs": [{
-        "id": "speech",
-        "name": "Speech",
-        "mediatypes": [
-            "audio/vnd.wav",
-            "audio/vnd.wave",
-            "audio/wav",
-            "audio/wave",
-            "audio/x-pn-wav",
-            "audio/x-wav"
-        ],
-        "languages": ["deu", "eng", "ita", "nld"]
-    }],
-    "webApplication": {
-        "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
-        "queryParameters": [
-            {
-                "name": "audio",
-                "bind": "speech/dataurl"
-            }
-        ]
+    {
+      "id": "transcript",
+      "maxSize": 20971520,
+      "mediatypes": [
+        "text/plain",
+        "text/vtt",
+        "text/praat-textgrid",
+        "application/json"
+      ],
+      "optional": true,
+      "languages": ["deu", "eng", "ita", "nld"]
     }
+  ],
+  "webApplication": {
+    "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
+    "queryParameters": [
+      {
+        "name": "audio",
+        "bind": "audio/dataurl"
+      },
+      {
+        "name": "audio_language",
+        "bind": "audio/language"
+      },
+      {
+        "name": "audio_type",
+        "bind": "audio/type"
+      },
+      {
+        "name": "transcript",
+        "bind": "transcript/dataurl"
+      },
+      {
+        "name": "transcript_type",
+        "bind": "transcript/type"
+      }
+    ]
+  }
 }
