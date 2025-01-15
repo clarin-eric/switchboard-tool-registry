@@ -1,0 +1,35 @@
+{
+    "formatVersion": "2",
+    "id": 666,
+    "task": "Lemmatization",
+    "deployment": "production",
+    "integrationType": "Integrated",
+    "name": "LiLa Text Linker",
+    "description": "The LiLa Text Linker is a pos-tagger and Lemmatizer for Latin that also provides, for each analyzed token, a link to the lemma entry in the LOD-compliant LiLa Lemma Bank. The tool was produced in the context of the 'LiLa - Linking Latin' project (https://lila-erc.eu/).",
+    "logo": "LiLaLogo.png",
+    "homepage": "https://lila-erc.eu",
+    "creators": "CIRCSE Research center - Università Cattolica del Sacro Cuore",
+    "contact": {
+        "person": "Marco Passarotti",
+        "email": "info@lila-erc.eu"
+    },
+    "keywords": ["lemmatization", "lemmatisation", "POS", "LOD", "LiLa", "Linked open data", "NLP", "latin"],
+    "location": "Milan - Italy",
+    "authentication": "no",
+    "inputs": [{
+        "id": "text",
+        "mediatypes": [
+            "text/plain"
+        ],
+        "languages": ["lat"],
+        "maxSize": 150000,
+        "multiple": false
+    }],
+    "webApplication": {
+        "url": "https://lila-erc.eu/LiLaTextLinker/process",
+        "queryParameters": [{
+            "name": "text",
+            "bind": "text/dataurl"
+        }]
+    }
+}
