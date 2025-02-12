@@ -2,7 +2,7 @@
   "formatVersion": "2",
   "id": 154,
   "task": "Editing",
-  "deployment": "development",
+  "deployment": "production",
   "integrationType": "External",
   "name": "TranscriptionPortal",
   "description": "A portal that implements a transcription chain for batch processing of speech files using automatic speech recognition, the OCTRA editor, the Munich Automatic Segmentation MAUS and the EMU-webApp viewer.",
@@ -45,7 +45,7 @@
     }
   ],
   "webApplication": {
-    "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
+    "url": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal/",
     "queryParameters": [
       {
         "name": "audio",
