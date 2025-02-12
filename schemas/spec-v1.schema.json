@@ -24,6 +24,10 @@
     "url"
   ],
   "properties": {
+    "$schema": {
+      "type": "string",
+      "pattern": "^../schemas/"
+    },
     "task": {
       "$id": "#/properties/task",
       "type": "string",
