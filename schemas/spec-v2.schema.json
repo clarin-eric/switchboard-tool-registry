@@ -20,6 +20,10 @@
     ],
     "additionalProperties": false,
     "properties": {
+        "$schema": {
+            "type": "string",
+            "pattern": "^../schemas/"
+        },
         "formatVersion": {
             "type": "string",
             "enum": ["2"]
