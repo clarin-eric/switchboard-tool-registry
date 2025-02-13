@@ -8,7 +8,7 @@
   "name": "OCTRA",
   "description": "OCTRA is a web-application for the orthographic transcription of audio files supporting in place ASR and Word Alignment.",
   "logo": "octra.png",
-  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
+  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra-2",
   "creators": "Julian Poemp, Christoph Draxler",
   "contact": {
     "person": "Christoph Draxler",
@@ -16,7 +16,6 @@
   },
   "keywords": ["transcription", "annotation", "asr", "audio-transcribing", "audio-transcription"],
   "location": "Munich, Germany",
-  "authentication": "Requires a CLARIN Service Provider Federation account, provided by many universities and institutions.",
   "inputs": [
     {
       "id": "audio",
@@ -60,6 +59,10 @@
       {
         "name": "transcript",
         "bind": "transcript/dataurl"
+      },
+      {
+        "name": "bottomNav",
+        "value": "true"
       }
     ]
   }
