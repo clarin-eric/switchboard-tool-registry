@@ -1,1 +1,33 @@
-
+{
+      
+  "formatVersion":2,
+  "id": 170,
+  "task": "Named Entity Recognition",
+  "deployment": "development",
+  "integrationType": "External",
+  "name": "Basque NERC",
+  "logo": "hitz.jpg",
+  "homepage": "https://zerbitzuak.hitz.eus/lema/nerHome/",
+  "location": "HiTZ Zentroa, EHU/UPV Informatika Fakultatea, 20080 Donostia, Basque Country",
+  "creators": "HiTZ Center, University of the Basque Country UPV/EHU",
+  "contact": {
+              "person": "Xabier Goenaga",
+              "email": "xabier.goenaga@ehu.eus"
+  },
+  "version": "v2.0",
+  "authentication": "no",
+  "licence": "Basque NERC is a free software under Mozilla Public Licence 2.0 and the linguistic models are free for non-commercial use and distributed under CC BY-NC-SA licence.",
+  "description": "Basque NERC is an open-source tool for recognizing and categorizing proper names in text, such as people, places, and organizations in Basque.",
+  "inputs": [{
+    "id": "text",
+    "mediatypes": ["text/plain"],
+    "languages": ["eus"]
+  }],
+  "webApplication": {
+    "url": "https://zerbitzuak.hitz.eus/lema/switchboard/nerc/",
+    "queryParameters": [{
+      "name": "data",
+      "bind": "text/dataurl"
+    }]
+  }
+}
