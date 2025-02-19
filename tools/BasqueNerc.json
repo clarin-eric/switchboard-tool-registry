@@ -1,6 +1,5 @@
 {
-      
-  "formatVersion":2,
+  "formatVersion":"2",
   "id": 170,
   "task": "Named Entity Recognition",
   "deployment": "development",
@@ -14,9 +13,7 @@
               "person": "Xabier Goenaga",
               "email": "xabier.goenaga@ehu.eus"
   },
-  "version": "v2.0",
   "authentication": "no",
-  "licence": "Basque NERC is a free software under Mozilla Public Licence 2.0 and the linguistic models are free for non-commercial use and distributed under CC BY-NC-SA licence.",
   "description": "Basque NERC is an open-source tool for recognizing and categorizing proper names in text, such as people, places, and organizations in Basque.",
   "inputs": [{
     "id": "text",
