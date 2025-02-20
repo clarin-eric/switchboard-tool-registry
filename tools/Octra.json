@@ -3,16 +3,16 @@
   "formatVersion": "2",
   "id": 155,
   "task": "Speech transcription",
-  "deployment": "development",
+  "deployment": "production",
   "integrationType": "External",
   "name": "OCTRA",
   "description": "OCTRA is a web-application for the orthographic transcription of audio files supporting in place ASR and Word Alignment.",
   "logo": "octra.png",
-  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra-2",
+  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra",
   "creators": "Julian Poemp, Christoph Draxler",
   "contact": {
     "person": "Christoph Draxler",
-    "email": "draxler@phonetik.uni-muenchen.de"
+    "email": "octra@phonetik.uni-muenchen.de"
   },
   "keywords": ["transcription", "annotation", "asr", "audio-transcribing", "audio-transcription"],
   "location": "Munich, Germany",
@@ -50,7 +50,7 @@
     }
   ],
   "webApplication": {
-    "url": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra-2/",
+    "url": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra/",
     "queryParameters": [
       {
         "name": "audio_url",
