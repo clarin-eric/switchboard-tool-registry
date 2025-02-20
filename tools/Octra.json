@@ -1,0 +1,69 @@
+{
+  "$schema": "../schemas/spec-v2.schema.json",
+  "formatVersion": "2",
+  "id": 155,
+  "task": "Speech transcription",
+  "deployment": "production",
+  "integrationType": "External",
+  "name": "OCTRA",
+  "description": "OCTRA is a web-application for the orthographic transcription of audio files supporting in place ASR and Word Alignment.",
+  "logo": "octra.png",
+  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra",
+  "creators": "Julian Poemp, Christoph Draxler",
+  "contact": {
+    "person": "Christoph Draxler",
+    "email": "octra@phonetik.uni-muenchen.de"
+  },
+  "keywords": ["transcription", "annotation", "asr", "audio-transcribing", "audio-transcription"],
+  "location": "Munich, Germany",
+  "inputs": [
+    {
+      "id": "audio",
+      "name": "Speech",
+      "maxSize": 314572800,
+      "mediatypes": [
+        "audio/vnd.wav",
+        "audio/vnd.wave",
+        "audio/wav",
+        "audio/wave",
+        "audio/x-pn-wav",
+        "audio/x-wav",
+        "audio/flac",
+        "audio/ogg",
+        "audio/mp4",
+        "audio/mp3",
+        "audio/mpeg",
+        "audio/mpeg3",
+        "audio/m4a"
+      ]
+    },
+    {
+      "id": "transcript",
+      "maxSize": 20971520,
+      "mediatypes": [
+        "text/plain",
+        "text/vtt",
+        "text/praat-textgrid",
+        "application/json"
+      ],
+      "optional": true
+    }
+  ],
+  "webApplication": {
+    "url": "https://clarin.phonetik.uni-muenchen.de/apps/octra/octra/",
+    "queryParameters": [
+      {
+        "name": "audio_url",
+        "bind": "audio/dataurl"
+      },
+      {
+        "name": "transcript",
+        "bind": "transcript/dataurl"
+      },
+      {
+        "name": "bottomNav",
+        "value": "true"
+      }
+    ]
+  }
+}
