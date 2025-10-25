@@ -8,8 +8,8 @@
   "name": "TranscriptionPortal",
   "description": "A portal that implements a transcription chain for batch processing of speech files using automatic speech recognition, the OCTRA editor, the Munich Automatic Segmentation MAUS and the EMU-webApp viewer.",
   "logo": "transcription-portal.png",
-  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal-Dev/",
-  "creators": "Julian Poemp, Christoph Draxler",
+  "homepage": "https://clarin.phonetik.uni-muenchen.de/apps/TranscriptionPortal/",
+  "creators": "Julian Pömp, Christoph Draxler",
   "contact": {
     "person": "Christoph Draxler",
     "email": "draxler@phonetik.uni-muenchen.de"
