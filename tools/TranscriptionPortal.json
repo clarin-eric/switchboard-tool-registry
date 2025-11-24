@@ -2,7 +2,7 @@
   "$schema": "../schemas/spec-v2.schema.json",
   "formatVersion": "2",
   "id": 154,
-  "task": "Editing",
+  "task": "Speech Recognition",
   "deployment": "production",
   "integrationType": "External",
   "name": "TranscriptionPortal",
