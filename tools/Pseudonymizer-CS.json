@@ -1,0 +1,39 @@
+{
+    "formatVersion": "2",
+    "id": 157,
+    "task": "Editing",
+    "deployment": "production",
+    "integrationType": "Integrated",
+    "name": "Pseudonymizer-CS",
+    "description": "Pseudonymizer for Czech texts. Finds and replaces sensitive information with pseudonyms. Pseudonymized data is not subject to GDPR and can be safely archived and shared without privacy concerns.",
+    "logo": "pseudonymizer.png",
+    "homepage": "https://nlp.fi.muni.cz/projekty/pseudonymizer",
+    "creators": "NLP Centre, Faculty of Informatics, Masaryk University, Brno",
+    "contact": {
+        "person": "Zuzana Neverilova",
+        "email": "3839@mail.muni.cz"
+    },
+    "keywords": ["pseudonymization", "anonymization", "Czech", "GDPR", "privacy", "data protection", "personal data", "data security"],
+    "location": "Brno, Czech Republic",
+    "authentication": "no",
+    "output": ["application/json"],
+    "inputs": [{
+        "id": "text",
+        "mediatypes": ["text/plain"],
+        "languages": ["ces"],
+        "maxSize": 4096
+    }],
+    "webApplication": {
+        "url": "https://nlp.fi.muni.cz/projekty/pseudonymizer/index.py",
+        "queryParameters": [
+            {
+                "name": "output",
+                "value": "json"
+            },
+            {
+                "name": "text",
+                "bind": "text/content"
+            }
+        ]
+    }
+}
